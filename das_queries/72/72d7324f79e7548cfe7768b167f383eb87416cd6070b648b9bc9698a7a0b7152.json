@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 6,
   "data": [
     {
       "das": {
-        "expire": 1539158626,
+        "expire": 1543133752,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b28accb617db2b49ab32519f0665cbd3"
+      "qhash": "9fa5f62a4ad1d461cf01cb56424f4d6e"
     },
     {
       "das": {
-        "expire": 1539158626,
+        "expire": 1543133752,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b28accb617db2b49ab32519f0665cbd3"
+      "qhash": "9fa5f62a4ad1d461cf01cb56424f4d6e"
     },
     {
       "das": {
-        "expire": 1539158626,
+        "expire": 1543133752,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b28accb617db2b49ab32519f0665cbd3"
+      "qhash": "9fa5f62a4ad1d461cf01cb56424f4d6e"
     },
     {
       "das": {
-        "expire": 1539158626,
+        "expire": 1543133752,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b28accb617db2b49ab32519f0665cbd3"
+      "qhash": "9fa5f62a4ad1d461cf01cb56424f4d6e"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "b28accb617db2b49ab32519f0665cbd3",
+    "hash": "9fa5f62a4ad1d461cf01cb56424f4d6e",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_3000_3500_13/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158625
+    "tstamp": 1543133745
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158626
+  "timestamp": 1543133752
 }
