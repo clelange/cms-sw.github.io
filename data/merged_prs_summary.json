@@ -114,7 +114,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1766, 
+                            "num_passed": 1792, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -384,7 +384,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2146, 
+                            "num_passed": 2186, 
                             "known_failed": 2, 
                             "num_failed": 1
                         }
@@ -7910,13 +7910,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "b109fd28c4e48aa0a7e984743b23701597b7e38e", 
-                        "title": "[10_3_X] Strip packer: protect against invalid header types", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25332", 
-                        "number": "25332", 
+                        "hash": "b59a211444e6226c091217b8657332f16851e28e", 
+                        "title": "Calo Layer 2 Update HI offline config *10_3_X backport*", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25206", 
+                        "number": "25206", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "pieterdavid"
+                        "author_login": "bundocka"
                     }, 
                     {
                         "hash": "978f6980a4ffdf54d228794c452b039316d7fce1", 
@@ -7926,6 +7926,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "MilanoBicocca-pix"
+                    }, 
+                    {
+                        "hash": "b109fd28c4e48aa0a7e984743b23701597b7e38e", 
+                        "title": "[10_3_X] Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25332", 
+                        "number": "25332", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
+                        "hash": "38d69f1d47777cacef7de66ea2fd3193c6a9dbbf", 
+                        "title": "EMTF new LCT coordinate conversion LUTs for 10_3_X DQM", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25169", 
+                        "number": "25169", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "abrinke1"
                     }
                 ], 
                 "base_branch": "CMSSW_10_3_X", 
@@ -7982,6 +8000,17 @@
                 ], 
                 "ib_date": "2018-11-25-0000-0000", 
                 "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 2, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
                     {
                         "done": true, 
                         "arch": "slc7_amd64_gcc700", 
@@ -24341,7 +24370,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 784, 
+                            "num_passed": 831, 
                             "known_failed": 0, 
                             "num_failed": 61
                         }
@@ -27901,7 +27930,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 711, 
+                            "num_passed": 810, 
                             "known_failed": 12, 
                             "num_failed": 6
                         }
@@ -28235,7 +28264,19 @@
                     }
                 ], 
                 "ib_date": "2018-11-25-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_AN_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_AN_X_2018-11-25-0000/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
@@ -28598,7 +28639,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1782, 
+                            "num_passed": 1876, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
