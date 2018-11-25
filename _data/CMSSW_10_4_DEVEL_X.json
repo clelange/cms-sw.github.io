@@ -78,9 +78,11 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-25-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-25-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
                 }
             ], 
             "ib_date": "2018-11-25-0000-0000", 
