@@ -386,7 +386,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 529, 
+                            "num_passed": 800, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -397,8 +397,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2481, 
-                            "known_failed": 3, 
+                            "num_passed": 2493, 
+                            "known_failed": 5, 
                             "num_failed": 1
                         }
                     }
@@ -7934,7 +7934,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1774, 
+                            "num_passed": 1912, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -13283,10 +13283,80 @@
                 "RVExceptions": null, 
                 "igprof": "not-found", 
                 "base_branch": "CMSSW_10_4_DEVEL_X", 
-                "compared_tags": "CMSSW_10_4_DEVEL_X_2018-11-23-2300-->CMSSW_10_4_DEVEL_X", 
+                "compared_tags": "CMSSW_10_4_DEVEL_X_2018-11-25-0000-->CMSSW_10_4_DEVEL_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2018-11-23-2300-0001", 
+                "ib_date": "2018-11-25-0000-0001", 
+                "relvals": [], 
+                "release_queue": "CMSSW_10_4_DEVEL_X", 
+                "comp_baseline": "not-found", 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
+                        "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
+                        "title": "Egamma PhotonMVANtuplizer.cc completion", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25218", 
+                        "number": "25218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
+                "fwlite": [], 
+                "release_name": "CMSSW_10_4_DEVEL_X", 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "tests_archs": [
+                    "slc7_amd64_gcc700"
+                ], 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc700": "IB/CMSSW_10_4_DEVEL_X_2018-11-25-0000/slc7_amd64_gcc700"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "base_branch": "CMSSW_10_4_DEVEL_X", 
+                "compared_tags": "CMSSW_10_4_DEVEL_X_2018-11-23-2300-->CMSSW_10_4_DEVEL_X_2018-11-25-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2018-11-25-0000-0000", 
                 "relvals": [], 
                 "release_queue": "CMSSW_10_4_DEVEL_X", 
                 "comp_baseline": "not-found", 
@@ -13300,15 +13370,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "MilanoBicocca-pix"
-                    }, 
-                    {
-                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
-                        "title": "Strip packer: protect against invalid header types", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
-                        "number": "25331", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "pieterdavid"
                     }, 
                     {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
@@ -13338,15 +13399,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
-                        "title": "DD4hep: Process Muon Yoke", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
-                        "number": "25285", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ianna"
-                    }, 
-                    {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
                         "title": "Phase2-hgx171 Streamline one function in HGCal geometry", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25198", 
@@ -13363,27 +13415,27 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
-                        "title": "Egamma PhotonMVANtuplizer.cc completion", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25218", 
-                        "number": "25218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }
                 ], 
                 "fwlite": [], 
-                "release_name": "CMSSW_10_4_DEVEL_X", 
-                "builds": [], 
+                "release_name": "CMSSW_10_4_DEVEL_X_2018-11-25-0000", 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 690
+                        }
+                    }
+                ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
-                "isIB": false, 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -16243,7 +16295,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 24, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16254,7 +16306,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 46, 
+                            "num_passed": 116, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28231,7 +28283,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1973, 
+                            "num_passed": 1985, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
