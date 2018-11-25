@@ -114,7 +114,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1963, 
+                            "num_passed": 1988, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -24327,12 +24327,12 @@
                 "ib_date": "2018-11-25-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1130, 
+                            "num_passed": 1149, 
                             "known_failed": 0, 
                             "num_failed": 79
                         }
@@ -28280,7 +28280,7 @@
                     "slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
-                    "slc6_amd64_gcc630": "IB/CMSSW_9_4_AN_X_2018-11-18-0000/slc6_amd64_gcc630"
+                    "slc6_amd64_gcc630": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28350,7 +28350,7 @@
                     "slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
-                    "slc6_amd64_gcc630": "IB/CMSSW_9_4_AN_X_2018-11-18-0000/slc6_amd64_gcc630"
+                    "slc6_amd64_gcc630": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28435,9 +28435,7 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "tests_archs": [
-                    "slc6_amd64_gcc630"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_AN_X_2018-11-18-0000/slc6_amd64_gcc630"
                 }, 
@@ -28446,30 +28444,9 @@
                 "fwlite": [], 
                 "compared_tags": "CMSSW_9_4_AN_X_2018-11-18-0000-->CMSSW_9_4_AN_X_2018-11-18-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-18-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-11-18-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-18-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 2053, 
-                            "known_failed": 12, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_AN_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_AN_X_2018-11-18-0000/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
@@ -28477,16 +28454,7 @@
                 "merged_prs": [], 
                 "base_branch": "CMSSW_9_4_AN_X", 
                 "release_name": "CMSSW_9_4_AN_X_2018-11-18-0000", 
-                "builds": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-18-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 12
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
@@ -28495,14 +28463,7 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2018-11-18-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "found"
             }
         ]
@@ -28664,7 +28625,7 @@
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "Not Found", 
-                    "slc6_amd64_gcc630": "IB/CMSSW_9_4_X_2018-11-18-0000/slc6_amd64_gcc630"
+                    "slc6_amd64_gcc630": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28818,49 +28779,19 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "tests_archs": [
-                    "slc6_amd64_gcc630"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_4_X_2018-11-18-0000/slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_X_2018-11-18-0000/slc6_amd64_gcc630"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "fwlite": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-18-0000/new_FWLITE/logAnalysis.pkl", 
-                        "details": {}
-                    }
-                ], 
+                "fwlite": [], 
                 "compared_tags": "CMSSW_9_4_11_patch1-->CMSSW_9_4_X_2018-11-18-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-18-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-11-18-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-18-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 2053, 
-                            "known_failed": 12, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_X_2018-11-18-0000/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
@@ -28878,16 +28809,7 @@
                 ], 
                 "base_branch": "CMSSW_9_4_X", 
                 "release_name": "CMSSW_9_4_X_2018-11-18-0000", 
-                "builds": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-18-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 12
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
@@ -28896,14 +28818,7 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc6_amd64_gcc630", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-18-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "found"
             }, 
             {
