@@ -362,18 +362,20 @@
                 "dqm_tests": "found", 
                 "utests": [
                     {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "1"
+                        }
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "failed", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/unitTests-summary.log", 
                         "details": {
                             "num_fails": "1"
                         }
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/new/logAnalysis.pkl']", 
-                        "details": {}
                     }
                 ], 
                 "ib_date": "2018-11-25-0000-0000", 
@@ -403,7 +405,7 @@
                 ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_10_2_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_2_X_2018-11-25-0000/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
@@ -13962,7 +13964,7 @@
                     "slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc700": "IB/CMSSW_10_4_DEVEL_X_2018-11-18-0000/slc7_amd64_gcc700"
+                    "slc7_amd64_gcc700": "Not Found"
                 }, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -14047,9 +14049,7 @@
             }, 
             {
                 "comp_baseline_state": "errors", 
-                "tests_archs": [
-                    "slc7_amd64_gcc700"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_4_DEVEL_X_2018-11-18-0000/slc7_amd64_gcc700"
                 }, 
@@ -14059,46 +14059,16 @@
                 "base_branch": "CMSSW_10_4_DEVEL_X", 
                 "compared_tags": "CMSSW_10_4_DEVEL_X_2018-11-18-0000-->CMSSW_10_4_DEVEL_X_2018-11-18-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-18-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "1"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-11-18-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-18-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 2730, 
-                            "known_failed": 0, 
-                            "num_failed": 7
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_10_4_DEVEL_X", 
                 "comp_baseline": "not-found", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_4_DEVEL_X_2018-11-18-0000", 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-18-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 690
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
@@ -14107,14 +14077,7 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-00/CMSSW_10_4_DEVEL_X_2018-11-18-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "not-found"
             }
         ]
@@ -16185,12 +16148,108 @@
                 "next_ib": true, 
                 "RVExceptions": null, 
                 "fwlite": [], 
-                "compared_tags": "CMSSW_10_4_X_2018-11-24-1100-->CMSSW_10_4_X", 
+                "compared_tags": "CMSSW_10_4_X_2018-11-25-0000-->CMSSW_10_4_X", 
                 "dqm_tests": "inprogress", 
                 "check_headers": "inprogress", 
-                "ib_date": "2018-11-24-1100-0001", 
+                "ib_date": "2018-11-25-0000-0001", 
                 "relvals": [], 
                 "utests": [], 
+                "release_queue": "CMSSW_10_4_X", 
+                "comp_baseline": "inprogress", 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
+                        "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
+                        "title": "Egamma PhotonMVANtuplizer.cc completion", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25218", 
+                        "number": "25218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
+                "base_branch": "CMSSW_10_4_X", 
+                "release_name": "CMSSW_10_4_X", 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "inprogress", 
+                "material_budget": "not-found", 
+                "igprof": "inprogress", 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "tests_archs": [
+                    "slc7_amd64_gcc700", 
+                    "slc7_aarch64_gcc700", 
+                    "slc6_amd64_gcc700"
+                ], 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-0000/slc7_amd64_gcc700", 
+                    "slc7_aarch64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-0000/slc7_aarch64_gcc700", 
+                    "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-0000/slc6_amd64_gcc700"
+                }, 
+                "flawfinder": "inprogress", 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "fwlite": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "compared_tags": "CMSSW_10_4_X_2018-11-24-1100-->CMSSW_10_4_X_2018-11-25-0000", 
+                "dqm_tests": "inprogress", 
+                "check_headers": "inprogress", 
+                "ib_date": "2018-11-25-0000-0000", 
+                "relvals": [], 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
                 "release_queue": "CMSSW_10_4_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
@@ -16203,15 +16262,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "MilanoBicocca-pix"
-                    }, 
-                    {
-                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
-                        "title": "Strip packer: protect against invalid header types", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
-                        "number": "25331", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "pieterdavid"
                     }, 
                     {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
@@ -16241,15 +16291,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
-                        "title": "DD4hep: Process Muon Yoke", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
-                        "number": "25285", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "ianna"
-                    }, 
-                    {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
                         "title": "Phase2-hgx171 Streamline one function in HGCal geometry", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25198", 
@@ -16266,20 +16307,36 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
-                        "title": "Egamma PhotonMVANtuplizer.cc completion", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25218", 
-                        "number": "25218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }
                 ], 
                 "base_branch": "CMSSW_10_4_X", 
-                "release_name": "CMSSW_10_4_X", 
-                "builds": [], 
+                "release_name": "CMSSW_10_4_X_2018-11-25-0000", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 690
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 690
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 690
+                        }
+                    }
+                ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "inprogress", 
@@ -16287,7 +16344,7 @@
                 "igprof": "inprogress", 
                 "lizard": "inprogress", 
                 "static_checks": "inprogress", 
-                "isIB": false, 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
@@ -27783,12 +27840,12 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1834, 
+                            "num_passed": 1866, 
                             "known_failed": 12, 
                             "num_failed": 6
                         }
