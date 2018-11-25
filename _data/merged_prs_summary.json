@@ -86,7 +86,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 13, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -97,8 +97,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 325, 
-                            "known_failed": 0, 
+                            "num_passed": 885, 
+                            "known_failed": 1, 
                             "num_failed": 0
                         }
                     }
@@ -146,6 +146,12 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/addOnTests.log", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc630", 
                         "passed": true, 
@@ -7914,7 +7920,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2519, 
+                            "num_passed": 2560, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -12292,6 +12298,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -12317,6 +12332,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -12450,6 +12474,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -12475,6 +12508,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -13278,6 +13320,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -13303,6 +13354,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -14113,6 +14173,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -14138,6 +14207,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -14943,6 +15021,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -14968,6 +15055,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -15721,6 +15817,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -15746,6 +15851,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -15885,6 +15999,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -15910,6 +16033,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -16055,6 +16187,15 @@
                         "author_login": "MilanoBicocca-pix"
                     }, 
                     {
+                        "hash": "a45e60a826d3592c293fc49241624aef6a348e9a", 
+                        "title": "Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25331", 
+                        "number": "25331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -16080,6 +16221,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "cb9fe52a4b3369d44106089c7aead36a63ac69df", 
+                        "title": "DD4hep: Process Muon Yoke", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25285", 
+                        "number": "25285", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "4e929932063c9f36f2b019dbee04c673e3422c87", 
@@ -21739,9 +21889,7 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "tests_archs": [
-                    "slc6_amd64_gcc481"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc481": "IB/CMSSW_7_1_X_2018-11-18-0000/slc6_amd64_gcc481"
                 }, 
@@ -21750,30 +21898,9 @@
                 "fwlite": [], 
                 "compared_tags": "CMSSW_7_1_36-->CMSSW_7_1_X_2018-11-18-0000", 
                 "dqm_tests": "found", 
-                "utests": [
-                    {
-                        "arch": "slc6_amd64_gcc481", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-18-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-11-18-0000-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc481", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-18-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 883, 
-                            "known_failed": 0, 
-                            "num_failed": 42
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_7_1_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_1_X_2018-11-18-0000/slc6_amd64_gcc481/-GenuineIntel/matrix-results", 
@@ -21781,16 +21908,7 @@
                 "merged_prs": [], 
                 "base_branch": "CMSSW_7_1_X", 
                 "release_name": "CMSSW_7_1_X_2018-11-18-0000", 
-                "builds": [
-                    {
-                        "arch": "slc6_amd64_gcc481", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-18-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 2
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
@@ -21799,14 +21917,7 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc6_amd64_gcc481", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-18-0000/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "found"
             }, 
             {
@@ -27635,9 +27746,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1376, 
+                            "num_passed": 1567, 
                             "known_failed": 12, 
-                            "num_failed": 3
+                            "num_failed": 5
                         }
                     }
                 ], 
@@ -28298,7 +28409,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 21, 
+                            "num_passed": 105, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
