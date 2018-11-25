@@ -37,8 +37,8 @@
             {
                 "comp_baseline_state": "ok", 
                 "tests_archs": [
-                    "slc7_amd64_gcc630", 
                     "slc7_amd64_gcc700", 
+                    "slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
@@ -82,11 +82,22 @@
                 "relvals": [
                     {
                         "done": false, 
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 2, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
+                        "done": false, 
                         "arch": "slc7_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 67, 
+                            "num_passed": 259, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -7903,8 +7914,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2443, 
-                            "known_failed": 1, 
+                            "num_passed": 2519, 
+                            "known_failed": 2, 
                             "num_failed": 0
                         }
                     }
@@ -27624,9 +27635,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 997, 
-                            "known_failed": 2, 
-                            "num_failed": 2
+                            "num_passed": 1333, 
+                            "known_failed": 12, 
+                            "num_failed": 3
                         }
                     }
                 ], 
@@ -28280,7 +28291,19 @@
                     }
                 ], 
                 "ib_date": "2018-11-25-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 15, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_X", 
                 "comp_baseline": "inprogress", 
@@ -28314,7 +28337,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc630", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-25-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
