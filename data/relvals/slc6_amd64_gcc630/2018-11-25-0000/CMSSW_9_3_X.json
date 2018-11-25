@@ -1227,6 +1227,29 @@
     },
     {
         "exitcode": 0,
+        "id": "113.0",
+        "known_error": 0,
+        "name": "QCD_Pt_20_30+QCD_Pt_20_30+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 125
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 879
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "115.0",
         "known_error": 0,
         "name": "QCD_Pt_50_80+QCD_Pt_50_80+DIGI+RECO",
@@ -1418,6 +1441,34 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 577
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.701",
+        "known_error": 0,
+        "name": "RunHLTPhy2015B+RunHLTPhy2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 291
+            },
+            {
+                "errors": 336,
+                "status": "PASSED",
+                "warnings": 4950
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1917,6 +1968,34 @@
                 "errors": 336,
                 "status": "PASSED",
                 "warnings": 8981
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.812",
+        "known_error": 0,
+        "name": "RunZeroBias2015C+RunZeroBias2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 311
+            },
+            {
+                "errors": 336,
+                "status": "PASSED",
+                "warnings": 5291
             },
             {
                 "errors": 7,
