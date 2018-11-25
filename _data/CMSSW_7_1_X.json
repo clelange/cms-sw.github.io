@@ -49,16 +49,30 @@
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc481", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-25-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-25-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2018-11-25-0000-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 97, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_7_1_X", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_1_X_2018-11-25-0000/slc6_amd64_gcc481/-GenuineIntel/matrix-results", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
             "base_branch": "CMSSW_7_1_X", 
@@ -81,8 +95,15 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
-            "hlt_tests": "inprogress"
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc481", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/sun/7.1-sun-00/CMSSW_7_1_X_2018-11-25-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "found"
         }, 
         {
             "comp_baseline_state": "ok", 
