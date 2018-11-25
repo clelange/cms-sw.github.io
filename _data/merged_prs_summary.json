@@ -7792,10 +7792,10 @@
                 "next_ib": true, 
                 "RVExceptions": null, 
                 "fwlite": [], 
-                "compared_tags": "CMSSW_10_3_X_2018-11-24-1100-->CMSSW_10_3_X", 
+                "compared_tags": "CMSSW_10_3_X_2018-11-25-0000-->CMSSW_10_3_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2018-11-24-1100-0001", 
+                "ib_date": "2018-11-25-0000-0001", 
                 "relvals": [], 
                 "igprof": "inprogress", 
                 "release_queue": "CMSSW_10_3_X", 
@@ -7812,6 +7812,57 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "inprogress", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "tests_archs": [
+                    "slc7_amd64_gcc700"
+                ], 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc700": "IB/CMSSW_10_3_X_2018-11-25-0000/slc7_amd64_gcc700"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "fwlite": [], 
+                "compared_tags": "CMSSW_10_3_X_2018-11-24-1100-->CMSSW_10_3_X_2018-11-25-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2018-11-25-0000-0000", 
+                "relvals": [], 
+                "igprof": "inprogress", 
+                "release_queue": "CMSSW_10_3_X", 
+                "comp_baseline": "inprogress", 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "base_branch": "CMSSW_10_3_X", 
+                "release_name": "CMSSW_10_3_X_2018-11-25-0000", 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 781
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "static_checks_failures": "not-found", 
+                "static_checks": "inprogress", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
@@ -7878,11 +7929,20 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc6_amd64_gcc700"
+                }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "static_checks_failures": "not-found", 
-                "static_checks": "inprogress", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc6_amd64_gcc700", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
+                "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
@@ -19459,10 +19519,10 @@
                 "next_ib": true, 
                 "RVExceptions": null, 
                 "fwlite": [], 
-                "compared_tags": "CMSSW_5_3_X_2018-11-18-0000-->CMSSW_5_3_X", 
+                "compared_tags": "CMSSW_5_3_X_2018-11-25-0000-->CMSSW_5_3_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2018-11-18-0000-0001", 
+                "ib_date": "2018-11-25-0000-0001", 
                 "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_5_3_X", 
@@ -19479,6 +19539,58 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "tests_archs": [
+                    "slc6_amd64_gcc472"
+                ], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc472": "IB/CMSSW_5_3_X_2018-11-25-0000/slc6_amd64_gcc472"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "fwlite": [], 
+                "compared_tags": "CMSSW_5_3_X_2018-11-18-0000-->CMSSW_5_3_X_2018-11-25-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc472", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/5.3-sun-00/CMSSW_5_3_X_2018-11-25-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2018-11-25-0000-0000", 
+                "relvals": [], 
+                "igprof": "not-found", 
+                "release_queue": "CMSSW_5_3_X", 
+                "comp_baseline": "inprogress", 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "base_branch": "CMSSW_5_3_X", 
+                "release_name": "CMSSW_5_3_X_2018-11-25-0000", 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc472", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/5.3-sun-00/CMSSW_5_3_X_2018-11-25-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 8, 
+                            "ignoreWarning": 25
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
