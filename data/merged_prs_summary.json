@@ -92,8 +92,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2171, 
-                            "known_failed": 18, 
+                            "num_passed": 2187, 
+                            "known_failed": 20, 
                             "num_failed": 1
                         }
                     }, 
@@ -114,7 +114,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/10.1-sun-00/CMSSW_10_1_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1138, 
+                            "num_passed": 1550, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -313,7 +313,17 @@
                 "release_queue": "CMSSW_10_2_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f165e74bd716fca098c6110f8f068a8503d52426", 
+                        "title": "Moving to 2018 Cosmic WFs and Re-adding 2016-2017 Cosmic WFs (10_2_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25152", 
+                        "number": "25152", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "boudoul"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_2_X", 
                 "release_name": "CMSSW_10_2_X", 
                 "builds": [], 
@@ -374,8 +384,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1521, 
-                            "known_failed": 1, 
+                            "num_passed": 1872, 
+                            "known_failed": 2, 
                             "num_failed": 1
                         }
                     }
@@ -7898,7 +7908,17 @@
                 "release_queue": "CMSSW_10_3_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "b109fd28c4e48aa0a7e984743b23701597b7e38e", 
+                        "title": "[10_3_X] Strip packer: protect against invalid header types", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25332", 
+                        "number": "25332", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "pieterdavid"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_3_X", 
                 "release_name": "CMSSW_10_3_X", 
                 "builds": [], 
@@ -24238,7 +24258,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 28, 
+                            "num_passed": 336, 
                             "known_failed": 0, 
                             "num_failed": 6
                         }
@@ -24291,6 +24311,12 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2018-11-25-0000/addOnTests.log", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": true, 
@@ -27792,9 +27818,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 324, 
-                            "known_failed": 4, 
-                            "num_failed": 3
+                            "num_passed": 464, 
+                            "known_failed": 6, 
+                            "num_failed": 5
                         }
                     }
                 ], 
@@ -28480,7 +28506,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1160, 
+                            "num_passed": 1271, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
