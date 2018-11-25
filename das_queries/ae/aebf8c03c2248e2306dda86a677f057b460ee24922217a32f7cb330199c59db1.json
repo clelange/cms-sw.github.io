@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1540624210,
+        "expire": 1543176973,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e84d747303522a8c5ef2ce76cffab9ab"
+      "qhash": "b6c35beb72e76f8e6f6d272a18ec548c"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "e84d747303522a8c5ef2ce76cffab9ab",
+    "hash": "b6c35beb72e76f8e6f6d272a18ec548c",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/HIMinimumBias0/Tier0_REPLAY_vocms015-v214/RAW run=325174 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/HIMinimumBias0/Tier0_REPLAY_vocms015-v214/RAW run=325174  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HIMinimumBias0/Tier0_REPLAY_vocms015-v214/RAW",
       "run": "325174"
     },
     "system": "",
-    "tstamp": 1540624209
+    "tstamp": 1543176972
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1540624210
+  "timestamp": 1543176973
 }

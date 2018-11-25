@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 6,
   "data": [
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543177237,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "084566b85f138ba3cc21b9cddfbe0578"
+      "qhash": "ce342cd52f9d2107b60532a1533f0f8a"
     },
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543177237,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "084566b85f138ba3cc21b9cddfbe0578"
+      "qhash": "ce342cd52f9d2107b60532a1533f0f8a"
     },
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543177237,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "084566b85f138ba3cc21b9cddfbe0578"
+      "qhash": "ce342cd52f9d2107b60532a1533f0f8a"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "084566b85f138ba3cc21b9cddfbe0578",
+    "hash": "ce342cd52f9d2107b60532a1533f0f8a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpMM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpMM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpMM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158454
+    "tstamp": 1543177230
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158455
+  "timestamp": 1543177237
 }

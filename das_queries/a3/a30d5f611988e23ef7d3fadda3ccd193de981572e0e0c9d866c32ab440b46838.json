@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1540624267,
+        "expire": 1543177270,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "11edd479c3e7e0b9250d81e2c6a2ef92"
+      "qhash": "a052ab57dfc0f1cc0646bfffb908e33b"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "11edd479c3e7e0b9250d81e2c6a2ef92",
+    "hash": "a052ab57dfc0f1cc0646bfffb908e33b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/HIMinimumBiasReducedFormat0/Tier0_REPLAY_vocms015-v214/RAW run=325174 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/HIMinimumBiasReducedFormat0/Tier0_REPLAY_vocms015-v214/RAW run=325174  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HIMinimumBiasReducedFormat0/Tier0_REPLAY_vocms015-v214/RAW",
       "run": "325174"
     },
     "system": "",
-    "tstamp": 1540624266
+    "tstamp": 1543177268
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1540624267
+  "timestamp": 1543177270
 }

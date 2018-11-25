@@ -1,9 +1,9 @@
 {
-  "ctime": 123,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539198948,
+        "expire": 1543176770,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7ebdb9e181016f79a4d3d91138620e78"
+      "qhash": "f9bc8f6b52e1bcf05c543de736501d27"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "7ebdb9e181016f79a4d3d91138620e78",
+    "hash": "f9bc8f6b52e1bcf05c543de736501d27",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO run=254852 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO run=254852  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO",
       "run": "254852"
     },
     "system": "",
-    "tstamp": 1539198824
+    "tstamp": 1543176767
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539198948
+  "timestamp": 1543176770
 }

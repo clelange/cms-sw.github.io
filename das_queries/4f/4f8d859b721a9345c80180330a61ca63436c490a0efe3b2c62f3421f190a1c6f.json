@@ -1,9 +1,9 @@
 {
-  "ctime": 109,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539198948,
+        "expire": 1543176780,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a8fe379f8ce19112e37acbbd19c3c403"
+      "qhash": "6ad70248faec951b9c60c910cc0dba9d"
     },
     {
       "das": {
-        "expire": 1539198948,
+        "expire": 1543176780,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a8fe379f8ce19112e37acbbd19c3c403"
+      "qhash": "6ad70248faec951b9c60c910cc0dba9d"
     },
     {
       "das": {
-        "expire": 1539198948,
+        "expire": 1543176780,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a8fe379f8ce19112e37acbbd19c3c403"
+      "qhash": "6ad70248faec951b9c60c910cc0dba9d"
     },
     {
       "das": {
-        "expire": 1539198948,
+        "expire": 1543176780,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,7 +171,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a8fe379f8ce19112e37acbbd19c3c403"
+      "qhash": "6ad70248faec951b9c60c910cc0dba9d"
     }
   ],
   "ecode": "",
@@ -193,18 +193,18 @@
         "1"
       ]
     },
-    "hash": "a8fe379f8ce19112e37acbbd19c3c403",
+    "hash": "6ad70248faec951b9c60c910cc0dba9d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO run=254852 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO run=254852  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO",
       "run": "254852"
     },
     "system": "",
-    "tstamp": 1539198838
+    "tstamp": 1543176779
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539198948
+  "timestamp": 1543176780
 }
