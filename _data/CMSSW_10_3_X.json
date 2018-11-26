@@ -66,9 +66,11 @@
                 }, 
                 {
                     "arch": "slc7_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-11-25-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-11-25-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
                 }
             ], 
             "ib_date": "2018-11-25-2300-0000", 
@@ -79,7 +81,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 195, 
+                        "num_passed": 309, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -90,7 +92,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2, 
+                        "num_passed": 25, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -98,7 +100,7 @@
             ], 
             "igprof": "inprogress", 
             "release_queue": "CMSSW_10_3_X", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_3_X_2018-11-25-2300/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
