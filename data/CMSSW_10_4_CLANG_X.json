@@ -46,13 +46,15 @@
             "igprof": "not-found", 
             "base_branch": "CMSSW_10_4_X", 
             "compared_tags": "CMSSW_10_4_CLANG_X_2018-11-25-0000-->CMSSW_10_4_CLANG_X_2018-11-25-2300", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.CLANG-sun-23/CMSSW_10_4_CLANG_X_2018-11-25-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.CLANG-sun-23/CMSSW_10_4_CLANG_X_2018-11-25-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "10"
+                    }
                 }
             ], 
             "ib_date": "2018-11-25-2300-0000", 
@@ -152,7 +154,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.CLANG-sun-00/CMSSW_10_4_CLANG_X_2018-11-25-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2648, 
+                        "num_passed": 2667, 
                         "known_failed": 0, 
                         "num_failed": 4
                     }
