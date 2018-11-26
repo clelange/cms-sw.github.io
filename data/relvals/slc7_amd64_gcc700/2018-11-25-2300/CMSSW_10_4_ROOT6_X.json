@@ -304,6 +304,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11.0",
+        "known_error": 0,
+        "name": "MinBias+MinBiasINPUT+DIGI+RECOMIN+HARVEST+ALCAMIN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 213
+            },
+            {
+                "errors": 202,
+                "status": "PASSED",
+                "warnings": 3466
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 106
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "12.0",
         "known_error": 0,
         "name": "ZpMM+ZpMMINPUT+DIGI+RECO+HARVEST",
@@ -322,6 +355,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 1818
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "23.0",
+        "known_error": 0,
+        "name": "JpsiMM+JpsiMMINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 352
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1802
             },
             {
                 "errors": 34,
@@ -411,6 +472,90 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 2436
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "35.0",
+        "known_error": 0,
+        "name": "Wjet_Pt_80_120+Wjet_Pt_80_120INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 397
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1669
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "39.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800+QCD_Pt_600_800INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 292
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 2191
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "45.0",
+        "known_error": 0,
+        "name": "ZpTT_1500_8TeV+ZpTT_1500_8TeVINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 282
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1557
             },
             {
                 "errors": 34,
@@ -8642,6 +8787,39 @@
     },
     {
         "exitcode": 0,
+        "id": "10001.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 89
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 193
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 60
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10002.0",
         "known_error": 0,
         "name": "SingleElectronPt35+SingleElectronPt35_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
@@ -8769,6 +8947,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 42
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10006.0",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 63
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 654
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
             }
         ]
     },
@@ -9801,6 +10012,34 @@
     },
     {
         "exitcode": 0,
+        "id": "11224.6",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFull_heCollapseINPUT+DigiFull_heCollapse_2018Design+RecoFull_heCollapse_2018Design+HARVESTFull_heCollapse_2018Design",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 599
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11623.0",
         "known_error": 0,
         "name": "MinBias_13+MinBias_13TeV_pythia8_TuneCUETP8M1_2019_GenSimFull+DigiFull_2019+RecoFull_2019+HARVESTFull_2019+ALCAFull_2019",
@@ -10050,6 +10289,34 @@
     },
     {
         "exitcode": 0,
+        "id": "25212.17",
+        "known_error": 0,
+        "name": "VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+DIGIUP17_PU25+RECOUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 102
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 472
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25400.0",
         "known_error": 0,
         "name": "ZEE_13+FS_ZEE_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
@@ -10216,6 +10483,34 @@
     },
     {
         "exitcode": 0,
+        "id": "50205.0",
+        "known_error": 0,
+        "name": "ZTT_13+ZTT_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 999
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "50206.0",
         "known_error": 0,
         "name": "ZMM_13+ZMM_13INPUT+DIGIUP15_PU50+RECOUP15_PU50_L1TMuDQM+HARVESTUP15_PU50_L1TMuDQM",
@@ -10239,6 +10534,19 @@
                 "errors": 34,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.17",
+        "known_error": 0,
+        "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 85
             }
         ]
     },
