@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158635,
+        "expire": 1543221502,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d24b13341e1982c2da5dbaecadc9a3a5"
+      "qhash": "c9e619506c2357137389f3261ff85d42"
     },
     {
       "das": {
-        "expire": 1539158635,
+        "expire": 1543221502,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d24b13341e1982c2da5dbaecadc9a3a5"
+      "qhash": "c9e619506c2357137389f3261ff85d42"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "d24b13341e1982c2da5dbaecadc9a3a5",
+    "hash": "c9e619506c2357137389f3261ff85d42",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158634
+    "tstamp": 1543221501
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158635
+  "timestamp": 1543221502
 }

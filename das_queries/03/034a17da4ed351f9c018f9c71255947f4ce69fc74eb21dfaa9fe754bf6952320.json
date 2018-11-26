@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158475,
+        "expire": 1543221359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fd4ac0d35fad3931e2af95d79a8a78bf"
+      "qhash": "2082e13997b4e2bccab3da63fba07f75"
     },
     {
       "das": {
-        "expire": 1539158475,
+        "expire": 1543221359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fd4ac0d35fad3931e2af95d79a8a78bf"
+      "qhash": "2082e13997b4e2bccab3da63fba07f75"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "fd4ac0d35fad3931e2af95d79a8a78bf",
+    "hash": "2082e13997b4e2bccab3da63fba07f75",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158474
+    "tstamp": 1543221357
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158475
+  "timestamp": 1543221359
 }

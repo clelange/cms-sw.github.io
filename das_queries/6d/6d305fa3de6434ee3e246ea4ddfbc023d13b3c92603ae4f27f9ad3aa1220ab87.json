@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158501,
+        "expire": 1543221384,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "05ffcff878983491f220963bdb9edafd"
+      "qhash": "c1bca17ef786700605e10a8e3aa0cd29"
     },
     {
       "das": {
-        "expire": 1539158501,
+        "expire": 1543221384,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "05ffcff878983491f220963bdb9edafd"
+      "qhash": "c1bca17ef786700605e10a8e3aa0cd29"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "05ffcff878983491f220963bdb9edafd",
+    "hash": "c1bca17ef786700605e10a8e3aa0cd29",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTenMuE_0_200/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158500
+    "tstamp": 1543221383
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158501
+  "timestamp": 1543221384
 }

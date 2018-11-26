@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539157850,
+        "expire": 1543220814,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57d11c0f1e601e94d6d0b5fca9521fdf"
+      "qhash": "8f4d54a1f1ae99ba98b15685d3095dd2"
     },
     {
       "das": {
-        "expire": 1539157850,
+        "expire": 1543220814,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57d11c0f1e601e94d6d0b5fca9521fdf"
+      "qhash": "8f4d54a1f1ae99ba98b15685d3095dd2"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "57d11c0f1e601e94d6d0b5fca9521fdf",
+    "hash": "8f4d54a1f1ae99ba98b15685d3095dd2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhiToMuMu_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhiToMuMu_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhiToMuMu_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157849
+    "tstamp": 1543220811
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157850
+  "timestamp": 1543220814
 }

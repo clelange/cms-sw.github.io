@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157035,
+        "expire": 1543220315,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a450152747feca16e2ec92ae4f49b119"
+      "qhash": "da7659756ca9820bdeaec46437865559"
     },
     {
       "das": {
-        "expire": 1539157035,
+        "expire": 1543220315,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a450152747feca16e2ec92ae4f49b119"
+      "qhash": "da7659756ca9820bdeaec46437865559"
     },
     {
       "das": {
-        "expire": 1539157035,
+        "expire": 1543220315,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a450152747feca16e2ec92ae4f49b119"
+      "qhash": "da7659756ca9820bdeaec46437865559"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "a450152747feca16e2ec92ae4f49b119",
+    "hash": "da7659756ca9820bdeaec46437865559",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157033
+    "tstamp": 1543220313
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157035
+  "timestamp": 1543220315
 }

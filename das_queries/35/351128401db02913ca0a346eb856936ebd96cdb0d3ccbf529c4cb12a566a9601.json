@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158510,
+        "expire": 1543221391,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0c5afd2dc8a66a43af52f271d508cd00"
+      "qhash": "7039e7c711ef54f64222b10eb67f3011"
     },
     {
       "das": {
-        "expire": 1539158510,
+        "expire": 1543221391,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0c5afd2dc8a66a43af52f271d508cd00"
+      "qhash": "7039e7c711ef54f64222b10eb67f3011"
     },
     {
       "das": {
-        "expire": 1539158510,
+        "expire": 1543221391,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0c5afd2dc8a66a43af52f271d508cd00"
+      "qhash": "7039e7c711ef54f64222b10eb67f3011"
     },
     {
       "das": {
-        "expire": 1539158510,
+        "expire": 1543221391,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,7 +171,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0c5afd2dc8a66a43af52f271d508cd00"
+      "qhash": "7039e7c711ef54f64222b10eb67f3011"
     }
   ],
   "ecode": "",
@@ -193,18 +193,18 @@
         "1"
       ]
     },
-    "hash": "0c5afd2dc8a66a43af52f271d508cd00",
+    "hash": "7039e7c711ef54f64222b10eb67f3011",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SingleElectron/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SingleElectron/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleElectron/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539158509
+    "tstamp": 1543221390
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158510
+  "timestamp": 1543221391
 }

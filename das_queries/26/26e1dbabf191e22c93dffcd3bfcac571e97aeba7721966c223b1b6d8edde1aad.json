@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157797,
+        "expire": 1543220766,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -62,11 +62,11 @@
           ]
         }
       ],
-      "qhash": "7a68110fc146bdbc100494fc29b3b4b2"
+      "qhash": "4df3033d9a43573c04b9fe224877af6a"
     },
     {
       "das": {
-        "expire": 1539157797,
+        "expire": 1543220766,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -125,11 +125,11 @@
           ]
         }
       ],
-      "qhash": "7a68110fc146bdbc100494fc29b3b4b2"
+      "qhash": "4df3033d9a43573c04b9fe224877af6a"
     },
     {
       "das": {
-        "expire": 1539157797,
+        "expire": 1543220766,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -158,11 +158,11 @@
           ]
         }
       ],
-      "qhash": "7a68110fc146bdbc100494fc29b3b4b2"
+      "qhash": "4df3033d9a43573c04b9fe224877af6a"
     },
     {
       "das": {
-        "expire": 1539157797,
+        "expire": 1543220766,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -231,7 +231,7 @@
           ]
         }
       ],
-      "qhash": "7a68110fc146bdbc100494fc29b3b4b2"
+      "qhash": "4df3033d9a43573c04b9fe224877af6a"
     }
   ],
   "ecode": "",
@@ -254,18 +254,18 @@
         "1"
       ]
     },
-    "hash": "7a68110fc146bdbc100494fc29b3b4b2",
+    "hash": "4df3033d9a43573c04b9fe224877af6a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/JetHT/CMSSW_9_4_5_cand1-94X_dataRun2_relval_v11_RelVal_rmaod_jetHT2017C-v1/MINIAOD run=301998 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/JetHT/CMSSW_9_4_5_cand1-94X_dataRun2_relval_v11_RelVal_rmaod_jetHT2017C-v1/MINIAOD run=301998  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/JetHT/CMSSW_9_4_5_cand1-94X_dataRun2_relval_v11_RelVal_rmaod_jetHT2017C-v1/MINIAOD",
       "run": "301998"
     },
     "system": "",
-    "tstamp": 1539157795
+    "tstamp": 1543220764
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157797
+  "timestamp": 1543220766
 }

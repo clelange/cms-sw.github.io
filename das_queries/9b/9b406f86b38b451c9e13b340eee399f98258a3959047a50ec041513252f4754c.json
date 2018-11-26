@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157626,
+        "expire": 1543220611,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f267616d0ab2d89cd49e24fbc556563d"
+      "qhash": "5a25b6f002ec23c39f2605123ab0216d"
     },
     {
       "das": {
-        "expire": 1539157626,
+        "expire": 1543220611,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f267616d0ab2d89cd49e24fbc556563d"
+      "qhash": "5a25b6f002ec23c39f2605123ab0216d"
     },
     {
       "das": {
-        "expire": 1539157626,
+        "expire": 1543220611,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f267616d0ab2d89cd49e24fbc556563d"
+      "qhash": "5a25b6f002ec23c39f2605123ab0216d"
     },
     {
       "das": {
-        "expire": 1539157626,
+        "expire": 1543220611,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f267616d0ab2d89cd49e24fbc556563d"
+      "qhash": "5a25b6f002ec23c39f2605123ab0216d"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "f267616d0ab2d89cd49e24fbc556563d",
+    "hash": "5a25b6f002ec23c39f2605123ab0216d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157624
+    "tstamp": 1543220610
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157626
+  "timestamp": 1543220611
 }

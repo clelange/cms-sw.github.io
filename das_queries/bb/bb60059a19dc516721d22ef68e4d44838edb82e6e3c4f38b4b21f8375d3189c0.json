@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158502,
+        "expire": 1543221386,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -91,11 +91,11 @@
           ]
         }
       ],
-      "qhash": "fa3cff27c649d6516060a1b72c772af9"
+      "qhash": "597a02ec1da2a6770ea2b17a0b701115"
     },
     {
       "das": {
-        "expire": 1539158502,
+        "expire": 1543221386,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -115,11 +115,11 @@
           ]
         }
       ],
-      "qhash": "fa3cff27c649d6516060a1b72c772af9"
+      "qhash": "597a02ec1da2a6770ea2b17a0b701115"
     },
     {
       "das": {
-        "expire": 1539158502,
+        "expire": 1543221386,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -208,11 +208,11 @@
           ]
         }
       ],
-      "qhash": "fa3cff27c649d6516060a1b72c772af9"
+      "qhash": "597a02ec1da2a6770ea2b17a0b701115"
     },
     {
       "das": {
-        "expire": 1539158502,
+        "expire": 1543221386,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -354,7 +354,7 @@
           ]
         }
       ],
-      "qhash": "fa3cff27c649d6516060a1b72c772af9"
+      "qhash": "597a02ec1da2a6770ea2b17a0b701115"
     }
   ],
   "ecode": "",
@@ -377,18 +377,18 @@
         "1"
       ]
     },
-    "hash": "fa3cff27c649d6516060a1b72c772af9",
+    "hash": "597a02ec1da2a6770ea2b17a0b701115",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/HLTPhysics/Run2017B-v1/RAW run=297227 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/HLTPhysics/Run2017B-v1/RAW run=297227  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HLTPhysics/Run2017B-v1/RAW",
       "run": "297227"
     },
     "system": "",
-    "tstamp": 1539158501
+    "tstamp": 1543221384
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158502
+  "timestamp": 1543221386
 }

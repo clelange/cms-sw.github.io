@@ -1,9 +1,9 @@
 {
-  "ctime": 4,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -32,11 +32,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -124,11 +124,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -155,11 +155,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -186,11 +186,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -217,11 +217,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -254,11 +254,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -286,11 +286,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -315,11 +315,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -347,11 +347,11 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     },
     {
       "das": {
-        "expire": 1539157671,
+        "expire": 1543220653,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -378,7 +378,7 @@
           ]
         }
       ],
-      "qhash": "0bf0f08f1baa2e7fab976943c04860ab"
+      "qhash": "538f1d6702e0ba9b01964366425f1e67"
     }
   ],
   "ecode": "",
@@ -401,18 +401,18 @@
         "1"
       ]
     },
-    "hash": "0bf0f08f1baa2e7fab976943c04860ab",
+    "hash": "538f1d6702e0ba9b01964366425f1e67",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/ZeroBias/Run2016C-v2/RAW run=276092 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/ZeroBias/Run2016C-v2/RAW run=276092  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/ZeroBias/Run2016C-v2/RAW",
       "run": "276092"
     },
     "system": "",
-    "tstamp": 1539157666
+    "tstamp": 1543220650
   },
   "nresults": 10,
   "status": "ok",
-  "timestamp": 1539157671
+  "timestamp": 1543220653
 }

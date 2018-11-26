@@ -1,9 +1,9 @@
 {
-  "ctime": 2,
+  "ctime": 10,
   "data": [
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,11 +171,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -214,11 +214,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -257,11 +257,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -300,11 +300,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -343,11 +343,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -386,11 +386,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     },
     {
       "das": {
-        "expire": 1539158289,
+        "expire": 1543221210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -429,7 +429,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "95223fb539859fd576a7ad7a0e0f766f"
+      "qhash": "3e91f1470ca3aac08cd555d6ae8fda4c"
     }
   ],
   "ecode": "",
@@ -451,18 +451,18 @@
         "1"
       ]
     },
-    "hash": "95223fb539859fd576a7ad7a0e0f766f",
+    "hash": "3e91f1470ca3aac08cd555d6ae8fda4c",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/ZeroBias/Run2016C-v2/RAW run=276092 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/ZeroBias/Run2016C-v2/RAW run=276092  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/ZeroBias/Run2016C-v2/RAW",
       "run": "276092"
     },
     "system": "",
-    "tstamp": 1539158286
+    "tstamp": 1543221199
   },
   "nresults": 10,
   "status": "ok",
-  "timestamp": 1539158289
+  "timestamp": 1543221210
 }

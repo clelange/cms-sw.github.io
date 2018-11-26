@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 6,
   "data": [
     {
       "das": {
-        "expire": 1539158245,
+        "expire": 1543221170,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -23,11 +23,11 @@
           ]
         }
       ],
-      "qhash": "22d9635568cb85b36ed2f651ade3a66d"
+      "qhash": "51714422b4a161f0980c44b8d18b40f3"
     },
     {
       "das": {
-        "expire": 1539158245,
+        "expire": 1543221170,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -210,11 +210,11 @@
           ]
         }
       ],
-      "qhash": "22d9635568cb85b36ed2f651ade3a66d"
+      "qhash": "51714422b4a161f0980c44b8d18b40f3"
     },
     {
       "das": {
-        "expire": 1539158245,
+        "expire": 1543221170,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -398,11 +398,11 @@
           ]
         }
       ],
-      "qhash": "22d9635568cb85b36ed2f651ade3a66d"
+      "qhash": "51714422b4a161f0980c44b8d18b40f3"
     },
     {
       "das": {
-        "expire": 1539158245,
+        "expire": 1543221170,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -593,11 +593,11 @@
           ]
         }
       ],
-      "qhash": "22d9635568cb85b36ed2f651ade3a66d"
+      "qhash": "51714422b4a161f0980c44b8d18b40f3"
     },
     {
       "das": {
-        "expire": 1539158245,
+        "expire": 1543221170,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -800,7 +800,7 @@
           ]
         }
       ],
-      "qhash": "22d9635568cb85b36ed2f651ade3a66d"
+      "qhash": "51714422b4a161f0980c44b8d18b40f3"
     }
   ],
   "ecode": "",
@@ -823,18 +823,18 @@
         "1"
       ]
     },
-    "hash": "22d9635568cb85b36ed2f651ade3a66d",
+    "hash": "51714422b4a161f0980c44b8d18b40f3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/NoBPTX/Run2018C-v1/RAW run=319450 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/NoBPTX/Run2018C-v1/RAW run=319450  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/NoBPTX/Run2018C-v1/RAW",
       "run": "319450"
     },
     "system": "",
-    "tstamp": 1539158244
+    "tstamp": 1543221163
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539158245
+  "timestamp": 1543221170
 }

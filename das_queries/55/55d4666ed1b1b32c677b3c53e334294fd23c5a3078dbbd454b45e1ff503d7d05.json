@@ -1,9 +1,9 @@
 {
-  "ctime": 2,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157602,
+        "expire": 1543220593,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -16,7 +16,7 @@
           "name": "/store/data/Run2010A/MinimumBias/RAW-RECO/v6/000/138/923/142C82F8-4285-DF11-B26D-00E081791865.root"
         }
       ],
-      "qhash": "b2bc8ede4fb25e19894c8347075c1834"
+      "qhash": "c84a469f31374689c54aa45c224784f0"
     }
   ],
   "ecode": "",
@@ -38,19 +38,19 @@
         "1"
       ]
     },
-    "hash": "b2bc8ede4fb25e19894c8347075c1834",
+    "hash": "c84a469f31374689c54aa45c224784f0",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/MinimumBias/Run2010A-valskim-v6/RAW-RECO run=138923 site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/MinimumBias/Run2010A-valskim-v6/RAW-RECO run=138923 site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MinimumBias/Run2010A-valskim-v6/RAW-RECO",
       "run": "138923",
       "site": "T2_CH_CERN"
     },
     "system": "",
-    "tstamp": 1539157599
+    "tstamp": 1543220591
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157602
+  "timestamp": 1543220593
 }

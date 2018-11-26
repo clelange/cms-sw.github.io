@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158595,
+        "expire": 1543221467,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf3926e2ca0066053bffd6d3148b4b3"
+      "qhash": "287df620634c9f12a7fc8fffb92a0678"
     },
     {
       "das": {
-        "expire": 1539158595,
+        "expire": 1543221467,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf3926e2ca0066053bffd6d3148b4b3"
+      "qhash": "287df620634c9f12a7fc8fffb92a0678"
     },
     {
       "das": {
-        "expire": 1539158595,
+        "expire": 1543221467,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf3926e2ca0066053bffd6d3148b4b3"
+      "qhash": "287df620634c9f12a7fc8fffb92a0678"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "aaf3926e2ca0066053bffd6d3148b4b3",
+    "hash": "287df620634c9f12a7fc8fffb92a0678",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539158594
+    "tstamp": 1543221465
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158595
+  "timestamp": 1543221467
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157651,
+        "expire": 1543220635,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "af2cbefa0cd5d0b1584bf96523332e85"
+      "qhash": "9487283c1119a0045d44e856db83e657"
     },
     {
       "das": {
-        "expire": 1539157651,
+        "expire": 1543220635,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "af2cbefa0cd5d0b1584bf96523332e85"
+      "qhash": "9487283c1119a0045d44e856db83e657"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "af2cbefa0cd5d0b1584bf96523332e85",
+    "hash": "9487283c1119a0045d44e856db83e657",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWE_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWE_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWE_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157649
+    "tstamp": 1543220633
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157651
+  "timestamp": 1543220635
 }

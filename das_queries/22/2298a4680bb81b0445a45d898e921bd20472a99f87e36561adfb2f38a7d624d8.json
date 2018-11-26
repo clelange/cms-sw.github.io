@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157934,
+        "expire": 1543220888,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf30add48750f2c4899ba05f089f144"
+      "qhash": "71fb9191e06164d2724367c32fe40803"
     },
     {
       "das": {
-        "expire": 1539157934,
+        "expire": 1543220888,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf30add48750f2c4899ba05f089f144"
+      "qhash": "71fb9191e06164d2724367c32fe40803"
     },
     {
       "das": {
-        "expire": 1539157934,
+        "expire": 1543220888,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf30add48750f2c4899ba05f089f144"
+      "qhash": "71fb9191e06164d2724367c32fe40803"
     },
     {
       "das": {
-        "expire": 1539157934,
+        "expire": 1543220888,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aaf30add48750f2c4899ba05f089f144"
+      "qhash": "71fb9191e06164d2724367c32fe40803"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "aaf30add48750f2c4899ba05f089f144",
+    "hash": "71fb9191e06164d2724367c32fe40803",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQQH1352T_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQQH1352T_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQQH1352T_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157932
+    "tstamp": 1543220886
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157934
+  "timestamp": 1543220888
 }

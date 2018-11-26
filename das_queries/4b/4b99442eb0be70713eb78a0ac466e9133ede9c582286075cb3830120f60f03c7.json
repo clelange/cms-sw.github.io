@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539158683,
+        "expire": 1543221543,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "67de6ae5c48c24d4875a12da6e65f7e3"
+      "qhash": "50aff415153a19a24bb65abff1dda387"
     },
     {
       "das": {
-        "expire": 1539158683,
+        "expire": 1543221543,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "67de6ae5c48c24d4875a12da6e65f7e3"
+      "qhash": "50aff415153a19a24bb65abff1dda387"
     },
     {
       "das": {
-        "expire": 1539158683,
+        "expire": 1543221543,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "67de6ae5c48c24d4875a12da6e65f7e3"
+      "qhash": "50aff415153a19a24bb65abff1dda387"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "67de6ae5c48c24d4875a12da6e65f7e3",
+    "hash": "50aff415153a19a24bb65abff1dda387",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158681
+    "tstamp": 1543221542
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158683
+  "timestamp": 1543221543
 }

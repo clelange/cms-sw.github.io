@@ -1,9 +1,9 @@
 {
-  "ctime": 7,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156994,
+        "expire": 1543221184,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -189,7 +189,7 @@
           ]
         }
       ],
-      "qhash": "0a7c6d77a0df7aad5130a6856236718e"
+      "qhash": "c94acda0719b58da057f155e24a2bbbf"
     }
   ],
   "ecode": "",
@@ -212,18 +212,18 @@
         "1"
       ]
     },
-    "hash": "0a7c6d77a0df7aad5130a6856236718e",
+    "hash": "c94acda0719b58da057f155e24a2bbbf",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/MET/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/MET/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MET/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539156986
+    "tstamp": 1543221182
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156994
+  "timestamp": 1543221184
 }

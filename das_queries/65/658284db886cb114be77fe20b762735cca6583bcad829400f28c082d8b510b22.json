@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157634,
+        "expire": 1543220618,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7274bb0edaa369befbc1dfa505c2fcd2"
+      "qhash": "10b2aef31689c1f06232eccb8682423a"
     },
     {
       "das": {
-        "expire": 1539157634,
+        "expire": 1543220618,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7274bb0edaa369befbc1dfa505c2fcd2"
+      "qhash": "10b2aef31689c1f06232eccb8682423a"
     },
     {
       "das": {
-        "expire": 1539157634,
+        "expire": 1543220618,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7274bb0edaa369befbc1dfa505c2fcd2"
+      "qhash": "10b2aef31689c1f06232eccb8682423a"
     },
     {
       "das": {
-        "expire": 1539157634,
+        "expire": 1543220618,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7274bb0edaa369befbc1dfa505c2fcd2"
+      "qhash": "10b2aef31689c1f06232eccb8682423a"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "7274bb0edaa369befbc1dfa505c2fcd2",
+    "hash": "10b2aef31689c1f06232eccb8682423a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValADDMonoJet_d3MD3_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValADDMonoJet_d3MD3_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValADDMonoJet_d3MD3_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157633
+    "tstamp": 1543220617
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157634
+  "timestamp": 1543220618
 }

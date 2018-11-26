@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 3,
   "data": [
     {
       "das": {
-        "expire": 1539157461,
+        "expire": 1543220474,
         "instance": "prod/global",
         "primary_key": "site.name",
         "record": 1,
@@ -11,7 +11,7 @@
           "dbs3:site4dataset"
         ]
       },
-      "qhash": "7405e05f7a2c487a6ff5d739af1252e1",
+      "qhash": "8ce1bf457fb546091e7cb0ee67766f09",
       "site": [
         {
           "dataset": "/RelValTTbar_13/CMSSW_7_1_0_pre4_AK4-PU50ns_POSTLS171_V2-v2/GEN-SIM-RECO",
@@ -41,17 +41,17 @@
         "1"
       ]
     },
-    "hash": "7405e05f7a2c487a6ff5d739af1252e1",
+    "hash": "8ce1bf457fb546091e7cb0ee67766f09",
     "instance": "prod/global",
     "pipe": "grep site.name | grep site.name | sort site.name | unique",
-    "query": "site dataset=/RelValTTbar_13/CMSSW_7_1_0_pre4_AK4-PU50ns_POSTLS171_V2-v2/GEN-SIM-RECO | grep site.name | grep site.name | sort site.name | unique",
+    "query": "site dataset=/RelValTTbar_13/CMSSW_7_1_0_pre4_AK4-PU50ns_POSTLS171_V2-v2/GEN-SIM-RECO  detail=true | grep site.name | grep site.name | sort site.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_7_1_0_pre4_AK4-PU50ns_POSTLS171_V2-v2/GEN-SIM-RECO"
     },
-    "system": "",
-    "tstamp": 1539157459
+    "system": "dbs3",
+    "tstamp": 1543220470
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157461
+  "timestamp": 1543220474
 }

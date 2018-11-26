@@ -1,9 +1,9 @@
 {
-  "ctime": 4,
+  "ctime": 10,
   "data": [
     {
       "das": {
-        "expire": 1539158200,
+        "expire": 1543221127,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -56,11 +56,11 @@
           ]
         }
       ],
-      "qhash": "e63470bb51063ab744b7c5f6c9a2fa6c"
+      "qhash": "86338370787bb872eeea077fdff23f9e"
     },
     {
       "das": {
-        "expire": 1539158200,
+        "expire": 1543221127,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -212,7 +212,7 @@
           ]
         }
       ],
-      "qhash": "e63470bb51063ab744b7c5f6c9a2fa6c"
+      "qhash": "86338370787bb872eeea077fdff23f9e"
     }
   ],
   "ecode": "",
@@ -235,18 +235,18 @@
         "1"
       ]
     },
-    "hash": "e63470bb51063ab744b7c5f6c9a2fa6c",
+    "hash": "86338370787bb872eeea077fdff23f9e",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/DoubleMuon/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/DoubleMuon/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/DoubleMuon/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539158195
+    "tstamp": 1543221116
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158200
+  "timestamp": 1543221127
 }

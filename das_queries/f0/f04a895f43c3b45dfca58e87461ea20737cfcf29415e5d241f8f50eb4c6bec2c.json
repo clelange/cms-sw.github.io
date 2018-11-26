@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157447,
+        "expire": 1543220459,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e60287bd0cc76ffc4eb17b0cdae72fab"
+      "qhash": "fb563a530a3680beb0f4b32afdbbcbc8"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "e60287bd0cc76ffc4eb17b0cdae72fab",
+    "hash": "fb563a530a3680beb0f4b32afdbbcbc8",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157446
+    "tstamp": 1543220458
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157447
+  "timestamp": 1543220459
 }

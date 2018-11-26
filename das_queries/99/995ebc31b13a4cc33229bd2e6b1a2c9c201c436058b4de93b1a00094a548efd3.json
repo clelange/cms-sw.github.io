@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158056,
+        "expire": 1543220992,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "166ce33eb04e6c55bf16e1af4fdd765a"
+      "qhash": "66021ddb023f3fd4e57b9562c9b075f4"
     },
     {
       "das": {
-        "expire": 1539158056,
+        "expire": 1543220992,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "166ce33eb04e6c55bf16e1af4fdd765a"
+      "qhash": "66021ddb023f3fd4e57b9562c9b075f4"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "166ce33eb04e6c55bf16e1af4fdd765a",
+    "hash": "66021ddb023f3fd4e57b9562c9b075f4",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158055
+    "tstamp": 1543220990
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158056
+  "timestamp": 1543220992
 }

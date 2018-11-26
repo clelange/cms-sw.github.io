@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539158357,
+        "expire": 1543221262,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8466921eabd05a1d2aa19e87ba755c2f"
+      "qhash": "a3b24fd62a11a97e96277727d02d5b8a"
     },
     {
       "das": {
-        "expire": 1539158357,
+        "expire": 1543221262,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8466921eabd05a1d2aa19e87ba755c2f"
+      "qhash": "a3b24fd62a11a97e96277727d02d5b8a"
     },
     {
       "das": {
-        "expire": 1539158357,
+        "expire": 1543221262,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8466921eabd05a1d2aa19e87ba755c2f"
+      "qhash": "a3b24fd62a11a97e96277727d02d5b8a"
     },
     {
       "das": {
-        "expire": 1539158357,
+        "expire": 1543221262,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8466921eabd05a1d2aa19e87ba755c2f"
+      "qhash": "a3b24fd62a11a97e96277727d02d5b8a"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "8466921eabd05a1d2aa19e87ba755c2f",
+    "hash": "a3b24fd62a11a97e96277727d02d5b8a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEEMM_13_HI/CMSSW_7_5_0-75X_mcRun2_HeavyIon_v1-v2/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEEMM_13_HI/CMSSW_7_5_0-75X_mcRun2_HeavyIon_v1-v2/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEEMM_13_HI/CMSSW_7_5_0-75X_mcRun2_HeavyIon_v1-v2/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158356
+    "tstamp": 1543221259
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158357
+  "timestamp": 1543221262
 }

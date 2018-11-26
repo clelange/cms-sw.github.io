@@ -1,9 +1,9 @@
 {
-  "ctime": 3,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158395,
+        "expire": 1543221290,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6e7ad76b713c2e7bde3bb8ed0ad7a89e"
+      "qhash": "c1effb7016b44b6114faf311859ace5b"
     },
     {
       "das": {
-        "expire": 1539158395,
+        "expire": 1543221290,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6e7ad76b713c2e7bde3bb8ed0ad7a89e"
+      "qhash": "c1effb7016b44b6114faf311859ace5b"
     },
     {
       "das": {
-        "expire": 1539158395,
+        "expire": 1543221290,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6e7ad76b713c2e7bde3bb8ed0ad7a89e"
+      "qhash": "c1effb7016b44b6114faf311859ace5b"
     },
     {
       "das": {
-        "expire": 1539158395,
+        "expire": 1543221290,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,7 +171,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6e7ad76b713c2e7bde3bb8ed0ad7a89e"
+      "qhash": "c1effb7016b44b6114faf311859ace5b"
     }
   ],
   "ecode": "",
@@ -193,18 +193,18 @@
         "1"
       ]
     },
-    "hash": "6e7ad76b713c2e7bde3bb8ed0ad7a89e",
+    "hash": "c1effb7016b44b6114faf311859ace5b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SingleMuon/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SingleMuon/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539158391
+    "tstamp": 1543221288
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158395
+  "timestamp": 1543221290
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 4,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156968,
+        "expire": 1543220255,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "1f28fd291ea97f869e3ce5ef665db773"
+      "qhash": "2f410f3851c569a0c0a9458d9fd9da99"
     },
     {
       "das": {
-        "expire": 1539156968,
+        "expire": 1543220255,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "1f28fd291ea97f869e3ce5ef665db773"
+      "qhash": "2f410f3851c569a0c0a9458d9fd9da99"
     },
     {
       "das": {
-        "expire": 1539156968,
+        "expire": 1543220255,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "1f28fd291ea97f869e3ce5ef665db773"
+      "qhash": "2f410f3851c569a0c0a9458d9fd9da99"
     },
     {
       "das": {
-        "expire": 1539156968,
+        "expire": 1543220255,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "1f28fd291ea97f869e3ce5ef665db773"
+      "qhash": "2f410f3851c569a0c0a9458d9fd9da99"
     },
     {
       "das": {
-        "expire": 1539156968,
+        "expire": 1543220255,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,7 +204,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "1f28fd291ea97f869e3ce5ef665db773"
+      "qhash": "2f410f3851c569a0c0a9458d9fd9da99"
     }
   ],
   "ecode": "",
@@ -226,17 +226,17 @@
         "1"
       ]
     },
-    "hash": "1f28fd291ea97f869e3ce5ef665db773",
+    "hash": "2f410f3851c569a0c0a9458d9fd9da99",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre16-81X_upgrade2017_design_IdealBS_v6-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre16-81X_upgrade2017_design_IdealBS_v6-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_8_1_0_pre16-81X_upgrade2017_design_IdealBS_v6-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156963
+    "tstamp": 1543220254
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539156968
+  "timestamp": 1543220255
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156998,
+        "expire": 1543220282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1cadd24cc4e0d7febc1986b521b8fb1"
+      "qhash": "4ee31f3a01ccf704874c001e98ea4a2b"
     },
     {
       "das": {
-        "expire": 1539156998,
+        "expire": 1543220282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1cadd24cc4e0d7febc1986b521b8fb1"
+      "qhash": "4ee31f3a01ccf704874c001e98ea4a2b"
     },
     {
       "das": {
-        "expire": 1539156998,
+        "expire": 1543220282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1cadd24cc4e0d7febc1986b521b8fb1"
+      "qhash": "4ee31f3a01ccf704874c001e98ea4a2b"
     },
     {
       "das": {
-        "expire": 1539156998,
+        "expire": 1543220282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1cadd24cc4e0d7febc1986b521b8fb1"
+      "qhash": "4ee31f3a01ccf704874c001e98ea4a2b"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "d1cadd24cc4e0d7febc1986b521b8fb1",
+    "hash": "4ee31f3a01ccf704874c001e98ea4a2b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbarLepton/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbarLepton/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbarLepton/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156997
+    "tstamp": 1543220281
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156998
+  "timestamp": 1543220282
 }

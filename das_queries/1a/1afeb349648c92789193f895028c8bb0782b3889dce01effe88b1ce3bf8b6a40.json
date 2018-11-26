@@ -1,9 +1,9 @@
 {
-  "ctime": 4,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157662,
+        "expire": 1543220644,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -29,11 +29,11 @@
           ]
         }
       ],
-      "qhash": "8b07d0791c2a658028d35bef3f031096"
+      "qhash": "d291f4b8e1652561a068b6c13a333d9d"
     },
     {
       "das": {
-        "expire": 1539157662,
+        "expire": 1543220644,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -196,11 +196,11 @@
           ]
         }
       ],
-      "qhash": "8b07d0791c2a658028d35bef3f031096"
+      "qhash": "d291f4b8e1652561a068b6c13a333d9d"
     },
     {
       "das": {
-        "expire": 1539157662,
+        "expire": 1543220644,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -220,11 +220,11 @@
           ]
         }
       ],
-      "qhash": "8b07d0791c2a658028d35bef3f031096"
+      "qhash": "d291f4b8e1652561a068b6c13a333d9d"
     },
     {
       "das": {
-        "expire": 1539157662,
+        "expire": 1543220644,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -479,7 +479,7 @@
           ]
         }
       ],
-      "qhash": "8b07d0791c2a658028d35bef3f031096"
+      "qhash": "d291f4b8e1652561a068b6c13a333d9d"
     }
   ],
   "ecode": "",
@@ -502,18 +502,18 @@
         "1"
       ]
     },
-    "hash": "8b07d0791c2a658028d35bef3f031096",
+    "hash": "d291f4b8e1652561a068b6c13a333d9d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/NoBPTX/Run2017B-v1/RAW run=297557 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/NoBPTX/Run2017B-v1/RAW run=297557  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/NoBPTX/Run2017B-v1/RAW",
       "run": "297557"
     },
     "system": "",
-    "tstamp": 1539157657
+    "tstamp": 1543220642
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157662
+  "timestamp": 1543220644
 }

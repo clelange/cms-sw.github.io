@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539158274,
+        "expire": 1543221188,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8c18e15d7b9af4036b67ce7d23240465"
+      "qhash": "f2c46c5c90449f4c8ac06ee0876c03a6"
     },
     {
       "das": {
-        "expire": 1539158274,
+        "expire": 1543221188,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8c18e15d7b9af4036b67ce7d23240465"
+      "qhash": "f2c46c5c90449f4c8ac06ee0876c03a6"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "8c18e15d7b9af4036b67ce7d23240465",
+    "hash": "f2c46c5c90449f4c8ac06ee0876c03a6",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM"
     },
     "system": "",
-    "tstamp": 1539158273
+    "tstamp": 1543221187
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158274
+  "timestamp": 1543221188
 }

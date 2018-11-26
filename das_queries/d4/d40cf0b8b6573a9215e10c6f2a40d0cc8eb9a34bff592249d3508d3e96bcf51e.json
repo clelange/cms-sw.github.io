@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158589,
+        "expire": 1543221459,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b27ea1314b460966b40e7fee29a2ff7a"
+      "qhash": "1428ede5fcc8dcf44876abed161b4bb6"
     },
     {
       "das": {
-        "expire": 1539158589,
+        "expire": 1543221459,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b27ea1314b460966b40e7fee29a2ff7a"
+      "qhash": "1428ede5fcc8dcf44876abed161b4bb6"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "b27ea1314b460966b40e7fee29a2ff7a",
+    "hash": "1428ede5fcc8dcf44876abed161b4bb6",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_9_3_0_pre4-93X_mc2017_realistic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_9_3_0_pre4-93X_mc2017_realistic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt10/CMSSW_9_3_0_pre4-93X_mc2017_realistic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158588
+    "tstamp": 1543221458
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158589
+  "timestamp": 1543221459
 }

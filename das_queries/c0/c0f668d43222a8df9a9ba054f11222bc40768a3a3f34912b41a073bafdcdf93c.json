@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543221342,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -67,11 +67,11 @@
           ]
         }
       ],
-      "qhash": "4701d3758a9a6bb67232a82791a9b886"
+      "qhash": "01ae558aad7632efb0a9b63e5319969f"
     },
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543221342,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -134,11 +134,11 @@
           ]
         }
       ],
-      "qhash": "4701d3758a9a6bb67232a82791a9b886"
+      "qhash": "01ae558aad7632efb0a9b63e5319969f"
     },
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543221342,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -191,11 +191,11 @@
           ]
         }
       ],
-      "qhash": "4701d3758a9a6bb67232a82791a9b886"
+      "qhash": "01ae558aad7632efb0a9b63e5319969f"
     },
     {
       "das": {
-        "expire": 1539158455,
+        "expire": 1543221342,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -258,7 +258,7 @@
           ]
         }
       ],
-      "qhash": "4701d3758a9a6bb67232a82791a9b886"
+      "qhash": "01ae558aad7632efb0a9b63e5319969f"
     }
   ],
   "ecode": "",
@@ -281,18 +281,18 @@
         "1"
       ]
     },
-    "hash": "4701d3758a9a6bb67232a82791a9b886",
+    "hash": "01ae558aad7632efb0a9b63e5319969f",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/SingleMuon/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/SingleMuon/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539158453
+    "tstamp": 1543221340
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158455
+  "timestamp": 1543221342
 }

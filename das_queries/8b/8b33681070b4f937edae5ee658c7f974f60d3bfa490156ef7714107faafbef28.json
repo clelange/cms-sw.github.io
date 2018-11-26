@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157751,
+        "expire": 1543220727,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8218e19ca09ed13441222db663772466"
+      "qhash": "dc55f8f1abc93fc7403b803784a9c8fd"
     },
     {
       "das": {
-        "expire": 1539157751,
+        "expire": 1543220727,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8218e19ca09ed13441222db663772466"
+      "qhash": "dc55f8f1abc93fc7403b803784a9c8fd"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "8218e19ca09ed13441222db663772466",
+    "hash": "dc55f8f1abc93fc7403b803784a9c8fd",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpTT_1500_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpTT_1500_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpTT_1500_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157750
+    "tstamp": 1543220725
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157751
+  "timestamp": 1543220727
 }

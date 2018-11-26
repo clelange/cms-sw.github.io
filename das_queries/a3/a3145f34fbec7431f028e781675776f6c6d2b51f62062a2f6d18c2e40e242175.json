@@ -1,9 +1,9 @@
 {
-  "ctime": 2,
+  "ctime": 4,
   "data": [
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -31,11 +31,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -175,11 +175,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -318,11 +318,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -457,11 +457,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -604,11 +604,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -735,11 +735,11 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     },
     {
       "das": {
-        "expire": 1539157555,
+        "expire": 1543220560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -869,7 +869,7 @@
           ]
         }
       ],
-      "qhash": "30ffb82c1049ba0428eb2f51c3c673e8"
+      "qhash": "c102739b8b37353007af58167b17d769"
     }
   ],
   "ecode": "",
@@ -892,18 +892,18 @@
         "1"
       ]
     },
-    "hash": "30ffb82c1049ba0428eb2f51c3c673e8",
+    "hash": "c102739b8b37353007af58167b17d769",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/NoBPTX/Run2018A-v1/RAW run=315489 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/NoBPTX/Run2018A-v1/RAW run=315489  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/NoBPTX/Run2018A-v1/RAW",
       "run": "315489"
     },
     "system": "",
-    "tstamp": 1539157552
+    "tstamp": 1543220555
   },
   "nresults": 7,
   "status": "ok",
-  "timestamp": 1539157555
+  "timestamp": 1543220560
 }

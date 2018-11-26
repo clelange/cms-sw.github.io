@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158509,
+        "expire": 1543221390,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3cbbee8e395a4d95b65ae967f8b338f9"
+      "qhash": "cacfd8ae346b70b05f61415fa283edbd"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "3cbbee8e395a4d95b65ae967f8b338f9",
+    "hash": "cacfd8ae346b70b05f61415fa283edbd",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158508
+    "tstamp": 1543221389
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158509
+  "timestamp": 1543221390
 }

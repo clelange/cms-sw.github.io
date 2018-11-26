@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158529,
+        "expire": 1543221409,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "87a1e32bb08b2af73b3eeb7cf7267ba8"
+      "qhash": "a90be7382beb112f3395408bbb184809"
     },
     {
       "das": {
-        "expire": 1539158529,
+        "expire": 1543221409,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "87a1e32bb08b2af73b3eeb7cf7267ba8"
+      "qhash": "a90be7382beb112f3395408bbb184809"
     },
     {
       "das": {
-        "expire": 1539158529,
+        "expire": 1543221409,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "87a1e32bb08b2af73b3eeb7cf7267ba8"
+      "qhash": "a90be7382beb112f3395408bbb184809"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "87a1e32bb08b2af73b3eeb7cf7267ba8",
+    "hash": "a90be7382beb112f3395408bbb184809",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHiggs200ChargedTaus_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539158528
+    "tstamp": 1543221407
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158529
+  "timestamp": 1543221409
 }

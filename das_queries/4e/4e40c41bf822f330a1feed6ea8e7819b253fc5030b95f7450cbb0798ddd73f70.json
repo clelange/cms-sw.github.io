@@ -1,9 +1,9 @@
 {
-  "ctime": 2,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158295,
+        "expire": 1543221207,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9af29b038270d345471d6fd30a0c23a1"
+      "qhash": "2c0c8c322698285f44827e796ceae9de"
     },
     {
       "das": {
-        "expire": 1539158295,
+        "expire": 1543221207,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9af29b038270d345471d6fd30a0c23a1"
+      "qhash": "2c0c8c322698285f44827e796ceae9de"
     },
     {
       "das": {
-        "expire": 1539158295,
+        "expire": 1543221207,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9af29b038270d345471d6fd30a0c23a1"
+      "qhash": "2c0c8c322698285f44827e796ceae9de"
     },
     {
       "das": {
-        "expire": 1539158295,
+        "expire": 1543221207,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9af29b038270d345471d6fd30a0c23a1"
+      "qhash": "2c0c8c322698285f44827e796ceae9de"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "9af29b038270d345471d6fd30a0c23a1",
+    "hash": "2c0c8c322698285f44827e796ceae9de",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHiggs200ChargedTaus_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158292
+    "tstamp": 1543221205
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158295
+  "timestamp": 1543221207
 }

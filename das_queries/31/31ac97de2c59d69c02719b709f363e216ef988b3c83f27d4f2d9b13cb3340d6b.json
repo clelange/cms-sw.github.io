@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158556,
+        "expire": 1543221430,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9e18696b482b537d5856017f34eb3585"
+      "qhash": "97e4cb37c5b4ea7d69e402fa5e4a0f44"
     },
     {
       "das": {
-        "expire": 1539158556,
+        "expire": 1543221430,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9e18696b482b537d5856017f34eb3585"
+      "qhash": "97e4cb37c5b4ea7d69e402fa5e4a0f44"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "9e18696b482b537d5856017f34eb3585",
+    "hash": "97e4cb37c5b4ea7d69e402fa5e4a0f44",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhiToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhiToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhiToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158555
+    "tstamp": 1543221429
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158556
+  "timestamp": 1543221430
 }

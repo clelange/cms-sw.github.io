@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158174,
+        "expire": 1543221094,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "10eaab33c55dfb4a76b0678710effe28"
+      "qhash": "2cb8d56e266f1839b3fc0ec07aaa2ad5"
     },
     {
       "das": {
-        "expire": 1539158174,
+        "expire": 1543221094,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "10eaab33c55dfb4a76b0678710effe28"
+      "qhash": "2cb8d56e266f1839b3fc0ec07aaa2ad5"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "10eaab33c55dfb4a76b0678710effe28",
+    "hash": "2cb8d56e266f1839b3fc0ec07aaa2ad5",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM"
     },
     "system": "",
-    "tstamp": 1539158173
+    "tstamp": 1543221093
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158174
+  "timestamp": 1543221094
 }

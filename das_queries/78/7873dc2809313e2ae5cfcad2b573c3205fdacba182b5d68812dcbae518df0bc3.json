@@ -1,9 +1,9 @@
 {
-  "ctime": 4,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -89,11 +89,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -185,11 +185,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -294,11 +294,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -364,11 +364,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -443,11 +443,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -546,11 +546,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -630,11 +630,11 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     },
     {
       "das": {
-        "expire": 1539158325,
+        "expire": 1543221231,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -705,7 +705,7 @@
           ]
         }
       ],
-      "qhash": "e3ced9aef6571b382022d2f3e5c9a706"
+      "qhash": "424e0dfd9b7fefe4f5a9920752ba22d4"
     }
   ],
   "ecode": "",
@@ -728,18 +728,18 @@
         "1"
       ]
     },
-    "hash": "e3ced9aef6571b382022d2f3e5c9a706",
+    "hash": "424e0dfd9b7fefe4f5a9920752ba22d4",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/DisplacedJet/Run2018D-v1/RAW run=320822 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/DisplacedJet/Run2018D-v1/RAW run=320822  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/DisplacedJet/Run2018D-v1/RAW",
       "run": "320822"
     },
     "system": "",
-    "tstamp": 1539158320
+    "tstamp": 1543221228
   },
   "nresults": 8,
   "status": "ok",
-  "timestamp": 1539158325
+  "timestamp": 1543221231
 }

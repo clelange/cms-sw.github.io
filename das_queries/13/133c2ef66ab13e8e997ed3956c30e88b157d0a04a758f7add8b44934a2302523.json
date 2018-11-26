@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157574,
+        "expire": 1543221042,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "16c83b38d019fed905ab2cc64fd8e60a"
+      "qhash": "cd3fef6a631963759664dd8d02587ec7"
     },
     {
       "das": {
-        "expire": 1539157574,
+        "expire": 1543221042,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "16c83b38d019fed905ab2cc64fd8e60a"
+      "qhash": "cd3fef6a631963759664dd8d02587ec7"
     },
     {
       "das": {
-        "expire": 1539157574,
+        "expire": 1543221042,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "16c83b38d019fed905ab2cc64fd8e60a"
+      "qhash": "cd3fef6a631963759664dd8d02587ec7"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "16c83b38d019fed905ab2cc64fd8e60a",
+    "hash": "cd3fef6a631963759664dd8d02587ec7",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157573
+    "tstamp": 1543221040
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157574
+  "timestamp": 1543221042
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157043,
+        "expire": 1543220322,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "558e1cbe1305124a5de0f5ee0cb15532"
+      "qhash": "9df6aeb99d56f4b70fb2855de30c321e"
     },
     {
       "das": {
-        "expire": 1539157043,
+        "expire": 1543220322,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "558e1cbe1305124a5de0f5ee0cb15532"
+      "qhash": "9df6aeb99d56f4b70fb2855de30c321e"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "558e1cbe1305124a5de0f5ee0cb15532",
+    "hash": "9df6aeb99d56f4b70fb2855de30c321e",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157041
+    "tstamp": 1543220321
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157043
+  "timestamp": 1543220322
 }
