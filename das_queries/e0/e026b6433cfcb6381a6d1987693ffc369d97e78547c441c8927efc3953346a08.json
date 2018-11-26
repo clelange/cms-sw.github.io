@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156005,
+        "expire": 1543263192,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1443830641.5665801
         }
       ],
-      "qhash": "62482401e10496872478de334dbafde0"
+      "qhash": "cd27c1c9e3cfe889e0787ecbef5097d3"
     },
     {
       "das": {
-        "expire": 1539156005,
+        "expire": 1543263192,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1443829788.9354401
         }
       ],
-      "qhash": "62482401e10496872478de334dbafde0"
+      "qhash": "cd27c1c9e3cfe889e0787ecbef5097d3"
     },
     {
       "das": {
-        "expire": 1539156005,
+        "expire": 1543263192,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1443829151.16137
         }
       ],
-      "qhash": "62482401e10496872478de334dbafde0"
+      "qhash": "cd27c1c9e3cfe889e0787ecbef5097d3"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "62482401e10496872478de334dbafde0",
+    "hash": "cd27c1c9e3cfe889e0787ecbef5097d3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_80_120_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_80_120_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_80_120_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156003
+    "tstamp": 1543263191
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156005
+  "timestamp": 1543263192
 }

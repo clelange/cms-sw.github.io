@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158306,
+        "expire": 1543264011,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5a950d9697dff549e2892a49eba2cc20"
+      "qhash": "b5f9e63c9fca1421f428f218d9ea50b2"
     },
     {
       "das": {
-        "expire": 1539158306,
+        "expire": 1543264011,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5a950d9697dff549e2892a49eba2cc20"
+      "qhash": "b5f9e63c9fca1421f428f218d9ea50b2"
     },
     {
       "das": {
-        "expire": 1539158306,
+        "expire": 1543264011,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5a950d9697dff549e2892a49eba2cc20"
+      "qhash": "b5f9e63c9fca1421f428f218d9ea50b2"
     },
     {
       "das": {
-        "expire": 1539158306,
+        "expire": 1543264011,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5a950d9697dff549e2892a49eba2cc20"
+      "qhash": "b5f9e63c9fca1421f428f218d9ea50b2"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "5a950d9697dff549e2892a49eba2cc20",
+    "hash": "b5f9e63c9fca1421f428f218d9ea50b2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158305
+    "tstamp": 1543264010
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158306
+  "timestamp": 1543264011
 }

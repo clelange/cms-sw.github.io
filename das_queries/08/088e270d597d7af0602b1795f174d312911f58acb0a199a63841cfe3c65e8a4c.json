@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158703,
+        "expire": 1543264216,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1477217363.47561
         }
       ],
-      "qhash": "1fd5633db0900d58a10ea694940757dd"
+      "qhash": "73237f83d7354ecc8ec27554acfaa752"
     },
     {
       "das": {
-        "expire": 1539158703,
+        "expire": 1543264216,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1477217363.47561
         }
       ],
-      "qhash": "1fd5633db0900d58a10ea694940757dd"
+      "qhash": "73237f83d7354ecc8ec27554acfaa752"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "1fd5633db0900d58a10ea694940757dd",
+    "hash": "73237f83d7354ecc8ec27554acfaa752",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValProdZEE_13_pmx25ns/CMSSW_8_0_21-PUpmx25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/AODSIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158702
+    "tstamp": 1543264215
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158703
+  "timestamp": 1543264216
 }

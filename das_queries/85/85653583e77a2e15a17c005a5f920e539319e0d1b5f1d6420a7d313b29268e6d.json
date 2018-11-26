@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158823,
+        "expire": 1543264325,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "338190027445bcef19b433e549589970"
+      "qhash": "b0f86f143d51f9acbd1a9967456864de"
     },
     {
       "das": {
-        "expire": 1539158823,
+        "expire": 1543264325,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "338190027445bcef19b433e549589970"
+      "qhash": "b0f86f143d51f9acbd1a9967456864de"
     },
     {
       "das": {
-        "expire": 1539158823,
+        "expire": 1543264325,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "338190027445bcef19b433e549589970"
+      "qhash": "b0f86f143d51f9acbd1a9967456864de"
     },
     {
       "das": {
-        "expire": 1539158823,
+        "expire": 1543264325,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "338190027445bcef19b433e549589970"
+      "qhash": "b0f86f143d51f9acbd1a9967456864de"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "338190027445bcef19b433e549589970",
+    "hash": "b0f86f143d51f9acbd1a9967456864de",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpEE_2250_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpEE_2250_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpEE_2250_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158822
+    "tstamp": 1543264324
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158823
+  "timestamp": 1543264325
 }

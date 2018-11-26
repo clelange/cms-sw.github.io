@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539158211,
+        "expire": 1543264279,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "101a8cd961724629d4f776e02d4b7f08"
+      "qhash": "49e566b0d254a03ae0205653fbb4c068"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "101a8cd961724629d4f776e02d4b7f08",
+    "hash": "49e566b0d254a03ae0205653fbb4c068",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/MinimumBias/Run2010A-valskim-v6/RAW-RECO run=144083 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/MinimumBias/Run2010A-valskim-v6/RAW-RECO run=144083  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MinimumBias/Run2010A-valskim-v6/RAW-RECO",
       "run": "144083"
     },
     "system": "",
-    "tstamp": 1539158210
+    "tstamp": 1543264276
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158211
+  "timestamp": 1543264279
 }

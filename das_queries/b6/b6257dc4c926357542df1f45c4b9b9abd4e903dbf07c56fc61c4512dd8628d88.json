@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158794,
+        "expire": 1543264300,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b0c58df4df3a5a2b41ebd567db038540"
+      "qhash": "551c83e7bf7b1dd99eaa7840c85efa9d"
     },
     {
       "das": {
-        "expire": 1539158794,
+        "expire": 1543264300,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b0c58df4df3a5a2b41ebd567db038540"
+      "qhash": "551c83e7bf7b1dd99eaa7840c85efa9d"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "b0c58df4df3a5a2b41ebd567db038540",
+    "hash": "551c83e7bf7b1dd99eaa7840c85efa9d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158793
+    "tstamp": 1543264299
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158794
+  "timestamp": 1543264300
 }

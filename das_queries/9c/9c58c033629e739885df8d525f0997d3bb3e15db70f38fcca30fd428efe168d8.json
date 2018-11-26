@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539155813,
+        "expire": 1543263107,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1477176618.4022801
         }
       ],
-      "qhash": "8a59a45a4e6950e6d9e5a10d3d72fb52"
+      "qhash": "8a7758e97f62e34efd7d445b81fa42cf"
     },
     {
       "das": {
-        "expire": 1539155813,
+        "expire": 1543263107,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1477176618.4022801
         }
       ],
-      "qhash": "8a59a45a4e6950e6d9e5a10d3d72fb52"
+      "qhash": "8a7758e97f62e34efd7d445b81fa42cf"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "8a59a45a4e6950e6d9e5a10d3d72fb52",
+    "hash": "8a7758e97f62e34efd7d445b81fa42cf",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE_13/CMSSW_8_0_21-PU25ns_80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/MINIAODSIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539155811
+    "tstamp": 1543263106
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155813
+  "timestamp": 1543263107
 }

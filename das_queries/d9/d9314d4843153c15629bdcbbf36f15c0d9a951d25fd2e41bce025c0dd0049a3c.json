@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157245,
+        "expire": 1543263578,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,7 +34,7 @@
           "time_create": 1522871095.08969
         }
       ],
-      "qhash": "3221a58d2df715e2b0226b04347ecd13"
+      "qhash": "bb0234b07ff636d566de325f96e7d808"
     }
   ],
   "ecode": "",
@@ -56,18 +56,18 @@
         "1"
       ]
     },
-    "hash": "3221a58d2df715e2b0226b04347ecd13",
+    "hash": "bb0234b07ff636d566de325f96e7d808",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValNuGun/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValNuGun/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValNuGun/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157244
+    "tstamp": 1543263577
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157245
+  "timestamp": 1543263578
 }

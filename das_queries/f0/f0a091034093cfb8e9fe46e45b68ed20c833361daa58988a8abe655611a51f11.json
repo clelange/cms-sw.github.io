@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155362,
+        "expire": 1543262951,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469792615.2581601
         }
       ],
-      "qhash": "82ff75f22e12f19e686af53d96d5a1dc"
+      "qhash": "ee2e74d389d8fc352aa0b3b88d017fc7"
     },
     {
       "das": {
-        "expire": 1539155362,
+        "expire": 1543262951,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469791364.0063
         }
       ],
-      "qhash": "82ff75f22e12f19e686af53d96d5a1dc"
+      "qhash": "ee2e74d389d8fc352aa0b3b88d017fc7"
     },
     {
       "das": {
-        "expire": 1539155362,
+        "expire": 1543262951,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469792815.9565799
         }
       ],
-      "qhash": "82ff75f22e12f19e686af53d96d5a1dc"
+      "qhash": "ee2e74d389d8fc352aa0b3b88d017fc7"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "82ff75f22e12f19e686af53d96d5a1dc",
+    "hash": "ee2e74d389d8fc352aa0b3b88d017fc7",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBsToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBsToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBsToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539155361
+    "tstamp": 1543262950
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539155362
+  "timestamp": 1543262951
 }

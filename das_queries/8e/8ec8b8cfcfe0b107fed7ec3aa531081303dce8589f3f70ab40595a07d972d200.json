@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539112335,
+        "expire": 1543263451,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469726443.2044499
         }
       ],
-      "qhash": "15bc6926567e53ccffababd8d2aebde3"
+      "qhash": "cfcaa1575562f0fbed84429fa3bfdd7b"
     },
     {
       "das": {
-        "expire": 1539112335,
+        "expire": 1543263451,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469722524.4461601
         }
       ],
-      "qhash": "15bc6926567e53ccffababd8d2aebde3"
+      "qhash": "cfcaa1575562f0fbed84429fa3bfdd7b"
     },
     {
       "das": {
-        "expire": 1539112335,
+        "expire": 1543263451,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1469722524.4461601
         }
       ],
-      "qhash": "15bc6926567e53ccffababd8d2aebde3"
+      "qhash": "cfcaa1575562f0fbed84429fa3bfdd7b"
     },
     {
       "das": {
-        "expire": 1539112335,
+        "expire": 1543263451,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1469726443.2044499
         }
       ],
-      "qhash": "15bc6926567e53ccffababd8d2aebde3"
+      "qhash": "cfcaa1575562f0fbed84429fa3bfdd7b"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "15bc6926567e53ccffababd8d2aebde3",
+    "hash": "cfcaa1575562f0fbed84429fa3bfdd7b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539112334
+    "tstamp": 1543263450
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539112335
+  "timestamp": 1543263451
 }

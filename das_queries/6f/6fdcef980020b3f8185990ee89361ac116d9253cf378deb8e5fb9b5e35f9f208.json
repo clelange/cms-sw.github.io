@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156485,
+        "expire": 1543263352,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398978239.4905801
         }
       ],
-      "qhash": "9ec451ec90682933f9025c85ff257181"
+      "qhash": "a531f10f259d3895d1b38a0b0771c3c0"
     },
     {
       "das": {
-        "expire": 1539156485,
+        "expire": 1543263352,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1398978239.4905801
         }
       ],
-      "qhash": "9ec451ec90682933f9025c85ff257181"
+      "qhash": "a531f10f259d3895d1b38a0b0771c3c0"
     },
     {
       "das": {
-        "expire": 1539156485,
+        "expire": 1543263352,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1398978239.4905801
         }
       ],
-      "qhash": "9ec451ec90682933f9025c85ff257181"
+      "qhash": "a531f10f259d3895d1b38a0b0771c3c0"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "9ec451ec90682933f9025c85ff257181",
+    "hash": "a531f10f259d3895d1b38a0b0771c3c0",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValLM1_sfts/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156484
+    "tstamp": 1543263351
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156485
+  "timestamp": 1543263352
 }

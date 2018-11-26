@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157839,
+        "expire": 1543263014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469790661.5994699
         }
       ],
-      "qhash": "244e48d79afdc4966f968cb2f802edb2"
+      "qhash": "8c5089b1891ac57a6795c75fe683e13a"
     },
     {
       "das": {
-        "expire": 1539157839,
+        "expire": 1543263014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469801210.0086701
         }
       ],
-      "qhash": "244e48d79afdc4966f968cb2f802edb2"
+      "qhash": "8c5089b1891ac57a6795c75fe683e13a"
     },
     {
       "das": {
-        "expire": 1539157839,
+        "expire": 1543263014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469801109.4138401
         }
       ],
-      "qhash": "244e48d79afdc4966f968cb2f802edb2"
+      "qhash": "8c5089b1891ac57a6795c75fe683e13a"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "244e48d79afdc4966f968cb2f802edb2",
+    "hash": "8c5089b1891ac57a6795c75fe683e13a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBuToJpsiK_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBuToJpsiK_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBuToJpsiK_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157838
+    "tstamp": 1543263013
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157839
+  "timestamp": 1543263014
 }

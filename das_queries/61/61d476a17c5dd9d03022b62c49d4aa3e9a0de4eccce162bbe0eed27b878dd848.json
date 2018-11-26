@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157062,
+        "expire": 1543263865,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398988240.5080099
         }
       ],
-      "qhash": "da0df86150029c7f77aff870ae647cd7"
+      "qhash": "8b4ac22d71f3bef1ce387454801721ca"
     },
     {
       "das": {
-        "expire": 1539157062,
+        "expire": 1543263865,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1398988240.5080099
         }
       ],
-      "qhash": "da0df86150029c7f77aff870ae647cd7"
+      "qhash": "8b4ac22d71f3bef1ce387454801721ca"
     },
     {
       "das": {
-        "expire": 1539157062,
+        "expire": 1543263865,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1398988240.5080099
         }
       ],
-      "qhash": "da0df86150029c7f77aff870ae647cd7"
+      "qhash": "8b4ac22d71f3bef1ce387454801721ca"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "da0df86150029c7f77aff870ae647cd7",
+    "hash": "8b4ac22d71f3bef1ce387454801721ca",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbarLepton/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbarLepton/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbarLepton/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157061
+    "tstamp": 1543263864
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157062
+  "timestamp": 1543263865
 }

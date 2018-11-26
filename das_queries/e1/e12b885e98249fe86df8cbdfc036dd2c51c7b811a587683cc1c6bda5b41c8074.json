@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156070,
+        "expire": 1543263226,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469738304.56899
         }
       ],
-      "qhash": "515cb7e8fd01799ff04068633bcbe915"
+      "qhash": "ff93f6b0a6ac7ce9d20aa269799c49f5"
     },
     {
       "das": {
-        "expire": 1539156070,
+        "expire": 1543263226,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469737181.9616499
         }
       ],
-      "qhash": "515cb7e8fd01799ff04068633bcbe915"
+      "qhash": "ff93f6b0a6ac7ce9d20aa269799c49f5"
     },
     {
       "das": {
-        "expire": 1539156070,
+        "expire": 1543263226,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469731161.7864001
         }
       ],
-      "qhash": "515cb7e8fd01799ff04068633bcbe915"
+      "qhash": "ff93f6b0a6ac7ce9d20aa269799c49f5"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "515cb7e8fd01799ff04068633bcbe915",
+    "hash": "ff93f6b0a6ac7ce9d20aa269799c49f5",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHSCPstop_M_200_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156069
+    "tstamp": 1543263224
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156070
+  "timestamp": 1543263226
 }

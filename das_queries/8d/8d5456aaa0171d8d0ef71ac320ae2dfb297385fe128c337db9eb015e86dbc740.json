@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155583,
+        "expire": 1543263064,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9f5969a73b1d8707704d6d7118b3ee4"
+      "qhash": "3dffbe1718fddf2ad4f7693ca86c7237"
     },
     {
       "das": {
-        "expire": 1539155583,
+        "expire": 1543263064,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9f5969a73b1d8707704d6d7118b3ee4"
+      "qhash": "3dffbe1718fddf2ad4f7693ca86c7237"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "d9f5969a73b1d8707704d6d7118b3ee4",
+    "hash": "3dffbe1718fddf2ad4f7693ca86c7237",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBeamHalo_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBeamHalo_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBeamHalo_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155581
+    "tstamp": 1543263062
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155583
+  "timestamp": 1543263064
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158138,
+        "expire": 1543263813,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c183f5ebad236c01847eafc31fd2392"
+      "qhash": "eaf38ef666d9e6ec267fdd35cdb858f3"
     },
     {
       "das": {
-        "expire": 1539158138,
+        "expire": 1543263813,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c183f5ebad236c01847eafc31fd2392"
+      "qhash": "eaf38ef666d9e6ec267fdd35cdb858f3"
     },
     {
       "das": {
-        "expire": 1539158138,
+        "expire": 1543263813,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c183f5ebad236c01847eafc31fd2392"
+      "qhash": "eaf38ef666d9e6ec267fdd35cdb858f3"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "9c183f5ebad236c01847eafc31fd2392",
+    "hash": "eaf38ef666d9e6ec267fdd35cdb858f3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE_13/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE_13/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158137
+    "tstamp": 1543263812
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158138
+  "timestamp": 1543263813
 }

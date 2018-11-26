@@ -1,9 +1,9 @@
 {
-  "ctime": 26,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156636,
+        "expire": 1543263864,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "46f41612c5f9beab90f5823bc38fca77"
+      "qhash": "b314decc6d145ba42e17d866eadbce11"
     },
     {
       "das": {
-        "expire": 1539156636,
+        "expire": 1543263864,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "46f41612c5f9beab90f5823bc38fca77"
+      "qhash": "b314decc6d145ba42e17d866eadbce11"
     },
     {
       "das": {
-        "expire": 1539156636,
+        "expire": 1543263864,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "46f41612c5f9beab90f5823bc38fca77"
+      "qhash": "b314decc6d145ba42e17d866eadbce11"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "46f41612c5f9beab90f5823bc38fca77",
+    "hash": "b314decc6d145ba42e17d866eadbce11",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValRSGravitonToGaGa_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValRSGravitonToGaGa_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValRSGravitonToGaGa_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539156609
+    "tstamp": 1543263863
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156636
+  "timestamp": 1543263864
 }

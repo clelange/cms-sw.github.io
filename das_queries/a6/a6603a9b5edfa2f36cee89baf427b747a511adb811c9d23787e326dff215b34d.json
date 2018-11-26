@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157880,
+        "expire": 1543263805,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398977734.90626
         }
       ],
-      "qhash": "5a7373c873e9de27bc42dd100e02d966"
+      "qhash": "a8caae44a80fde4261092fa8faa1d278"
     },
     {
       "das": {
-        "expire": 1539157880,
+        "expire": 1543263805,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1398977734.90626
         }
       ],
-      "qhash": "5a7373c873e9de27bc42dd100e02d966"
+      "qhash": "a8caae44a80fde4261092fa8faa1d278"
     },
     {
       "das": {
-        "expire": 1539157880,
+        "expire": 1543263805,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1398977734.90626
         }
       ],
-      "qhash": "5a7373c873e9de27bc42dd100e02d966"
+      "qhash": "a8caae44a80fde4261092fa8faa1d278"
     },
     {
       "das": {
-        "expire": 1539157880,
+        "expire": 1543263805,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1398977734.90626
         }
       ],
-      "qhash": "5a7373c873e9de27bc42dd100e02d966"
+      "qhash": "a8caae44a80fde4261092fa8faa1d278"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "5a7373c873e9de27bc42dd100e02d966",
+    "hash": "a8caae44a80fde4261092fa8faa1d278",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_600_800/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157879
+    "tstamp": 1543263804
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157880
+  "timestamp": 1543263805
 }

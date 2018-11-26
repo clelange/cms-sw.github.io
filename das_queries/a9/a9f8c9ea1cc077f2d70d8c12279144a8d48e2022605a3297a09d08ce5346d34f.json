@@ -1,9 +1,9 @@
 {
-  "ctime": 14,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263505,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d8e17c139fb1299a8ed70aca7db088ca"
+      "qhash": "935365e2bbe3a62dfa6b734b12b86666"
     },
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263505,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d8e17c139fb1299a8ed70aca7db088ca"
+      "qhash": "935365e2bbe3a62dfa6b734b12b86666"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "d8e17c139fb1299a8ed70aca7db088ca",
+    "hash": "935365e2bbe3a62dfa6b734b12b86666",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValProdTTbar_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValProdTTbar_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValProdTTbar_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM"
     },
     "system": "",
-    "tstamp": 1539156970
+    "tstamp": 1543263503
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156985
+  "timestamp": 1543263505
 }

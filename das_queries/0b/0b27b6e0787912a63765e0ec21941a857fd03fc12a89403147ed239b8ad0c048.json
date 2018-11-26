@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 3,
   "data": [
     {
       "das": {
-        "expire": 1539157467,
+        "expire": 1543263632,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a21a407f1c04cef5f06bdf85fc289b73"
+      "qhash": "02e63c61b846082f34f0dc7c11de6c45"
     },
     {
       "das": {
-        "expire": 1539157467,
+        "expire": 1543263632,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a21a407f1c04cef5f06bdf85fc289b73"
+      "qhash": "02e63c61b846082f34f0dc7c11de6c45"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "a21a407f1c04cef5f06bdf85fc289b73",
+    "hash": "02e63c61b846082f34f0dc7c11de6c45",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBeamHalo/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBeamHalo/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBeamHalo/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157466
+    "tstamp": 1543263628
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157467
+  "timestamp": 1543263632
 }

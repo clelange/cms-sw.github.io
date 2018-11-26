@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156317,
+        "expire": 1543263270,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "095398c1197777dc7f1d3b5219c50d8c"
+      "qhash": "9be2e47a5a946f3c112ed6b748f2f618"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "095398c1197777dc7f1d3b5219c50d8c",
+    "hash": "9be2e47a5a946f3c112ed6b748f2f618",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValNuGun/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValNuGun/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValNuGun/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156315
+    "tstamp": 1543263269
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156317
+  "timestamp": 1543263270
 }

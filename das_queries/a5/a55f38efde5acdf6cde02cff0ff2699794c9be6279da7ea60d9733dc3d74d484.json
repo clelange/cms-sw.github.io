@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156346,
+        "expire": 1543263282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6045d305081240370504d1c98fbe1bf8"
+      "qhash": "b74b95fdcf53e06ee072a36105253195"
     },
     {
       "das": {
-        "expire": 1539156346,
+        "expire": 1543263282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6045d305081240370504d1c98fbe1bf8"
+      "qhash": "b74b95fdcf53e06ee072a36105253195"
     },
     {
       "das": {
-        "expire": 1539156346,
+        "expire": 1543263282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6045d305081240370504d1c98fbe1bf8"
+      "qhash": "b74b95fdcf53e06ee072a36105253195"
     },
     {
       "das": {
-        "expire": 1539156346,
+        "expire": 1543263282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "6045d305081240370504d1c98fbe1bf8"
+      "qhash": "b74b95fdcf53e06ee072a36105253195"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "6045d305081240370504d1c98fbe1bf8",
+    "hash": "b74b95fdcf53e06ee072a36105253195",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQQH1352T_13/CMSSW_9_2_3-92X_upgrade2017_realistic_v1_earlyBS2017-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQQH1352T_13/CMSSW_9_2_3-92X_upgrade2017_realistic_v1_earlyBS2017-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQQH1352T_13/CMSSW_9_2_3-92X_upgrade2017_realistic_v1_earlyBS2017-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156344
+    "tstamp": 1543263281
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156346
+  "timestamp": 1543263282
 }

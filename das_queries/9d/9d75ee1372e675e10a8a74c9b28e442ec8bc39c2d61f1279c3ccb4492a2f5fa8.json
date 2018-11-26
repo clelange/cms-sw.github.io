@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156987,
+        "expire": 1543263515,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,7 +34,7 @@
           "time_create": 1399019174.2674799
         }
       ],
-      "qhash": "32c67fcd5e5c43383bf417fe99c337d1"
+      "qhash": "8fd8f099695be9bc634c2841d2f65a40"
     }
   ],
   "ecode": "",
@@ -56,18 +56,18 @@
         "1"
       ]
     },
-    "hash": "32c67fcd5e5c43383bf417fe99c337d1",
+    "hash": "8fd8f099695be9bc634c2841d2f65a40",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHiggs200ChargedTaus/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHiggs200ChargedTaus/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHiggs200ChargedTaus/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156985
+    "tstamp": 1543263514
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156987
+  "timestamp": 1543263515
 }

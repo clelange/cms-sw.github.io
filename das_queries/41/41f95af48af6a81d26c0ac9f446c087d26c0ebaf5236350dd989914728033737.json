@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156042,
+        "expire": 1543263210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469735850.30776
         }
       ],
-      "qhash": "9d49796ac2a7cc6cd565de19dfba74dd"
+      "qhash": "c69b0c4b4a028f7306f0a9e72f9f1e6b"
     },
     {
       "das": {
-        "expire": 1539156042,
+        "expire": 1543263210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469734975.16415
         }
       ],
-      "qhash": "9d49796ac2a7cc6cd565de19dfba74dd"
+      "qhash": "c69b0c4b4a028f7306f0a9e72f9f1e6b"
     },
     {
       "das": {
-        "expire": 1539156042,
+        "expire": 1543263210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1469735076.5436001
         }
       ],
-      "qhash": "9d49796ac2a7cc6cd565de19dfba74dd"
+      "qhash": "c69b0c4b4a028f7306f0a9e72f9f1e6b"
     },
     {
       "das": {
-        "expire": 1539156042,
+        "expire": 1543263210,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1469735648.8970301
         }
       ],
-      "qhash": "9d49796ac2a7cc6cd565de19dfba74dd"
+      "qhash": "c69b0c4b4a028f7306f0a9e72f9f1e6b"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "9d49796ac2a7cc6cd565de19dfba74dd",
+    "hash": "c69b0c4b4a028f7306f0a9e72f9f1e6b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValUpsilon1SToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValUpsilon1SToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValUpsilon1SToMuMu_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156040
+    "tstamp": 1543263209
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156042
+  "timestamp": 1543263210
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539158415,
+        "expire": 1543264071,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "70502775d308aba4a89d6165517b6da8"
+      "qhash": "873ba82087d56fa48fb8fc8ad08dd4a2"
     },
     {
       "das": {
-        "expire": 1539158415,
+        "expire": 1543264071,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "70502775d308aba4a89d6165517b6da8"
+      "qhash": "873ba82087d56fa48fb8fc8ad08dd4a2"
     },
     {
       "das": {
-        "expire": 1539158415,
+        "expire": 1543264071,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "70502775d308aba4a89d6165517b6da8"
+      "qhash": "873ba82087d56fa48fb8fc8ad08dd4a2"
     },
     {
       "das": {
-        "expire": 1539158415,
+        "expire": 1543264071,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "70502775d308aba4a89d6165517b6da8"
+      "qhash": "873ba82087d56fa48fb8fc8ad08dd4a2"
     },
     {
       "das": {
-        "expire": 1539158415,
+        "expire": 1543264071,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,7 +204,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "70502775d308aba4a89d6165517b6da8"
+      "qhash": "873ba82087d56fa48fb8fc8ad08dd4a2"
     }
   ],
   "ecode": "",
@@ -226,17 +226,17 @@
         "1"
       ]
     },
-    "hash": "70502775d308aba4a89d6165517b6da8",
+    "hash": "873ba82087d56fa48fb8fc8ad08dd4a2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158414
+    "tstamp": 1543264068
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539158415
+  "timestamp": 1543264071
 }

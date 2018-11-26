@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157950,
+        "expire": 1543263836,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "ce8d3196c6e78162e884ef9cb5b6f592"
+      "qhash": "9c0d52eea7ff95a0ed745a698a3f3724"
     },
     {
       "das": {
-        "expire": 1539157950,
+        "expire": 1543263836,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "ce8d3196c6e78162e884ef9cb5b6f592"
+      "qhash": "9c0d52eea7ff95a0ed745a698a3f3724"
     },
     {
       "das": {
-        "expire": 1539157950,
+        "expire": 1543263836,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "ce8d3196c6e78162e884ef9cb5b6f592"
+      "qhash": "9c0d52eea7ff95a0ed745a698a3f3724"
     },
     {
       "das": {
-        "expire": 1539157950,
+        "expire": 1543263836,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "ce8d3196c6e78162e884ef9cb5b6f592"
+      "qhash": "9c0d52eea7ff95a0ed745a698a3f3724"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "ce8d3196c6e78162e884ef9cb5b6f592",
+    "hash": "9c0d52eea7ff95a0ed745a698a3f3724",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_80_120_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_80_120_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_80_120_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157948
+    "tstamp": 1543263835
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157950
+  "timestamp": 1543263836
 }

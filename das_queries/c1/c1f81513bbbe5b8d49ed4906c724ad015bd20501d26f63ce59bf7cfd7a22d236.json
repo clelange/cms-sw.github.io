@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156079,
+        "expire": 1543263229,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aa3b8b54d5c33ae289c968f6e7f15275"
+      "qhash": "f88092769050dfc3587b21470d9729c3"
     },
     {
       "das": {
-        "expire": 1539156079,
+        "expire": 1543263229,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aa3b8b54d5c33ae289c968f6e7f15275"
+      "qhash": "f88092769050dfc3587b21470d9729c3"
     },
     {
       "das": {
-        "expire": 1539156079,
+        "expire": 1543263229,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aa3b8b54d5c33ae289c968f6e7f15275"
+      "qhash": "f88092769050dfc3587b21470d9729c3"
     },
     {
       "das": {
-        "expire": 1539156079,
+        "expire": 1543263229,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aa3b8b54d5c33ae289c968f6e7f15275"
+      "qhash": "f88092769050dfc3587b21470d9729c3"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "aa3b8b54d5c33ae289c968f6e7f15275",
+    "hash": "f88092769050dfc3587b21470d9729c3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_3000_3500_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156077
+    "tstamp": 1543263227
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156079
+  "timestamp": 1543263229
 }

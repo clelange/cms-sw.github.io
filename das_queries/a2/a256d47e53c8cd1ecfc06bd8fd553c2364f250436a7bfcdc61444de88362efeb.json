@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158126,
+        "expire": 1543263922,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7ded69d7887c807744bdf0bdcc63c6c1"
+      "qhash": "7fe3727b387050050dbc7d7da18cbc5c"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "7ded69d7887c807744bdf0bdcc63c6c1",
+    "hash": "7fe3727b387050050dbc7d7da18cbc5c",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValCosmics/CMSSW_5_2_1-START52_V4-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValCosmics/CMSSW_5_2_1-START52_V4-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValCosmics/CMSSW_5_2_1-START52_V4-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158125
+    "tstamp": 1543263921
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158126
+  "timestamp": 1543263922
 }

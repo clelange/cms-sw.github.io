@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158060,
+        "expire": 1543263848,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1522856908.35762
         }
       ],
-      "qhash": "6600be1f5c29e6f6bbab45ff24985789"
+      "qhash": "05173a5359edf22dfe7c883882789dea"
     },
     {
       "das": {
-        "expire": 1539158060,
+        "expire": 1543263848,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1522856278.65452
         }
       ],
-      "qhash": "6600be1f5c29e6f6bbab45ff24985789"
+      "qhash": "05173a5359edf22dfe7c883882789dea"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "6600be1f5c29e6f6bbab45ff24985789",
+    "hash": "05173a5359edf22dfe7c883882789dea",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZTT_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZTT_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZTT_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158059
+    "tstamp": 1543263847
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158060
+  "timestamp": 1543263848
 }

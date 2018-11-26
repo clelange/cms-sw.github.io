@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156858,
+        "expire": 1543263581,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "007e3141132719c2b6ae7635359964dd"
+      "qhash": "7eb0ac5544108e95c441b8e9d13b3597"
     },
     {
       "das": {
-        "expire": 1539156858,
+        "expire": 1543263581,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "007e3141132719c2b6ae7635359964dd"
+      "qhash": "7eb0ac5544108e95c441b8e9d13b3597"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "007e3141132719c2b6ae7635359964dd",
+    "hash": "7eb0ac5544108e95c441b8e9d13b3597",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539156857
+    "tstamp": 1543263580
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156858
+  "timestamp": 1543263581
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158708,
+        "expire": 1543264221,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,7 +34,7 @@
           "time_create": 1522881399.02461
         }
       ],
-      "qhash": "27295113e103b4489a2ab9b36fdd5f94"
+      "qhash": "edd14f6274a66fdc7ec121f946327ef3"
     }
   ],
   "ecode": "",
@@ -56,18 +56,18 @@
         "1"
       ]
     },
-    "hash": "27295113e103b4489a2ab9b36fdd5f94",
+    "hash": "edd14f6274a66fdc7ec121f946327ef3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158707
+    "tstamp": 1543264220
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158708
+  "timestamp": 1543264221
 }

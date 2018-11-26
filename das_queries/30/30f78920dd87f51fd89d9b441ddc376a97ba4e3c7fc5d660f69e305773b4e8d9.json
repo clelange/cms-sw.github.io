@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543264169,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1443832549.4919
         }
       ],
-      "qhash": "49e74dc6110a4605d8c345aae306e252"
+      "qhash": "1d6d58cd2770dace7867cfd5dbcaffbe"
     },
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543264169,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1443833478.2376299
         }
       ],
-      "qhash": "49e74dc6110a4605d8c345aae306e252"
+      "qhash": "1d6d58cd2770dace7867cfd5dbcaffbe"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "49e74dc6110a4605d8c345aae306e252",
+    "hash": "1d6d58cd2770dace7867cfd5dbcaffbe",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhotonJets_Pt_10_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156556
+    "tstamp": 1543264168
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156558
+  "timestamp": 1543264169
 }

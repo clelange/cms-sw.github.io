@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157837,
+        "expire": 1543263785,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469738608.5861499
         }
       ],
-      "qhash": "0ddcfa04002c1acc51e8e7f94fecb746"
+      "qhash": "40eb7de86a8ef20ab4560bd1b8a69617"
     },
     {
       "das": {
-        "expire": 1539157837,
+        "expire": 1543263785,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469738835.3109701
         }
       ],
-      "qhash": "0ddcfa04002c1acc51e8e7f94fecb746"
+      "qhash": "40eb7de86a8ef20ab4560bd1b8a69617"
     },
     {
       "das": {
-        "expire": 1539157837,
+        "expire": 1543263785,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469740449.34534
         }
       ],
-      "qhash": "0ddcfa04002c1acc51e8e7f94fecb746"
+      "qhash": "40eb7de86a8ef20ab4560bd1b8a69617"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "0ddcfa04002c1acc51e8e7f94fecb746",
+    "hash": "40eb7de86a8ef20ab4560bd1b8a69617",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWpToENu_M-2000_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWpToENu_M-2000_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWpToENu_M-2000_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157836
+    "tstamp": 1543263784
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157837
+  "timestamp": 1543263785
 }

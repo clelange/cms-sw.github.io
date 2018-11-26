@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157395,
+        "expire": 1543263599,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469722826.4102399
         }
       ],
-      "qhash": "55511d9b8faa1a1aa41445e255053ae7"
+      "qhash": "9c176df97a9962c7afcabdaf5910e1ce"
     },
     {
       "das": {
-        "expire": 1539157395,
+        "expire": 1543263599,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469723027.2893801
         }
       ],
-      "qhash": "55511d9b8faa1a1aa41445e255053ae7"
+      "qhash": "9c176df97a9962c7afcabdaf5910e1ce"
     },
     {
       "das": {
-        "expire": 1539157395,
+        "expire": 1543263599,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1469721433.8345699
         }
       ],
-      "qhash": "55511d9b8faa1a1aa41445e255053ae7"
+      "qhash": "9c176df97a9962c7afcabdaf5910e1ce"
     },
     {
       "das": {
-        "expire": 1539157395,
+        "expire": 1543263599,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1469722524.4461601
         }
       ],
-      "qhash": "55511d9b8faa1a1aa41445e255053ae7"
+      "qhash": "9c176df97a9962c7afcabdaf5910e1ce"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "55511d9b8faa1a1aa41445e255053ae7",
+    "hash": "9c176df97a9962c7afcabdaf5910e1ce",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157394
+    "tstamp": 1543263598
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157395
+  "timestamp": 1543263599
 }

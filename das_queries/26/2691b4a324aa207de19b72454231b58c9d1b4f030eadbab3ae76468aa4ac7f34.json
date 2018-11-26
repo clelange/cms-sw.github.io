@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156334,
+        "expire": 1543263277,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "94779726096fb33d11843da9463ad5bf"
+      "qhash": "73c66da276f0591706e130078cc562c8"
     },
     {
       "das": {
-        "expire": 1539156334,
+        "expire": 1543263277,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "94779726096fb33d11843da9463ad5bf"
+      "qhash": "73c66da276f0591706e130078cc562c8"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "94779726096fb33d11843da9463ad5bf",
+    "hash": "73c66da276f0591706e130078cc562c8",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValJpsiMuMu_Pt-8/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValJpsiMuMu_Pt-8/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValJpsiMuMu_Pt-8/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156332
+    "tstamp": 1543263276
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156334
+  "timestamp": 1543263277
 }

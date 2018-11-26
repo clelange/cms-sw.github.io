@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156790,
+        "expire": 1543263422,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "c5d4cbb3975dd00a3b55665afa100c70"
+      "qhash": "d90f2c97d79ce4d0d835cdcf826c8a50"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "c5d4cbb3975dd00a3b55665afa100c70",
+    "hash": "d90f2c97d79ce4d0d835cdcf826c8a50",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt10_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt10_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt10_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539156788
+    "tstamp": 1543263420
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156790
+  "timestamp": 1543263422
 }

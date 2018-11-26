@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539157033,
+        "expire": 1543263539,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3f6ccaa480094761835a922c7935c288"
+      "qhash": "c4e788716a0018f7a5f406ab22f13462"
     },
     {
       "das": {
-        "expire": 1539157033,
+        "expire": 1543263539,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3f6ccaa480094761835a922c7935c288"
+      "qhash": "c4e788716a0018f7a5f406ab22f13462"
     },
     {
       "das": {
-        "expire": 1539157033,
+        "expire": 1543263539,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3f6ccaa480094761835a922c7935c288"
+      "qhash": "c4e788716a0018f7a5f406ab22f13462"
     },
     {
       "das": {
-        "expire": 1539157033,
+        "expire": 1543263539,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3f6ccaa480094761835a922c7935c288"
+      "qhash": "c4e788716a0018f7a5f406ab22f13462"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "3f6ccaa480094761835a922c7935c288",
+    "hash": "c4e788716a0018f7a5f406ab22f13462",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpMM_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpMM_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpMM_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157031
+    "tstamp": 1543263536
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157033
+  "timestamp": 1543263539
 }

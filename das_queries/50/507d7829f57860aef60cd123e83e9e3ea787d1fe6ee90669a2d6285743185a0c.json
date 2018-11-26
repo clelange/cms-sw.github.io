@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157689,
+        "expire": 1543263731,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398975868.7999001
         }
       ],
-      "qhash": "71728e767c921ecd20cedec2f768b1ec"
+      "qhash": "48d6383df0e650504e0000b0a048d712"
     },
     {
       "das": {
-        "expire": 1539157689,
+        "expire": 1543263731,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1398975868.7999001
         }
       ],
-      "qhash": "71728e767c921ecd20cedec2f768b1ec"
+      "qhash": "48d6383df0e650504e0000b0a048d712"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "71728e767c921ecd20cedec2f768b1ec",
+    "hash": "48d6383df0e650504e0000b0a048d712",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValJpsiMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValJpsiMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValJpsiMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157688
+    "tstamp": 1543263730
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157689
+  "timestamp": 1543263731
 }

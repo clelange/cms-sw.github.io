@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156845,
+        "expire": 1543263445,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469736916.7534001
         }
       ],
-      "qhash": "bee44f433274f06360b16af3f95d9d51"
+      "qhash": "2bd0720be2a1d914c7b1f7ad5a9cf357"
     },
     {
       "das": {
-        "expire": 1539156845,
+        "expire": 1543263445,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1469737017.59866
         }
       ],
-      "qhash": "bee44f433274f06360b16af3f95d9d51"
+      "qhash": "2bd0720be2a1d914c7b1f7ad5a9cf357"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "bee44f433274f06360b16af3f95d9d51",
+    "hash": "2bd0720be2a1d914c7b1f7ad5a9cf357",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt1000_UP15/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156843
+    "tstamp": 1543263444
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156845
+  "timestamp": 1543263445
 }

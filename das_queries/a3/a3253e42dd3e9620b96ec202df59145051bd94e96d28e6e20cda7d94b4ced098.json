@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158665,
+        "expire": 1543264031,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9728d91fc42633bffbbc82651095af7d"
+      "qhash": "b5ab7f90dcd50e0c20744e88372be577"
     },
     {
       "das": {
-        "expire": 1539158665,
+        "expire": 1543264031,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9728d91fc42633bffbbc82651095af7d"
+      "qhash": "b5ab7f90dcd50e0c20744e88372be577"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "9728d91fc42633bffbbc82651095af7d",
+    "hash": "b5ab7f90dcd50e0c20744e88372be577",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValCosmicsSPLoose_UP15/CMSSW_7_5_0-75X_mcRun2_asymptotic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValCosmicsSPLoose_UP15/CMSSW_7_5_0-75X_mcRun2_asymptotic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValCosmicsSPLoose_UP15/CMSSW_7_5_0-75X_mcRun2_asymptotic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158664
+    "tstamp": 1543264030
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158665
+  "timestamp": 1543264031
 }

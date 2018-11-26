@@ -1,9 +1,9 @@
 {
-  "ctime": 12,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263507,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0e800b37abfd0089cd173421b89f719a"
+      "qhash": "f927476366d323520bfe4b61857ff44a"
     },
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263507,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0e800b37abfd0089cd173421b89f719a"
+      "qhash": "f927476366d323520bfe4b61857ff44a"
     },
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263507,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0e800b37abfd0089cd173421b89f719a"
+      "qhash": "f927476366d323520bfe4b61857ff44a"
     },
     {
       "das": {
-        "expire": 1539156985,
+        "expire": 1543263507,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "0e800b37abfd0089cd173421b89f719a"
+      "qhash": "f927476366d323520bfe4b61857ff44a"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "0e800b37abfd0089cd173421b89f719a",
+    "hash": "f927476366d323520bfe4b61857ff44a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156972
+    "tstamp": 1543263505
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156985
+  "timestamp": 1543263507
 }

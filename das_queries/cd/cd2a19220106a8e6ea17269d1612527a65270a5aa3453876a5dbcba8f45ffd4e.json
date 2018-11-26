@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156032,
+        "expire": 1543263205,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1522880428.34307
         }
       ],
-      "qhash": "0be938704272293c65528f9eca8eca3d"
+      "qhash": "8bf915340cfa40642e42bdc7470536a2"
     },
     {
       "das": {
-        "expire": 1539156032,
+        "expire": 1543263205,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1522881909.78392
         }
       ],
-      "qhash": "0be938704272293c65528f9eca8eca3d"
+      "qhash": "8bf915340cfa40642e42bdc7470536a2"
     },
     {
       "das": {
-        "expire": 1539156032,
+        "expire": 1543263205,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1522880428.34307
         }
       ],
-      "qhash": "0be938704272293c65528f9eca8eca3d"
+      "qhash": "8bf915340cfa40642e42bdc7470536a2"
     },
     {
       "das": {
-        "expire": 1539156032,
+        "expire": 1543263205,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1522881293.4063499
         }
       ],
-      "qhash": "0be938704272293c65528f9eca8eca3d"
+      "qhash": "8bf915340cfa40642e42bdc7470536a2"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "0be938704272293c65528f9eca8eca3d",
+    "hash": "8bf915340cfa40642e42bdc7470536a2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_600_800_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_600_800_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_600_800_13/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156031
+    "tstamp": 1543263203
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156032
+  "timestamp": 1543263205
 }

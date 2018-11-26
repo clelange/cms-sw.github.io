@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158059,
+        "expire": 1543264211,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9e8a76d027f5674d8f97edb9c9eec56"
+      "qhash": "ca9836040c4fe6edb1921775896ca609"
     },
     {
       "das": {
-        "expire": 1539158059,
+        "expire": 1543264211,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9e8a76d027f5674d8f97edb9c9eec56"
+      "qhash": "ca9836040c4fe6edb1921775896ca609"
     },
     {
       "das": {
-        "expire": 1539158059,
+        "expire": 1543264211,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9e8a76d027f5674d8f97edb9c9eec56"
+      "qhash": "ca9836040c4fe6edb1921775896ca609"
     },
     {
       "das": {
-        "expire": 1539158059,
+        "expire": 1543264211,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d9e8a76d027f5674d8f97edb9c9eec56"
+      "qhash": "ca9836040c4fe6edb1921775896ca609"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "d9e8a76d027f5674d8f97edb9c9eec56",
+    "hash": "ca9836040c4fe6edb1921775896ca609",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbarLepton_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbarLepton_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbarLepton_13/CMSSW_7_6_0_pre7-76X_mcRun2_asymptotic_v9_realBS-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158058
+    "tstamp": 1543264209
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158059
+  "timestamp": 1543264211
 }

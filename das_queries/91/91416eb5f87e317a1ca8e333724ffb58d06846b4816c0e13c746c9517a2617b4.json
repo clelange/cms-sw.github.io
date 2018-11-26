@@ -1,9 +1,9 @@
 {
-  "ctime": 55,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543263359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5f31d9165b36c2593a0edae0239080a9"
+      "qhash": "9ac2bb53ba583fca513046842ebd41a3"
     },
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543263359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5f31d9165b36c2593a0edae0239080a9"
+      "qhash": "9ac2bb53ba583fca513046842ebd41a3"
     },
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543263359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5f31d9165b36c2593a0edae0239080a9"
+      "qhash": "9ac2bb53ba583fca513046842ebd41a3"
     },
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543263359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,11 +171,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5f31d9165b36c2593a0edae0239080a9"
+      "qhash": "9ac2bb53ba583fca513046842ebd41a3"
     },
     {
       "das": {
-        "expire": 1539156558,
+        "expire": 1543263359,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -214,7 +214,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5f31d9165b36c2593a0edae0239080a9"
+      "qhash": "9ac2bb53ba583fca513046842ebd41a3"
     }
   ],
   "ecode": "",
@@ -236,18 +236,18 @@
         "1"
       ]
     },
-    "hash": "5f31d9165b36c2593a0edae0239080a9",
+    "hash": "9ac2bb53ba583fca513046842ebd41a3",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO run=254879 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO run=254879  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_sgMuPrpt2015C-v1/RECO",
       "run": "254879"
     },
     "system": "",
-    "tstamp": 1539156502
+    "tstamp": 1543263357
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539156558
+  "timestamp": 1543263359
 }

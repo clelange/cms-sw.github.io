@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156823,
+        "expire": 1543263436,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,7 +34,7 @@
           "time_create": 1398980856.68471
         }
       ],
-      "qhash": "91975c17cc14004640dd7659c7ad3f45"
+      "qhash": "d7bd028b577ae8ae67d6427d9837b606"
     }
   ],
   "ecode": "",
@@ -56,18 +56,18 @@
         "1"
       ]
     },
-    "hash": "91975c17cc14004640dd7659c7ad3f45",
+    "hash": "d7bd028b577ae8ae67d6427d9837b606",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156822
+    "tstamp": 1543263435
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156823
+  "timestamp": 1543263436
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539155402,
+        "expire": 1543262973,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fa78ccd914a8c6eeaff879a06e6ed2c4"
+      "qhash": "05cce128e7a5546736c84dbbd965ceed"
     },
     {
       "das": {
-        "expire": 1539155402,
+        "expire": 1543262973,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fa78ccd914a8c6eeaff879a06e6ed2c4"
+      "qhash": "05cce128e7a5546736c84dbbd965ceed"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "fa78ccd914a8c6eeaff879a06e6ed2c4",
+    "hash": "05cce128e7a5546736c84dbbd965ceed",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleGammaPt10/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleGammaPt10/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleGammaPt10/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155401
+    "tstamp": 1543262971
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155402
+  "timestamp": 1543262973
 }

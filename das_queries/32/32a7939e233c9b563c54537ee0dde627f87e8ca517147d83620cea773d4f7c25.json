@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,11 +204,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -245,11 +245,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -286,11 +286,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -327,11 +327,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     },
     {
       "das": {
-        "expire": 1539158558,
+        "expire": 1543264139,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -368,7 +368,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "b6e8a408416d882ca8cd4ab2a62aa437"
+      "qhash": "18282601faf768d583ed444b185b5bc4"
     }
   ],
   "ecode": "",
@@ -390,17 +390,17 @@
         "1"
       ]
     },
-    "hash": "b6e8a408416d882ca8cd4ab2a62aa437",
+    "hash": "18282601faf768d583ed444b185b5bc4",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias_13/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias_13/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias_13/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158557
+    "tstamp": 1543264137
   },
   "nresults": 9,
   "status": "ok",
-  "timestamp": 1539158558
+  "timestamp": 1543264139
 }

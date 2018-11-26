@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1442241403.8273799
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1442244667.2859099
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1442242910.09497
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,11 +139,11 @@
           "time_create": 1442243311.529
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -174,11 +174,11 @@
           "time_create": 1442244466.1933501
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -209,11 +209,11 @@
           "time_create": 1442242006.98032
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -244,11 +244,11 @@
           "time_create": 1442242910.09497
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -279,11 +279,11 @@
           "time_create": 1442241403.8273799
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -314,11 +314,11 @@
           "time_create": 1442242207.71805
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     },
     {
       "das": {
-        "expire": 1539158701,
+        "expire": 1543264215,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -349,7 +349,7 @@
           "time_create": 1442243612.8224299
         }
       ],
-      "qhash": "2f6ba509c2ccdebd7794b27ba6e74e72"
+      "qhash": "2858f5357b9fed7e089697d5ad145817"
     }
   ],
   "ecode": "",
@@ -371,18 +371,18 @@
         "1"
       ]
     },
-    "hash": "2f6ba509c2ccdebd7794b27ba6e74e72",
+    "hash": "2858f5357b9fed7e089697d5ad145817",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158700
+    "tstamp": 1543264213
   },
   "nresults": 10,
   "status": "ok",
-  "timestamp": 1539158701
+  "timestamp": 1543264215
 }

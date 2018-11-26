@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157830,
+        "expire": 1543263783,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,7 +40,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "145b6f94332b32cd50ad5b12d46bc576"
+      "qhash": "0e9f31ad23253286b7185c6852807458"
     }
   ],
   "ecode": "",
@@ -62,17 +62,17 @@
         "1"
       ]
     },
-    "hash": "145b6f94332b32cd50ad5b12d46bc576",
+    "hash": "0e9f31ad23253286b7185c6852807458",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleMuPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleMuPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleMuPt10/CMSSW_10_1_0-101X_upgrade2018_realistic_v6_rsb-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157829
+    "tstamp": 1543263782
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157830
+  "timestamp": 1543263783
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 3,
+  "ctime": 7,
   "data": [
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -72,11 +72,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -144,11 +144,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -213,11 +213,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -282,11 +282,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -350,11 +350,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -441,11 +441,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -506,11 +506,11 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     },
     {
       "das": {
-        "expire": 1542962378,
+        "expire": 1543264241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -571,7 +571,7 @@
           ]
         }
       ],
-      "qhash": "159cd2054973b459149ddef665ceb833"
+      "qhash": "551452954ace392c63cd1466e9d34051"
     }
   ],
   "ecode": "",
@@ -594,18 +594,18 @@
         "1"
       ]
     },
-    "hash": "159cd2054973b459149ddef665ceb833",
+    "hash": "551452954ace392c63cd1466e9d34051",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/HLTPhysics/Run2017B-PromptReco-v1/AOD run=297557 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/HLTPhysics/Run2017B-PromptReco-v1/AOD run=297557  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HLTPhysics/Run2017B-PromptReco-v1/AOD",
       "run": "297557"
     },
     "system": "",
-    "tstamp": 1542962374
+    "tstamp": 1543264233
   },
   "nresults": 8,
   "status": "ok",
-  "timestamp": 1542962378
+  "timestamp": 1543264241
 }

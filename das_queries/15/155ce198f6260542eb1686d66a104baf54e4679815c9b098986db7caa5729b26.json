@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158491,
+        "expire": 1543264110,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c8cf26876bd1abdaf78aae0223a4aab"
+      "qhash": "8b621f9d31beb4370252cffca8ae0e45"
     },
     {
       "das": {
-        "expire": 1539158491,
+        "expire": 1543264110,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c8cf26876bd1abdaf78aae0223a4aab"
+      "qhash": "8b621f9d31beb4370252cffca8ae0e45"
     },
     {
       "das": {
-        "expire": 1539158491,
+        "expire": 1543264110,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c8cf26876bd1abdaf78aae0223a4aab"
+      "qhash": "8b621f9d31beb4370252cffca8ae0e45"
     },
     {
       "das": {
-        "expire": 1539158491,
+        "expire": 1543264110,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "9c8cf26876bd1abdaf78aae0223a4aab"
+      "qhash": "8b621f9d31beb4370252cffca8ae0e45"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "9c8cf26876bd1abdaf78aae0223a4aab",
+    "hash": "8b621f9d31beb4370252cffca8ae0e45",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_9_3_0_pre5-93X_mc2017_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_9_3_0_pre5-93X_mc2017_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValH125GGgluonfusion_13/CMSSW_9_3_0_pre5-93X_mc2017_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158490
+    "tstamp": 1543264108
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158491
+  "timestamp": 1543264110
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157685,
+        "expire": 1543263076,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aff1b490b29ab5284bedbc25f7657091"
+      "qhash": "d27ec5b35b84e4a3218124aefdeceb4a"
     },
     {
       "das": {
-        "expire": 1539157685,
+        "expire": 1543263076,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aff1b490b29ab5284bedbc25f7657091"
+      "qhash": "d27ec5b35b84e4a3218124aefdeceb4a"
     },
     {
       "das": {
-        "expire": 1539157685,
+        "expire": 1543263076,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,7 +122,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "aff1b490b29ab5284bedbc25f7657091"
+      "qhash": "d27ec5b35b84e4a3218124aefdeceb4a"
     }
   ],
   "ecode": "",
@@ -144,17 +144,17 @@
         "1"
       ]
     },
-    "hash": "aff1b490b29ab5284bedbc25f7657091",
+    "hash": "d27ec5b35b84e4a3218124aefdeceb4a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWjet_Pt_80_120/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWjet_Pt_80_120/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWjet_Pt_80_120/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157684
+    "tstamp": 1543263074
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157685
+  "timestamp": 1543263076
 }

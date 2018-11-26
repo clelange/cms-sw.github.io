@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156513,
+        "expire": 1543262958,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "879e28193c190b4808090d8982d4df3c"
+      "qhash": "6888ca202863ab10b05cbcc7ea4905c2"
     },
     {
       "das": {
-        "expire": 1539156513,
+        "expire": 1543262958,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "879e28193c190b4808090d8982d4df3c"
+      "qhash": "6888ca202863ab10b05cbcc7ea4905c2"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "879e28193c190b4808090d8982d4df3c",
+    "hash": "6888ca202863ab10b05cbcc7ea4905c2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZMM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZMM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZMM_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156511
+    "tstamp": 1543262956
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156513
+  "timestamp": 1543262958
 }

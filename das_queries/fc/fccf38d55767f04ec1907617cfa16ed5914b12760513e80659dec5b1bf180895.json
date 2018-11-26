@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158752,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1443834249.11847
         }
       ],
-      "qhash": "e97f9a79c34d4464349e624df3715617"
+      "qhash": "88c9f12f3f1edddda181997bfa244c3a"
     },
     {
       "das": {
-        "expire": 1539158752,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1443836412.0352299
         }
       ],
-      "qhash": "e97f9a79c34d4464349e624df3715617"
+      "qhash": "88c9f12f3f1edddda181997bfa244c3a"
     },
     {
       "das": {
-        "expire": 1539158752,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1443834852.1340499
         }
       ],
-      "qhash": "e97f9a79c34d4464349e624df3715617"
+      "qhash": "88c9f12f3f1edddda181997bfa244c3a"
     },
     {
       "das": {
-        "expire": 1539158752,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1443832851.27616
         }
       ],
-      "qhash": "e97f9a79c34d4464349e624df3715617"
+      "qhash": "88c9f12f3f1edddda181997bfa244c3a"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "e97f9a79c34d4464349e624df3715617",
+    "hash": "88c9f12f3f1edddda181997bfa244c3a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEEMM_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEEMM_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEEMM_13_HI/CMSSW_7_6_0_pre6-76X_mcRun2_HeavyIon_v4-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158751
+    "tstamp": 1543264051
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158752
+  "timestamp": 1543264053
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539157913,
+        "expire": 1543262943,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "250c1d4316cf88fe17306a8b3af35774"
+      "qhash": "8d8b81014445a614f937c63852f2caa9"
     },
     {
       "das": {
-        "expire": 1539157913,
+        "expire": 1543262943,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "250c1d4316cf88fe17306a8b3af35774"
+      "qhash": "8d8b81014445a614f937c63852f2caa9"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "250c1d4316cf88fe17306a8b3af35774",
+    "hash": "8d8b81014445a614f937c63852f2caa9",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTenMuE_0_200/CMSSW_8_0_0_patch1-80X_upgrade2017_design_v4_UPG17-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157911
+    "tstamp": 1543262940
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157913
+  "timestamp": 1543262943
 }

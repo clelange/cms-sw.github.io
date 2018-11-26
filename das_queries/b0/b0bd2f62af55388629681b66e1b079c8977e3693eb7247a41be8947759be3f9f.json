@@ -1,9 +1,9 @@
 {
-  "ctime": 25,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157242,
+        "expire": 1543263713,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "85a51b0d74b05f08d028de06a5b94eaa"
+      "qhash": "83b2b9d17aa2b150ec2d7832c40c1a2b"
     },
     {
       "das": {
-        "expire": 1539157242,
+        "expire": 1543263713,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "85a51b0d74b05f08d028de06a5b94eaa"
+      "qhash": "83b2b9d17aa2b150ec2d7832c40c1a2b"
     },
     {
       "das": {
-        "expire": 1539157242,
+        "expire": 1543263713,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "85a51b0d74b05f08d028de06a5b94eaa"
+      "qhash": "83b2b9d17aa2b150ec2d7832c40c1a2b"
     },
     {
       "das": {
-        "expire": 1539157242,
+        "expire": 1543263713,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "85a51b0d74b05f08d028de06a5b94eaa"
+      "qhash": "83b2b9d17aa2b150ec2d7832c40c1a2b"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "85a51b0d74b05f08d028de06a5b94eaa",
+    "hash": "83b2b9d17aa2b150ec2d7832c40c1a2b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_9_2_1-92X_upgrade2017_design_IdealBS_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_9_2_1-92X_upgrade2017_design_IdealBS_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_9_2_1-92X_upgrade2017_design_IdealBS_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157216
+    "tstamp": 1543263712
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157242
+  "timestamp": 1543263713
 }

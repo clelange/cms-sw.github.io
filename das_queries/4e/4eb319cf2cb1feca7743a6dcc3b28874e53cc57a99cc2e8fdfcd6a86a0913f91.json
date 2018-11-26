@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157865,
+        "expire": 1543263801,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469738033.0597899
         }
       ],
-      "qhash": "069fc91fb2e2133e6b64e5228e5688ba"
+      "qhash": "eff9b1c956b6d67ac936e7eda8dc4fd9"
     },
     {
       "das": {
-        "expire": 1539157865,
+        "expire": 1543263801,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469738506.2467501
         }
       ],
-      "qhash": "069fc91fb2e2133e6b64e5228e5688ba"
+      "qhash": "eff9b1c956b6d67ac936e7eda8dc4fd9"
     },
     {
       "das": {
-        "expire": 1539157865,
+        "expire": 1543263801,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469738608.5861499
         }
       ],
-      "qhash": "069fc91fb2e2133e6b64e5228e5688ba"
+      "qhash": "eff9b1c956b6d67ac936e7eda8dc4fd9"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "069fc91fb2e2133e6b64e5228e5688ba",
+    "hash": "eff9b1c956b6d67ac936e7eda8dc4fd9",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWM_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157864
+    "tstamp": 1543263800
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157865
+  "timestamp": 1543263801
 }

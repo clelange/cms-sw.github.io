@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157952,
+        "expire": 1543263838,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "df050bf945e5bb8f24520754143e44d8"
+      "qhash": "0cd6e00546958dd05d89ca8d7f8e0b0b"
     },
     {
       "das": {
-        "expire": 1539157952,
+        "expire": 1543263838,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "df050bf945e5bb8f24520754143e44d8"
+      "qhash": "0cd6e00546958dd05d89ca8d7f8e0b0b"
     },
     {
       "das": {
-        "expire": 1539157952,
+        "expire": 1543263838,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "df050bf945e5bb8f24520754143e44d8"
+      "qhash": "0cd6e00546958dd05d89ca8d7f8e0b0b"
     },
     {
       "das": {
-        "expire": 1539157952,
+        "expire": 1543263838,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "df050bf945e5bb8f24520754143e44d8"
+      "qhash": "0cd6e00546958dd05d89ca8d7f8e0b0b"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "df050bf945e5bb8f24520754143e44d8",
+    "hash": "0cd6e00546958dd05d89ca8d7f8e0b0b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_8_0_21-80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_8_0_21-80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_8_0_21-80X_mcRun2_asymptotic_2016_TrancheIV_v6_Tr4GT_v6-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539157951
+    "tstamp": 1543263837
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539157952
+  "timestamp": 1543263838
 }

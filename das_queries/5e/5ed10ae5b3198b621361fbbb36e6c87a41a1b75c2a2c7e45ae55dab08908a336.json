@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 6,
   "data": [
     {
       "das": {
-        "expire": 1539158813,
+        "expire": 1543263161,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "dd92f00b0109c804b1f604f21f6cdbf3"
+      "qhash": "ed86c85703adec427f58bb887928e2a5"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "dd92f00b0109c804b1f604f21f6cdbf3",
+    "hash": "ed86c85703adec427f58bb887928e2a5",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/HLTPhysics/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/HLTPhysics/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HLTPhysics/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539158811
+    "tstamp": 1543263154
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158813
+  "timestamp": 1543263161
 }

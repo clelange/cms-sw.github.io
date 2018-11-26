@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 3,
   "data": [
     {
       "das": {
-        "expire": 1539158523,
+        "expire": 1543263795,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8e230b5e5bf546e3dd9306b35427cf6d"
+      "qhash": "2d8f8ce71ce9cd2713a9cad1ee5a9f32"
     },
     {
       "das": {
-        "expire": 1539158523,
+        "expire": 1543263795,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "8e230b5e5bf546e3dd9306b35427cf6d"
+      "qhash": "2d8f8ce71ce9cd2713a9cad1ee5a9f32"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "8e230b5e5bf546e3dd9306b35427cf6d",
+    "hash": "2d8f8ce71ce9cd2713a9cad1ee5a9f32",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZTT_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZTT_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZTT_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539158522
+    "tstamp": 1543263791
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158523
+  "timestamp": 1543263795
 }

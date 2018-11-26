@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157641,
+        "expire": 1543263707,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "69bc9d92459e3b0bd0fd43fe432b3e86"
+      "qhash": "414ed1945a4d07b8754a027e882eb310"
     },
     {
       "das": {
-        "expire": 1539157641,
+        "expire": 1543263707,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "69bc9d92459e3b0bd0fd43fe432b3e86"
+      "qhash": "414ed1945a4d07b8754a027e882eb310"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "69bc9d92459e3b0bd0fd43fe432b3e86",
+    "hash": "414ed1945a4d07b8754a027e882eb310",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValH125GGgluonfusion_13/CMSSW_10_3_0_pre2-103X_upgrade2018_realistic_v2_resub-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157640
+    "tstamp": 1543263705
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157641
+  "timestamp": 1543263707
 }

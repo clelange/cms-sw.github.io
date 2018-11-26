@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469734002.8134
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     },
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469733823.5002899
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     },
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1469738709.9668801
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     },
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,11 +139,11 @@
           "time_create": 1469738709.9668801
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     },
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -174,11 +174,11 @@
           "time_create": 1469733220.0018799
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     },
     {
       "das": {
-        "expire": 1539157031,
+        "expire": 1543263536,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -209,7 +209,7 @@
           "time_create": 1469733220.0018799
         }
       ],
-      "qhash": "a0e74031f6ce3a0ed3a3cd3167deec7e"
+      "qhash": "46509f25334b2cdc94cba41f20fe0c22"
     }
   ],
   "ecode": "",
@@ -231,18 +231,18 @@
         "1"
       ]
     },
-    "hash": "a0e74031f6ce3a0ed3a3cd3167deec7e",
+    "hash": "46509f25334b2cdc94cba41f20fe0c22",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157029
+    "tstamp": 1543263534
   },
   "nresults": 6,
   "status": "ok",
-  "timestamp": 1539157031
+  "timestamp": 1543263536
 }

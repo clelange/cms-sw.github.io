@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539155524,
+        "expire": 1543263042,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "616abe22a7eb5cd27d2b147a025b8c42"
+      "qhash": "4d520fca60a370fef7af38cb3c756b67"
     },
     {
       "das": {
-        "expire": 1539155524,
+        "expire": 1543263042,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "616abe22a7eb5cd27d2b147a025b8c42"
+      "qhash": "4d520fca60a370fef7af38cb3c756b67"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "616abe22a7eb5cd27d2b147a025b8c42",
+    "hash": "4d520fca60a370fef7af38cb3c756b67",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValNuGun/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValNuGun/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValNuGun/CMSSW_10_0_0_pre2-100X_upgrade2018_realistic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155523
+    "tstamp": 1543263040
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155524
+  "timestamp": 1543263042
 }

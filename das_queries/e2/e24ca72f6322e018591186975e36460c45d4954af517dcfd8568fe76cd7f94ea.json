@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539157906,
+        "expire": 1543263825,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fd5ae40883e8b2062af7ee3694c035bc"
+      "qhash": "7c374face2876d13d2276daf718a7566"
     },
     {
       "das": {
-        "expire": 1539157906,
+        "expire": 1543263825,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "fd5ae40883e8b2062af7ee3694c035bc"
+      "qhash": "7c374face2876d13d2276daf718a7566"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "fd5ae40883e8b2062af7ee3694c035bc",
+    "hash": "7c374face2876d13d2276daf718a7566",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_9_3_0_pre1-92X_upgrade2017_realistic_v7-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_9_3_0_pre1-92X_upgrade2017_realistic_v7-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhotonJets_Pt_10_13_HI/CMSSW_9_3_0_pre1-92X_upgrade2017_realistic_v7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539157905
+    "tstamp": 1543263823
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157906
+  "timestamp": 1543263825
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156088,
+        "expire": 1543263232,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469788062.1713901
         }
       ],
-      "qhash": "74700e402fafaa9c6b0a28f2c6666576"
+      "qhash": "27fc0cb940e5eaf9130a30641f8d4920"
     },
     {
       "das": {
-        "expire": 1539156088,
+        "expire": 1543263232,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469787403.4453001
         }
       ],
-      "qhash": "74700e402fafaa9c6b0a28f2c6666576"
+      "qhash": "27fc0cb940e5eaf9130a30641f8d4920"
     },
     {
       "das": {
-        "expire": 1539156088,
+        "expire": 1543263232,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469787860.95824
         }
       ],
-      "qhash": "74700e402fafaa9c6b0a28f2c6666576"
+      "qhash": "27fc0cb940e5eaf9130a30641f8d4920"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "74700e402fafaa9c6b0a28f2c6666576",
+    "hash": "27fc0cb940e5eaf9130a30641f8d4920",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBdToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBdToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBdToMuMu_13/CMSSW_8_1_0_pre9-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156087
+    "tstamp": 1543263231
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156088
+  "timestamp": 1543263232
 }

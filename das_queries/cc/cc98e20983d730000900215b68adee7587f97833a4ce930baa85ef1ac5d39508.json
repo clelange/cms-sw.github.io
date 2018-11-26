@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155854,
+        "expire": 1543263129,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7c636457707a4864934961344a41bdfe"
+      "qhash": "d768176ba17a6851dd155adb8b768e9f"
     },
     {
       "das": {
-        "expire": 1539155854,
+        "expire": 1543263129,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7c636457707a4864934961344a41bdfe"
+      "qhash": "d768176ba17a6851dd155adb8b768e9f"
     },
     {
       "das": {
-        "expire": 1539155854,
+        "expire": 1543263129,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7c636457707a4864934961344a41bdfe"
+      "qhash": "d768176ba17a6851dd155adb8b768e9f"
     },
     {
       "das": {
-        "expire": 1539155854,
+        "expire": 1543263129,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7c636457707a4864934961344a41bdfe"
+      "qhash": "d768176ba17a6851dd155adb8b768e9f"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "7c636457707a4864934961344a41bdfe",
+    "hash": "d768176ba17a6851dd155adb8b768e9f",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHiggs200ChargedTaus_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHiggs200ChargedTaus_13/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155853
+    "tstamp": 1543263128
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155854
+  "timestamp": 1543263129
 }

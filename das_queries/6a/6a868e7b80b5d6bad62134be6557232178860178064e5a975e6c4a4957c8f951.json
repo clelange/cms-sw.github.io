@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157529,
+        "expire": 1543263660,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1470169658.9458399
         }
       ],
-      "qhash": "935eb6841caf62c80ae9bdd36540d5f3"
+      "qhash": "146e055880bd982471c8758cf4928401"
     },
     {
       "das": {
-        "expire": 1539157529,
+        "expire": 1543263660,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1470170152.00475
         }
       ],
-      "qhash": "935eb6841caf62c80ae9bdd36540d5f3"
+      "qhash": "146e055880bd982471c8758cf4928401"
     },
     {
       "das": {
-        "expire": 1539157529,
+        "expire": 1543263660,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1470169905.5010099
         }
       ],
-      "qhash": "935eb6841caf62c80ae9bdd36540d5f3"
+      "qhash": "146e055880bd982471c8758cf4928401"
     },
     {
       "das": {
-        "expire": 1539157529,
+        "expire": 1543263660,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,11 +139,11 @@
           "time_create": 1470170006.1261201
         }
       ],
-      "qhash": "935eb6841caf62c80ae9bdd36540d5f3"
+      "qhash": "146e055880bd982471c8758cf4928401"
     },
     {
       "das": {
-        "expire": 1539157529,
+        "expire": 1543263660,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -174,7 +174,7 @@
           "time_create": 1470169511.4310801
         }
       ],
-      "qhash": "935eb6841caf62c80ae9bdd36540d5f3"
+      "qhash": "146e055880bd982471c8758cf4928401"
     }
   ],
   "ecode": "",
@@ -196,18 +196,18 @@
         "1"
       ]
     },
-    "hash": "935eb6841caf62c80ae9bdd36540d5f3",
+    "hash": "146e055880bd982471c8758cf4928401",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157528
+    "tstamp": 1543263659
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539157529
+  "timestamp": 1543263660
 }

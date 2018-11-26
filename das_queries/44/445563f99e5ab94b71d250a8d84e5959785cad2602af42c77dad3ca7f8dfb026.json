@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157073,
+        "expire": 1543263560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398992523.3741701
         }
       ],
-      "qhash": "705bcf8d71ddfaba1447b309fd516768"
+      "qhash": "5ce01d9b3d73bf7d7b7ff92512203d97"
     },
     {
       "das": {
-        "expire": 1539157073,
+        "expire": 1543263560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1398992523.3741701
         }
       ],
-      "qhash": "705bcf8d71ddfaba1447b309fd516768"
+      "qhash": "5ce01d9b3d73bf7d7b7ff92512203d97"
     },
     {
       "das": {
-        "expire": 1539157073,
+        "expire": 1543263560,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1398992523.3741701
         }
       ],
-      "qhash": "705bcf8d71ddfaba1447b309fd516768"
+      "qhash": "5ce01d9b3d73bf7d7b7ff92512203d97"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "705bcf8d71ddfaba1447b309fd516768",
+    "hash": "5ce01d9b3d73bf7d7b7ff92512203d97",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWjet_Pt_3000_3500/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWjet_Pt_3000_3500/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWjet_Pt_3000_3500/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157071
+    "tstamp": 1543263559
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157073
+  "timestamp": 1543263560
 }

@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1542226202,
+        "expire": 1543262996,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4b46bf0febc2c711881c5e11be764507"
+      "qhash": "f091e611e1b97d433d3c41b922e04c40"
     },
     {
       "das": {
-        "expire": 1542226202,
+        "expire": 1543262996,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4b46bf0febc2c711881c5e11be764507"
+      "qhash": "f091e611e1b97d433d3c41b922e04c40"
     },
     {
       "das": {
-        "expire": 1542226202,
+        "expire": 1543262996,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4b46bf0febc2c711881c5e11be764507"
+      "qhash": "f091e611e1b97d433d3c41b922e04c40"
     },
     {
       "das": {
-        "expire": 1542226202,
+        "expire": 1543262996,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4b46bf0febc2c711881c5e11be764507"
+      "qhash": "f091e611e1b97d433d3c41b922e04c40"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "4b46bf0febc2c711881c5e11be764507",
+    "hash": "f091e611e1b97d433d3c41b922e04c40",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValHSCPstop_M_200_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValHSCPstop_M_200_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValHSCPstop_M_200_13TeV/CMSSW_7_4_12-74X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1542226200
+    "tstamp": 1543262994
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1542226202
+  "timestamp": 1543262996
 }

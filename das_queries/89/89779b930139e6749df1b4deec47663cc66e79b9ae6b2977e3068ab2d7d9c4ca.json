@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     },
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     },
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     },
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     },
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,11 +204,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     },
     {
       "das": {
-        "expire": 1539155937,
+        "expire": 1543263160,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -245,7 +245,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d83110944d54110cc03915d25eb518b4"
+      "qhash": "af0e06ba559627c56f2e6df08aa34e80"
     }
   ],
   "ecode": "",
@@ -267,17 +267,17 @@
         "1"
       ]
     },
-    "hash": "d83110944d54110cc03915d25eb518b4",
+    "hash": "af0e06ba559627c56f2e6df08aa34e80",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_9_4_0_pre3-94X_mc2017_realistic_v4-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_3000_3500_13/CMSSW_9_4_0_pre3-94X_mc2017_realistic_v4-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_3000_3500_13/CMSSW_9_4_0_pre3-94X_mc2017_realistic_v4-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155935
+    "tstamp": 1543263158
   },
   "nresults": 6,
   "status": "ok",
-  "timestamp": 1539155937
+  "timestamp": 1543263160
 }

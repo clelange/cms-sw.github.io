@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158319,
+        "expire": 1543264016,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1398984681.1647999
         }
       ],
-      "qhash": "ed450b7841410d19c4b05f1c2e5caecd"
+      "qhash": "2e6e4b1655455d80e4c09b9acee80d5b"
     },
     {
       "das": {
-        "expire": 1539158319,
+        "expire": 1543264016,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1398984681.1647999
         }
       ],
-      "qhash": "ed450b7841410d19c4b05f1c2e5caecd"
+      "qhash": "2e6e4b1655455d80e4c09b9acee80d5b"
     },
     {
       "das": {
-        "expire": 1539158319,
+        "expire": 1543264016,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1398984681.1647999
         }
       ],
-      "qhash": "ed450b7841410d19c4b05f1c2e5caecd"
+      "qhash": "2e6e4b1655455d80e4c09b9acee80d5b"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "ed450b7841410d19c4b05f1c2e5caecd",
+    "hash": "2e6e4b1655455d80e4c09b9acee80d5b",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZpEE_2250_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpEE_2250_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZpEE_2250_8TeV_Tauola/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158317
+    "tstamp": 1543264014
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539158319
+  "timestamp": 1543264016
 }

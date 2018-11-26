@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156760,
+        "expire": 1543263402,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a7c287be3cc85ae8c9ccbeb68486570d"
+      "qhash": "8a593892552aab0143fab0ff139c5b0a"
     },
     {
       "das": {
-        "expire": 1539156760,
+        "expire": 1543263402,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "a7c287be3cc85ae8c9ccbeb68486570d"
+      "qhash": "8a593892552aab0143fab0ff139c5b0a"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "a7c287be3cc85ae8c9ccbeb68486570d",
+    "hash": "8a593892552aab0143fab0ff139c5b0a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValProdMinBias_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValProdMinBias_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValProdMinBias_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/AODSIM"
     },
     "system": "",
-    "tstamp": 1539156759
+    "tstamp": 1543263401
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156760
+  "timestamp": 1543263402
 }

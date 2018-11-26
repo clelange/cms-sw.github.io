@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543264014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "53d4014c354191eb21001983f6640340"
+      "qhash": "cd4825fafe179e656fac5577824ebbfc"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543264014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "53d4014c354191eb21001983f6640340"
+      "qhash": "cd4825fafe179e656fac5577824ebbfc"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543264014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "53d4014c354191eb21001983f6640340"
+      "qhash": "cd4825fafe179e656fac5577824ebbfc"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543264014,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "53d4014c354191eb21001983f6640340"
+      "qhash": "cd4825fafe179e656fac5577824ebbfc"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "53d4014c354191eb21001983f6640340",
+    "hash": "cd4825fafe179e656fac5577824ebbfc",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValH125GGgluonfusion_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValH125GGgluonfusion_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158309
+    "tstamp": 1543264013
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158310
+  "timestamp": 1543264014
 }

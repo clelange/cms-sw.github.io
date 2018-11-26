@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 4,
   "data": [
     {
       "das": {
-        "expire": 1539158814,
+        "expire": 1543264321,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -131,11 +131,11 @@
           ]
         }
       ],
-      "qhash": "57d6a150e2118bcfb099ef6d3537380e"
+      "qhash": "1f71a88a10a2c2e535c8607cd48286d1"
     },
     {
       "das": {
-        "expire": 1539158814,
+        "expire": 1543264321,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -385,11 +385,11 @@
           ]
         }
       ],
-      "qhash": "57d6a150e2118bcfb099ef6d3537380e"
+      "qhash": "1f71a88a10a2c2e535c8607cd48286d1"
     },
     {
       "das": {
-        "expire": 1539158814,
+        "expire": 1543264321,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -609,11 +609,11 @@
           ]
         }
       ],
-      "qhash": "57d6a150e2118bcfb099ef6d3537380e"
+      "qhash": "1f71a88a10a2c2e535c8607cd48286d1"
     },
     {
       "das": {
-        "expire": 1539158814,
+        "expire": 1543264321,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -800,7 +800,7 @@
           ]
         }
       ],
-      "qhash": "57d6a150e2118bcfb099ef6d3537380e"
+      "qhash": "1f71a88a10a2c2e535c8607cd48286d1"
     }
   ],
   "ecode": "",
@@ -823,18 +823,18 @@
         "1"
       ]
     },
-    "hash": "57d6a150e2118bcfb099ef6d3537380e",
+    "hash": "1f71a88a10a2c2e535c8607cd48286d1",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/DisplacedJet/Run2018A-v1/RAW run=315489 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/DisplacedJet/Run2018A-v1/RAW run=315489  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/DisplacedJet/Run2018A-v1/RAW",
       "run": "315489"
     },
     "system": "",
-    "tstamp": 1539158812
+    "tstamp": 1543264316
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158814
+  "timestamp": 1543264321
 }

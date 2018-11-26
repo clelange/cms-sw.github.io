@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158308,
+        "expire": 1543264013,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,7 +34,7 @@
           "time_create": 1398981258.9277401
         }
       ],
-      "qhash": "d85c9d07cb7259ff4cf13c14b8f42d76"
+      "qhash": "93a87ca1c5f5a8c3477f8c16cbf12fb1"
     }
   ],
   "ecode": "",
@@ -56,18 +56,18 @@
         "1"
       ]
     },
-    "hash": "d85c9d07cb7259ff4cf13c14b8f42d76",
+    "hash": "93a87ca1c5f5a8c3477f8c16cbf12fb1",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt10/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleElectronPt10/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158307
+    "tstamp": 1543264011
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539158308
+  "timestamp": 1543264013
 }

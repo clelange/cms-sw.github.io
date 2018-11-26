@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155667,
+        "expire": 1543263072,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "04782a9079a8681d5cd528dda86ca5e8"
+      "qhash": "6523bea036b8c2d7b0ff17eefdfb0ca2"
     },
     {
       "das": {
-        "expire": 1539155667,
+        "expire": 1543263072,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "04782a9079a8681d5cd528dda86ca5e8"
+      "qhash": "6523bea036b8c2d7b0ff17eefdfb0ca2"
     },
     {
       "das": {
-        "expire": 1539155667,
+        "expire": 1543263072,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "04782a9079a8681d5cd528dda86ca5e8"
+      "qhash": "6523bea036b8c2d7b0ff17eefdfb0ca2"
     },
     {
       "das": {
-        "expire": 1539155667,
+        "expire": 1543263072,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "04782a9079a8681d5cd528dda86ca5e8"
+      "qhash": "6523bea036b8c2d7b0ff17eefdfb0ca2"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "04782a9079a8681d5cd528dda86ca5e8",
+    "hash": "6523bea036b8c2d7b0ff17eefdfb0ca2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValUpsilon1SToMuMu_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValUpsilon1SToMuMu_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValUpsilon1SToMuMu_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155666
+    "tstamp": 1543263071
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155667
+  "timestamp": 1543263072
 }

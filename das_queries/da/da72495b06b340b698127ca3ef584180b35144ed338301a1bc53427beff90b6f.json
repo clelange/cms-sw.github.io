@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158775,
+        "expire": 1543264282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1fa5b86c0bd6a850c093a9b9c7ea4eb"
+      "qhash": "a8db2dac41f7f44eb52f54ff15cf461a"
     },
     {
       "das": {
-        "expire": 1539158775,
+        "expire": 1543264282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1fa5b86c0bd6a850c093a9b9c7ea4eb"
+      "qhash": "a8db2dac41f7f44eb52f54ff15cf461a"
     },
     {
       "das": {
-        "expire": 1539158775,
+        "expire": 1543264282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1fa5b86c0bd6a850c093a9b9c7ea4eb"
+      "qhash": "a8db2dac41f7f44eb52f54ff15cf461a"
     },
     {
       "das": {
-        "expire": 1539158775,
+        "expire": 1543264282,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d1fa5b86c0bd6a850c093a9b9c7ea4eb"
+      "qhash": "a8db2dac41f7f44eb52f54ff15cf461a"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "d1fa5b86c0bd6a850c093a9b9c7ea4eb",
+    "hash": "a8db2dac41f7f44eb52f54ff15cf461a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE_13/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE_13/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE_13/CMSSW_10_0_2-100X_upgrade2018_realistic_v10-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158774
+    "tstamp": 1543264280
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158775
+  "timestamp": 1543264282
 }

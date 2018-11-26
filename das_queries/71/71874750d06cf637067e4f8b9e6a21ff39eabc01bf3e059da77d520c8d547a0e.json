@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158380,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "39aaaedf89960e66793e7219f8d80dbd"
+      "qhash": "54ff2513a775c1ad547f5d45d93b8bc5"
     },
     {
       "das": {
-        "expire": 1539158380,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "39aaaedf89960e66793e7219f8d80dbd"
+      "qhash": "54ff2513a775c1ad547f5d45d93b8bc5"
     },
     {
       "das": {
-        "expire": 1539158380,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "39aaaedf89960e66793e7219f8d80dbd"
+      "qhash": "54ff2513a775c1ad547f5d45d93b8bc5"
     },
     {
       "das": {
-        "expire": 1539158380,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "39aaaedf89960e66793e7219f8d80dbd"
+      "qhash": "54ff2513a775c1ad547f5d45d93b8bc5"
     },
     {
       "das": {
-        "expire": 1539158380,
+        "expire": 1543264053,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,7 +204,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "39aaaedf89960e66793e7219f8d80dbd"
+      "qhash": "54ff2513a775c1ad547f5d45d93b8bc5"
     }
   ],
   "ecode": "",
@@ -226,17 +226,17 @@
         "1"
       ]
     },
-    "hash": "39aaaedf89960e66793e7219f8d80dbd",
+    "hash": "54ff2513a775c1ad547f5d45d93b8bc5",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE/CMSSW_5_2_1-START52_V4-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE/CMSSW_5_2_1-START52_V4-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE/CMSSW_5_2_1-START52_V4-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158379
+    "tstamp": 1543264051
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539158380
+  "timestamp": 1543264053
 }

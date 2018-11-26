@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158065,
+        "expire": 1543263895,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1332255802.8882599
         }
       ],
-      "qhash": "9379eb90028d1a03e5b0b41061f1a9a6"
+      "qhash": "a9d4f3b9e72b1187358df0ad7f7b7ae2"
     },
     {
       "das": {
-        "expire": 1539158065,
+        "expire": 1543263895,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1332255802.8882599
         }
       ],
-      "qhash": "9379eb90028d1a03e5b0b41061f1a9a6"
+      "qhash": "a9d4f3b9e72b1187358df0ad7f7b7ae2"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "9379eb90028d1a03e5b0b41061f1a9a6",
+    "hash": "a9d4f3b9e72b1187358df0ad7f7b7ae2",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158064
+    "tstamp": 1543263893
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158065
+  "timestamp": 1543263895
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539761206,
+        "expire": 1543263598,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1538383216.33498
         }
       ],
-      "qhash": "0be8a81e241a4d0009ab9cefa9c25df2"
+      "qhash": "b8a2f297ca9550ade91dc1008af7a45d"
     },
     {
       "das": {
-        "expire": 1539761206,
+        "expire": 1543263598,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1538383544.7847099
         }
       ],
-      "qhash": "0be8a81e241a4d0009ab9cefa9c25df2"
+      "qhash": "b8a2f297ca9550ade91dc1008af7a45d"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "0be8a81e241a4d0009ab9cefa9c25df2",
+    "hash": "b8a2f297ca9550ade91dc1008af7a45d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhotonJets_Pt_10_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539761204
+    "tstamp": 1543263597
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539761206
+  "timestamp": 1543263598
 }

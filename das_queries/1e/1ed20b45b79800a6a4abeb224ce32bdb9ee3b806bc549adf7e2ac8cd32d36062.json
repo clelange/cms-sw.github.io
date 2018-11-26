@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539157243,
+        "expire": 1543263576,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f53c5ad722daa542a2ca4152ba3d950f"
+      "qhash": "3aff0887d2708f043635b3a2a1fe1b9f"
     },
     {
       "das": {
-        "expire": 1539157243,
+        "expire": 1543263576,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "f53c5ad722daa542a2ca4152ba3d950f"
+      "qhash": "3aff0887d2708f043635b3a2a1fe1b9f"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "f53c5ad722daa542a2ca4152ba3d950f",
+    "hash": "3aff0887d2708f043635b3a2a1fe1b9f",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_9_2_12-PU25ns_92X_upgrade2017_realistic_v11-v1/MINIAODSIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_9_2_12-PU25ns_92X_upgrade2017_realistic_v11-v1/MINIAODSIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_9_2_12-PU25ns_92X_upgrade2017_realistic_v11-v1/MINIAODSIM"
     },
     "system": "",
-    "tstamp": 1539157242
+    "tstamp": 1543263575
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539157243
+  "timestamp": 1543263576
 }

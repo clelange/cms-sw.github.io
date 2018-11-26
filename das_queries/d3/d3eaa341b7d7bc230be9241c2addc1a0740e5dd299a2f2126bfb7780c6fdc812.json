@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539157606,
+        "expire": 1543263691,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469723579.17467
         }
       ],
-      "qhash": "44ce30c421f12e0326e746d25711bbdd"
+      "qhash": "9f4cf4ff3859f39637f95c1a6deca8bd"
     },
     {
       "das": {
-        "expire": 1539157606,
+        "expire": 1543263691,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469723680.2841201
         }
       ],
-      "qhash": "44ce30c421f12e0326e746d25711bbdd"
+      "qhash": "9f4cf4ff3859f39637f95c1a6deca8bd"
     },
     {
       "das": {
-        "expire": 1539157606,
+        "expire": 1543263691,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,7 +104,7 @@
           "time_create": 1469723680.2841201
         }
       ],
-      "qhash": "44ce30c421f12e0326e746d25711bbdd"
+      "qhash": "9f4cf4ff3859f39637f95c1a6deca8bd"
     }
   ],
   "ecode": "",
@@ -126,18 +126,18 @@
         "1"
       ]
     },
-    "hash": "44ce30c421f12e0326e746d25711bbdd",
+    "hash": "9f4cf4ff3859f39637f95c1a6deca8bd",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValJpsiMuMu_Pt-8/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValJpsiMuMu_Pt-8/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValJpsiMuMu_Pt-8/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539157604
+    "tstamp": 1543263690
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539157606
+  "timestamp": 1543263691
 }

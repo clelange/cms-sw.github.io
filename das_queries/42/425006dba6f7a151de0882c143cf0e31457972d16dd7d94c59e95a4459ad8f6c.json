@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156506,
+        "expire": 1543263362,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "856de991aad217df565e95539e014b16"
+      "qhash": "67b58d876811b803ca4d032941147d6a"
     },
     {
       "das": {
-        "expire": 1539156506,
+        "expire": 1543263362,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "856de991aad217df565e95539e014b16"
+      "qhash": "67b58d876811b803ca4d032941147d6a"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "856de991aad217df565e95539e014b16",
+    "hash": "67b58d876811b803ca4d032941147d6a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValPhotonJets_Pt_10_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValPhotonJets_Pt_10_13/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156505
+    "tstamp": 1543263361
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156506
+  "timestamp": 1543263362
 }

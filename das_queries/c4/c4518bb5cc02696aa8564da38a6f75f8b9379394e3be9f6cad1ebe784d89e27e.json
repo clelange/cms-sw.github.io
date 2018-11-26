@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155716,
+        "expire": 1543263084,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469716306.3141601
         }
       ],
-      "qhash": "950759b1abf6b36ffef855a5cae946d9"
+      "qhash": "9ae17e8c3e7da2f67071edeb3478694d"
     },
     {
       "das": {
-        "expire": 1539155716,
+        "expire": 1543263084,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1469716205.38849
         }
       ],
-      "qhash": "950759b1abf6b36ffef855a5cae946d9"
+      "qhash": "9ae17e8c3e7da2f67071edeb3478694d"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "950759b1abf6b36ffef855a5cae946d9",
+    "hash": "9ae17e8c3e7da2f67071edeb3478694d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValBeamHalo_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBeamHalo_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValBeamHalo_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539155715
+    "tstamp": 1543263083
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155716
+  "timestamp": 1543263084
 }

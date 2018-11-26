@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539155343,
+        "expire": 1543262942,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "728c94994351c9752e18b8c3891a88cc"
+      "qhash": "10fd1bd9749feff896d011b9a738c087"
     },
     {
       "das": {
-        "expire": 1539155343,
+        "expire": 1543262942,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "728c94994351c9752e18b8c3891a88cc"
+      "qhash": "10fd1bd9749feff896d011b9a738c087"
     },
     {
       "das": {
-        "expire": 1539155343,
+        "expire": 1543262942,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "728c94994351c9752e18b8c3891a88cc"
+      "qhash": "10fd1bd9749feff896d011b9a738c087"
     },
     {
       "das": {
-        "expire": 1539155343,
+        "expire": 1543262942,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "728c94994351c9752e18b8c3891a88cc"
+      "qhash": "10fd1bd9749feff896d011b9a738c087"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "728c94994351c9752e18b8c3891a88cc",
+    "hash": "10fd1bd9749feff896d011b9a738c087",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWjet_Pt_3000_3500_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWjet_Pt_3000_3500_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWjet_Pt_3000_3500_13/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539155341
+    "tstamp": 1543262939
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155343
+  "timestamp": 1543262942
 }

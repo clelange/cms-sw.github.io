@@ -1,9 +1,9 @@
 {
-  "ctime": 2,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543262935,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e4dcce690c3aeab592c085e01d7cefee"
+      "qhash": "311af943d96ea0b2de08fb3ea1a9687e"
     },
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543262935,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e4dcce690c3aeab592c085e01d7cefee"
+      "qhash": "311af943d96ea0b2de08fb3ea1a9687e"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "e4dcce690c3aeab592c085e01d7cefee",
+    "hash": "311af943d96ea0b2de08fb3ea1a9687e",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSingleGammaPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleGammaPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSingleGammaPt35_UP15/CMSSW_7_6_2-76X_mcRun2_asymptotic_v12-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539155332
+    "tstamp": 1543262933
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155335
+  "timestamp": 1543262935
 }

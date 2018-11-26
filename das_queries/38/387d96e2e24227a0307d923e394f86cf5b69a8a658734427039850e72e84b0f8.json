@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158097,
+        "expire": 1543263908,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "934af8cee791aaa6afbebc4aa52ad848"
+      "qhash": "ac8bebf3b02e0979c28a3d1746b13802"
     },
     {
       "das": {
-        "expire": 1539158097,
+        "expire": 1543263908,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "934af8cee791aaa6afbebc4aa52ad848"
+      "qhash": "ac8bebf3b02e0979c28a3d1746b13802"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "934af8cee791aaa6afbebc4aa52ad848",
+    "hash": "ac8bebf3b02e0979c28a3d1746b13802",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE_13/CMSSW_10_2_0_pre2-101X_upgrade2018_realistic_v7-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE_13/CMSSW_10_2_0_pre2-101X_upgrade2018_realistic_v7-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValZEE_13/CMSSW_10_2_0_pre2-101X_upgrade2018_realistic_v7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158096
+    "tstamp": 1543263907
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158097
+  "timestamp": 1543263908
 }

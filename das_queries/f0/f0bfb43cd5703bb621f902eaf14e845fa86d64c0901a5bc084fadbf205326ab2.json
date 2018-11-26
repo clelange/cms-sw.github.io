@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539155426,
+        "expire": 1543262986,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1470170006.1261201
         }
       ],
-      "qhash": "534bfd9715a5e3efaa43302a03dd3464"
+      "qhash": "381df274214a18ce353f2bc9e1fe45df"
     },
     {
       "das": {
-        "expire": 1539155426,
+        "expire": 1543262986,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,7 +69,7 @@
           "time_create": 1470170006.1261201
         }
       ],
-      "qhash": "534bfd9715a5e3efaa43302a03dd3464"
+      "qhash": "381df274214a18ce353f2bc9e1fe45df"
     }
   ],
   "ecode": "",
@@ -91,18 +91,18 @@
         "1"
       ]
     },
-    "hash": "534bfd9715a5e3efaa43302a03dd3464",
+    "hash": "381df274214a18ce353f2bc9e1fe45df",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTenMuE_0_200/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTenMuE_0_200/CMSSW_8_1_0_pre9-81X_upgrade2017_realistic_v6_UPG17newGT-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539155425
+    "tstamp": 1543262984
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155426
+  "timestamp": 1543262986
 }

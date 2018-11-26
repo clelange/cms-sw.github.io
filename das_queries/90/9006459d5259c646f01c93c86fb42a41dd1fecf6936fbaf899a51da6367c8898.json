@@ -1,9 +1,9 @@
 {
-  "ctime": 156,
+  "ctime": 63,
   "data": [
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,11 +128,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -171,11 +171,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -214,11 +214,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -257,11 +257,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -300,11 +300,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -343,11 +343,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     },
     {
       "das": {
-        "expire": 1539157131,
+        "expire": 1543263570,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -386,7 +386,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "e6ebb8f5079d77d8e7aaa005f38bf7a8"
+      "qhash": "e2fc784f3d78577bcb8bd29c13f4d4be"
     }
   ],
   "ecode": "",
@@ -408,18 +408,18 @@
         "1"
       ]
     },
-    "hash": "e6ebb8f5079d77d8e7aaa005f38bf7a8",
+    "hash": "e2fc784f3d78577bcb8bd29c13f4d4be",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/HLTPhysics/Run2015D-v1/RAW run=259721 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/HLTPhysics/Run2015D-v1/RAW run=259721  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/HLTPhysics/Run2015D-v1/RAW",
       "run": "259721"
     },
     "system": "",
-    "tstamp": 1539156974
+    "tstamp": 1543263506
   },
   "nresults": 9,
   "status": "ok",
-  "timestamp": 1539157131
+  "timestamp": 1543263570
 }

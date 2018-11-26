@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158645,
+        "expire": 1543264179,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7924958ee58953d8d13e0fd2548e0052"
+      "qhash": "35d2bf4caa111891e6557c6942e12f4c"
     },
     {
       "das": {
-        "expire": 1539158645,
+        "expire": 1543264179,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7924958ee58953d8d13e0fd2548e0052"
+      "qhash": "35d2bf4caa111891e6557c6942e12f4c"
     },
     {
       "das": {
-        "expire": 1539158645,
+        "expire": 1543264179,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7924958ee58953d8d13e0fd2548e0052"
+      "qhash": "35d2bf4caa111891e6557c6942e12f4c"
     },
     {
       "das": {
-        "expire": 1539158645,
+        "expire": 1543264179,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "7924958ee58953d8d13e0fd2548e0052"
+      "qhash": "35d2bf4caa111891e6557c6942e12f4c"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "7924958ee58953d8d13e0fd2548e0052",
+    "hash": "35d2bf4caa111891e6557c6942e12f4c",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_FlatPt_15_3000HS_13/CMSSW_9_1_0_pre3-91X_upgrade2017_realistic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_FlatPt_15_3000HS_13/CMSSW_9_1_0_pre3-91X_upgrade2017_realistic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_FlatPt_15_3000HS_13/CMSSW_9_1_0_pre3-91X_upgrade2017_realistic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158643
+    "tstamp": 1543264177
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158645
+  "timestamp": 1543264179
 }

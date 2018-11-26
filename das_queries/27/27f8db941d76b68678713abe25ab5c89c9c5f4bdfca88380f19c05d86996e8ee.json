@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539156916,
+        "expire": 1543263478,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "674d991ea4147b1096131a5d34a7c978"
+      "qhash": "ae6c6a7cb449943b830fb791672dcf9d"
     },
     {
       "das": {
-        "expire": 1539156916,
+        "expire": 1543263478,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "674d991ea4147b1096131a5d34a7c978"
+      "qhash": "ae6c6a7cb449943b830fb791672dcf9d"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "674d991ea4147b1096131a5d34a7c978",
+    "hash": "ae6c6a7cb449943b830fb791672dcf9d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValNuGun_UP15/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValNuGun_UP15/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValNuGun_UP15/CMSSW_9_0_0_pre4-90X_mcRun2_asymptotic_v1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539156914
+    "tstamp": 1543263477
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539156916
+  "timestamp": 1543263478
 }

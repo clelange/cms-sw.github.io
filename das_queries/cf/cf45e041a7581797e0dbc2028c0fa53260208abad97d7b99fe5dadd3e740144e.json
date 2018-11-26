@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 3,
   "data": [
     {
       "das": {
-        "expire": 1539156884,
+        "expire": 1543263466,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1469720215.33882
         }
       ],
-      "qhash": "20f611c2955ba8d48ead8d2880658b29"
+      "qhash": "3b956abd8022fd9423ed2131ad08aa97"
     },
     {
       "das": {
-        "expire": 1539156884,
+        "expire": 1543263466,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1469719914.6121299
         }
       ],
-      "qhash": "20f611c2955ba8d48ead8d2880658b29"
+      "qhash": "3b956abd8022fd9423ed2131ad08aa97"
     },
     {
       "das": {
-        "expire": 1539156884,
+        "expire": 1543263466,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1469718311.4795301
         }
       ],
-      "qhash": "20f611c2955ba8d48ead8d2880658b29"
+      "qhash": "3b956abd8022fd9423ed2131ad08aa97"
     },
     {
       "das": {
-        "expire": 1539156884,
+        "expire": 1543263466,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1469718913.68068
         }
       ],
-      "qhash": "20f611c2955ba8d48ead8d2880658b29"
+      "qhash": "3b956abd8022fd9423ed2131ad08aa97"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "20f611c2955ba8d48ead8d2880658b29",
+    "hash": "3b956abd8022fd9423ed2131ad08aa97",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValADDMonoJet_d3MD3_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValADDMonoJet_d3MD3_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValADDMonoJet_d3MD3_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539156883
+    "tstamp": 1543263462
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539156884
+  "timestamp": 1543263466
 }

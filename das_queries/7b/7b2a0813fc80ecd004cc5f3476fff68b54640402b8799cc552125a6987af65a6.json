@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158068,
+        "expire": 1543263897,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -34,11 +34,11 @@
           "time_create": 1424214950.1057701
         }
       ],
-      "qhash": "a827d0d9a0ad75a5f1c277684b8057ae"
+      "qhash": "012ef699ada759de53f75e9fecb43486"
     },
     {
       "das": {
-        "expire": 1539158068,
+        "expire": 1543263897,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -69,11 +69,11 @@
           "time_create": 1424214638.68345
         }
       ],
-      "qhash": "a827d0d9a0ad75a5f1c277684b8057ae"
+      "qhash": "012ef699ada759de53f75e9fecb43486"
     },
     {
       "das": {
-        "expire": 1539158068,
+        "expire": 1543263897,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -104,11 +104,11 @@
           "time_create": 1424215785.40574
         }
       ],
-      "qhash": "a827d0d9a0ad75a5f1c277684b8057ae"
+      "qhash": "012ef699ada759de53f75e9fecb43486"
     },
     {
       "das": {
-        "expire": 1539158068,
+        "expire": 1543263897,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -139,7 +139,7 @@
           "time_create": 1424215986.82568
         }
       ],
-      "qhash": "a827d0d9a0ad75a5f1c277684b8057ae"
+      "qhash": "012ef699ada759de53f75e9fecb43486"
     }
   ],
   "ecode": "",
@@ -161,18 +161,18 @@
         "1"
       ]
     },
-    "hash": "a827d0d9a0ad75a5f1c277684b8057ae",
+    "hash": "012ef699ada759de53f75e9fecb43486",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM",
       "site": "T2_CH_CERN*"
     },
     "system": "",
-    "tstamp": 1539158067
+    "tstamp": 1543263896
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158068
+  "timestamp": 1543263897
 }

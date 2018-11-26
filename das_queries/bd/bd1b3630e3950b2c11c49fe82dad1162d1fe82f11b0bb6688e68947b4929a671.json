@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158020,
+        "expire": 1543263298,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "278df5b4f754fd4699589ab846882a0f"
+      "qhash": "b0a9df3d3cf4d4dc5d168265da62d2fd"
     },
     {
       "das": {
-        "expire": 1539158020,
+        "expire": 1543263298,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "278df5b4f754fd4699589ab846882a0f"
+      "qhash": "b0a9df3d3cf4d4dc5d168265da62d2fd"
     },
     {
       "das": {
-        "expire": 1539158020,
+        "expire": 1543263298,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "278df5b4f754fd4699589ab846882a0f"
+      "qhash": "b0a9df3d3cf4d4dc5d168265da62d2fd"
     },
     {
       "das": {
-        "expire": 1539158020,
+        "expire": 1543263298,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "278df5b4f754fd4699589ab846882a0f"
+      "qhash": "b0a9df3d3cf4d4dc5d168265da62d2fd"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "278df5b4f754fd4699589ab846882a0f",
+    "hash": "b0a9df3d3cf4d4dc5d168265da62d2fd",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWjet_Pt_80_120_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWjet_Pt_80_120_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWjet_Pt_80_120_13/CMSSW_7_1_14-MCRUN2_71_V1-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158019
+    "tstamp": 1543263296
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158020
+  "timestamp": 1543263298
 }

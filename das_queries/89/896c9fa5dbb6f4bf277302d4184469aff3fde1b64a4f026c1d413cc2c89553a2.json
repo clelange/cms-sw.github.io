@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158242,
+        "expire": 1543263978,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "2262fdba6bc003252be9c67d2555eec2"
+      "qhash": "3ea9dd2275de82a0539eca5010e6b4b9"
     },
     {
       "das": {
-        "expire": 1539158242,
+        "expire": 1543263978,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "2262fdba6bc003252be9c67d2555eec2"
+      "qhash": "3ea9dd2275de82a0539eca5010e6b4b9"
     },
     {
       "das": {
-        "expire": 1539158242,
+        "expire": 1543263978,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "2262fdba6bc003252be9c67d2555eec2"
+      "qhash": "3ea9dd2275de82a0539eca5010e6b4b9"
     },
     {
       "das": {
-        "expire": 1539158242,
+        "expire": 1543263978,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "2262fdba6bc003252be9c67d2555eec2"
+      "qhash": "3ea9dd2275de82a0539eca5010e6b4b9"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "2262fdba6bc003252be9c67d2555eec2",
+    "hash": "3ea9dd2275de82a0539eca5010e6b4b9",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValWpM/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValWpM/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValWpM/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158241
+    "tstamp": 1543263977
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158242
+  "timestamp": 1543263978
 }

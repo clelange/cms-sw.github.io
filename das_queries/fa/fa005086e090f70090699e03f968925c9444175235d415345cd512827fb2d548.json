@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155875,
+        "expire": 1543263138,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "002c2577cb8f11188c93cd5a220d57b9"
+      "qhash": "ad6aca1c4906e3499664e33c0acf1895"
     },
     {
       "das": {
-        "expire": 1539155875,
+        "expire": 1543263138,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "002c2577cb8f11188c93cd5a220d57b9"
+      "qhash": "ad6aca1c4906e3499664e33c0acf1895"
     },
     {
       "das": {
-        "expire": 1539155875,
+        "expire": 1543263138,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "002c2577cb8f11188c93cd5a220d57b9"
+      "qhash": "ad6aca1c4906e3499664e33c0acf1895"
     },
     {
       "das": {
-        "expire": 1539155875,
+        "expire": 1543263138,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "002c2577cb8f11188c93cd5a220d57b9"
+      "qhash": "ad6aca1c4906e3499664e33c0acf1895"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "002c2577cb8f11188c93cd5a220d57b9",
+    "hash": "ad6aca1c4906e3499664e33c0acf1895",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValTTbar_13/CMSSW_8_1_0_pre15-81X_upgrade2017_realistic_v17_BpixFpixHcalGeom-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155874
+    "tstamp": 1543263137
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155875
+  "timestamp": 1543263138
 }
