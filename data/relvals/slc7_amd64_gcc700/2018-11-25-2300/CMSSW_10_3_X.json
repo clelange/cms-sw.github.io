@@ -2955,6 +2955,19 @@
     },
     {
         "exitcode": 0,
+        "id": "124.2",
+        "known_error": 0,
+        "name": "ZTT+ZTTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 408
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.4",
         "known_error": 0,
         "name": "SinglePiPt10+SinglePiPt10FS",
@@ -3810,6 +3823,34 @@
             },
             {
                 "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.902",
+        "known_error": 0,
+        "name": "RunDoubleEG2015D+RunDoubleEG2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 214,
+                "status": "PASSED",
+                "warnings": 2086
+            },
+            {
+                "errors": 32,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -4689,6 +4730,34 @@
                 "errors": 349,
                 "status": "PASSED",
                 "warnings": 16445
+            },
+            {
+                "errors": 1282,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.752",
+        "known_error": 0,
+        "name": "RunMuonEG2016D+RunMuonEG2016D+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 178,
+                "status": "PASSED",
+                "warnings": 191
+            },
+            {
+                "errors": 390,
+                "status": "PASSED",
+                "warnings": 12315
             },
             {
                 "errors": 1282,
