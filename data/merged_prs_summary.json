@@ -16730,11 +16730,13 @@
             {
                 "comp_baseline_state": "ok", 
                 "tests_archs": [
-                    "slc7_amd64_gcc700"
+                    "slc7_amd64_gcc700", 
+                    "slc6_amd64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
-                    "slc7_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-2300/slc7_amd64_gcc700"
+                    "slc7_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-2300/slc7_amd64_gcc700", 
+                    "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-25-2300/slc6_amd64_gcc700"
                 }, 
                 "flawfinder": "inprogress", 
                 "next_ib": false, 
@@ -16746,6 +16748,12 @@
                 "ib_date": "2018-11-25-2300-0000", 
                 "relvals": [], 
                 "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-23/CMSSW_10_4_X_2018-11-25-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "unknown", 
@@ -16788,6 +16796,14 @@
                 "base_branch": "CMSSW_10_4_X", 
                 "release_name": "CMSSW_10_4_X_2018-11-25-2300", 
                 "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-23/CMSSW_10_4_X_2018-11-25-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 690
+                        }
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "passed", 
