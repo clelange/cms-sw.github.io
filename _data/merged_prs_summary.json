@@ -376,7 +376,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1178, 
+                            "num_passed": 1556, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -387,8 +387,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1259, 
-                            "known_failed": 0, 
+                            "num_passed": 1375, 
+                            "known_failed": 2, 
                             "num_failed": 0
                         }
                     }
@@ -8034,7 +8034,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3-mon-11/CMSSW_10_3_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 975, 
+                            "num_passed": 1158, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -12457,6 +12457,15 @@
                         "author_login": "pieterdavid"
                     }, 
                     {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -12464,6 +12473,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
                     }, 
                     {
                         "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
@@ -12633,6 +12651,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
                         "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                         "title": "Regression tests update for new boost serialisation change", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -12642,15 +12669,6 @@
                         "author_login": "ggovi"
                     }, 
                     {
-                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
-                        "title": "Added support for condor instead of LSF for APE tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
-                        "number": "25287", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mteroerd"
-                    }, 
-                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -12658,6 +12676,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
                     }
                 ], 
                 "fwlite": [], 
@@ -12706,7 +12742,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.CLANG-sun-23/CMSSW_10_4_CLANG_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2551, 
+                            "num_passed": 2559, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -13584,6 +13620,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
                         "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                         "title": "Regression tests update for new boost serialisation change", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -13593,15 +13638,6 @@
                         "author_login": "ggovi"
                     }, 
                     {
-                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
-                        "title": "Added support for condor instead of LSF for APE tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
-                        "number": "25287", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mteroerd"
-                    }, 
-                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -13609,6 +13645,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
                     }
                 ], 
                 "fwlite": [], 
@@ -14539,6 +14593,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
                         "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                         "title": "Regression tests update for new boost serialisation change", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -14548,15 +14611,6 @@
                         "author_login": "ggovi"
                     }, 
                     {
-                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
-                        "title": "Added support for condor instead of LSF for APE tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
-                        "number": "25287", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mteroerd"
-                    }, 
-                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -14564,6 +14618,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
                     }
                 ], 
                 "fwlite": [], 
@@ -15489,6 +15561,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
                         "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                         "title": "Regression tests update for new boost serialisation change", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -15498,15 +15579,6 @@
                         "author_login": "ggovi"
                     }, 
                     {
-                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
-                        "title": "Added support for condor instead of LSF for APE tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
-                        "number": "25287", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "mteroerd"
-                    }, 
-                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -15514,6 +15586,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
                     }
                 ], 
                 "fwlite": [], 
@@ -16423,6 +16513,15 @@
                         "author_login": "pieterdavid"
                     }, 
                     {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -16430,6 +16529,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
                     }, 
                     {
                         "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
@@ -16641,6 +16749,15 @@
                         "author_login": "pieterdavid"
                     }, 
                     {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
                         "hash": "6ee75897a8b3fb4224469ef4ab423a382bdbada7", 
                         "title": "Fix leak from HepPDT::HeavyIonUnknownID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25298", 
@@ -16648,6 +16765,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
                     }, 
                     {
                         "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
@@ -16829,6 +16955,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                        "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                        "number": "25329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
                         "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                         "title": "Regression tests update for new boost serialisation change", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -16836,6 +16971,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                        "number": "25325", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
                     }, 
                     {
                         "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
@@ -16897,7 +17041,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.4-mon-11/CMSSW_10_4_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 854, 
+                            "num_passed": 1051, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16908,7 +17052,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.4-mon-11/CMSSW_10_4_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1458, 
+                            "num_passed": 1509, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -16919,7 +17063,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/10.4-mon-11/CMSSW_10_4_X_2018-11-26-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1383, 
+                            "num_passed": 1407, 
                             "known_failed": 13, 
                             "num_failed": 16
                         }
@@ -17088,9 +17232,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.4-sun-23/CMSSW_10_4_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 79, 
+                            "num_passed": 549, 
                             "known_failed": 6, 
-                            "num_failed": 92
+                            "num_failed": 101
                         }
                     }
                 ], 

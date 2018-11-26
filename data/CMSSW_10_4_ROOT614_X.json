@@ -20,6 +20,15 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "140ea2378f3e6070db7c3e1e1b11871636c5d106", 
+                    "title": "Fixed mkdqmedanalyzer and added new sample histograms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25329", 
+                    "number": "25329", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andrius-k"
+                }, 
+                {
                     "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
                     "title": "Regression tests update for new boost serialisation change", 
                     "url": "https://github.com/cms-sw/cmssw/pull/25318", 
@@ -29,15 +38,6 @@
                     "author_login": "ggovi"
                 }, 
                 {
-                    "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
-                    "title": "Added support for condor instead of LSF for APE tool", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/25287", 
-                    "number": "25287", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mteroerd"
-                }, 
-                {
                     "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                     "title": "Made RawPCCProducer a global module", 
                     "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -45,6 +45,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "284249be5d80cb505a0d7d0900828379a1db651c", 
+                    "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25325", 
+                    "number": "25325", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                    "title": "Added support for condor instead of LSF for APE tool", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                    "number": "25287", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mteroerd"
                 }
             ], 
             "fwlite": [], 
