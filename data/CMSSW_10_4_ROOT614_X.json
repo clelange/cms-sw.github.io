@@ -20,6 +20,24 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                    "title": "Regression tests update for new boost serialisation change", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                    "number": "25318", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                    "title": "Added support for condor instead of LSF for APE tool", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                    "number": "25287", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mteroerd"
+                }, 
+                {
                     "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                     "title": "Made RawPCCProducer a global module", 
                     "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -72,12 +90,12 @@
                 {
                     "done": false, 
                     "arch": "slc7_amd64_gcc700", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.ROOT614-sun-23/CMSSW_10_4_ROOT614_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1799, 
+                        "num_passed": 2059, 
                         "known_failed": 0, 
-                        "num_failed": 0
+                        "num_failed": 1
                     }
                 }
             ], 

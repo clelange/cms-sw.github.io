@@ -395,8 +395,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-23/CMSSW_10_2_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2456, 
-                            "known_failed": 3, 
+                            "num_passed": 419, 
+                            "known_failed": 1, 
                             "num_failed": 0
                         }
                     }, 
@@ -7991,8 +7991,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2399, 
-                            "known_failed": 1, 
+                            "num_passed": 2593, 
+                            "known_failed": 4, 
                             "num_failed": 0
                         }
                     }
@@ -8077,7 +8077,7 @@
                         "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -12317,6 +12317,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
                         "hash": "8a0556fe93a96319e4d3bacf42bc17cb24146c0b", 
                         "title": "Discard Beamspot fit results when d0-phi fit status is unknown", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25319", 
@@ -12353,13 +12362,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
-                        "title": "Fix two memory leaks in pixel and strip digitizers", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
-                        "number": "25294", 
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "mteroerd"
                     }, 
                     {
                         "hash": "1d37274a8200dacfba9b90644d6cbee9fc3dc8f1", 
@@ -12396,6 +12405,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
+                        "title": "Fix two memory leaks in pixel and strip digitizers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
+                        "number": "25294", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
@@ -12511,6 +12529,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
+                    }, 
+                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -12566,7 +12602,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.CLANG-sun-23/CMSSW_10_4_CLANG_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1127, 
+                            "num_passed": 1376, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -13444,6 +13480,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
+                    }, 
+                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -13499,9 +13553,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.DEVEL-sun-23/CMSSW_10_4_DEVEL_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2620, 
+                            "num_passed": 2644, 
                             "known_failed": 0, 
-                            "num_failed": 1
+                            "num_failed": 3
                         }
                     }
                 ], 
@@ -14381,6 +14435,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
+                    }, 
+                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -14433,12 +14505,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_amd64_gcc700", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.ROOT614-sun-23/CMSSW_10_4_ROOT614_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1799, 
+                            "num_passed": 2059, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -15313,6 +15385,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
+                    }, 
+                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -15368,9 +15458,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4.ROOT6-sun-23/CMSSW_10_4_ROOT6_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2297, 
+                            "num_passed": 2374, 
                             "known_failed": 0, 
-                            "num_failed": 1
+                            "num_failed": 2
                         }
                     }
                 ], 
@@ -16193,6 +16283,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
                         "hash": "8a0556fe93a96319e4d3bacf42bc17cb24146c0b", 
                         "title": "Discard Beamspot fit results when d0-phi fit status is unknown", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25319", 
@@ -16229,13 +16328,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
-                        "title": "Fix two memory leaks in pixel and strip digitizers", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
-                        "number": "25294", 
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "mteroerd"
                     }, 
                     {
                         "hash": "1d37274a8200dacfba9b90644d6cbee9fc3dc8f1", 
@@ -16272,6 +16371,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
+                        "title": "Fix two memory leaks in pixel and strip digitizers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
+                        "number": "25294", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
@@ -16393,6 +16501,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
                         "hash": "8a0556fe93a96319e4d3bacf42bc17cb24146c0b", 
                         "title": "Discard Beamspot fit results when d0-phi fit status is unknown", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25319", 
@@ -16429,13 +16546,13 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
-                        "title": "Fix two memory leaks in pixel and strip digitizers", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
-                        "number": "25294", 
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "mteroerd"
                     }, 
                     {
                         "hash": "1d37274a8200dacfba9b90644d6cbee9fc3dc8f1", 
@@ -16472,6 +16589,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "e3e1d310dad3832bb1a37067066763bd9db93977", 
+                        "title": "Fix two memory leaks in pixel and strip digitizers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25294", 
+                        "number": "25294", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "219957e14f149af211b6e5b95dc2705ea1ee2805", 
@@ -16599,6 +16725,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1ea14e4b570bf5a72dc1e059cffc357c60de1025", 
+                        "title": "Regression tests update for new boost serialisation change", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25318", 
+                        "number": "25318", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ggovi"
+                    }, 
+                    {
+                        "hash": "927e11d64d19cfcfcb4e54379d64a13ee359d7fb", 
+                        "title": "Added support for condor instead of LSF for APE tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25287", 
+                        "number": "25287", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mteroerd"
+                    }, 
+                    {
                         "hash": "2db2990badedc2050e2495f0d54ddd4d22a415b7", 
                         "title": "Made RawPCCProducer a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25330", 
@@ -16671,7 +16815,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.4-sun-23/CMSSW_10_4_X_2018-11-25-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 257, 
+                            "num_passed": 789, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16777,7 +16921,7 @@
                 "static_checks_v2": "inprogress", 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
