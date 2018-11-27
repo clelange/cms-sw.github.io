@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 4,
   "data": [
     {
       "das": {
-        "expire": 1539156902,
+        "expire": 1543306289,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4541c25851670b8aeb7fead2464f6512"
+      "qhash": "eb437eabb2735738207d9b99ec25aac7"
     },
     {
       "das": {
-        "expire": 1539156902,
+        "expire": 1543306289,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,11 +85,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4541c25851670b8aeb7fead2464f6512"
+      "qhash": "eb437eabb2735738207d9b99ec25aac7"
     },
     {
       "das": {
-        "expire": 1539156902,
+        "expire": 1543306289,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -128,7 +128,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4541c25851670b8aeb7fead2464f6512"
+      "qhash": "eb437eabb2735738207d9b99ec25aac7"
     }
   ],
   "ecode": "",
@@ -150,18 +150,18 @@
         "1"
       ]
     },
-    "hash": "4541c25851670b8aeb7fead2464f6512",
+    "hash": "eb437eabb2735738207d9b99ec25aac7",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/MET/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_met2015B-v1/RECO run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/MET/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_met2015B-v1/RECO run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MET/CMSSW_7_6_2-76X_dataRun2_v15_rerecoGT_RelVal_met2015B-v1/RECO",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539156901
+    "tstamp": 1543306284
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1539156902
+  "timestamp": 1543306289
 }

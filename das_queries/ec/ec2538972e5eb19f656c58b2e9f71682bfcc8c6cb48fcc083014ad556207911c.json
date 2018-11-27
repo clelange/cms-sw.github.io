@@ -1,9 +1,9 @@
 {
-  "ctime": 226,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539198778,
+        "expire": 1543306154,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,11 +42,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5c3f41b3c96c633741c9b8889f0f099b"
+      "qhash": "64c14b4182744763ae4e0dbfe583b58e"
     },
     {
       "das": {
-        "expire": 1539198778,
+        "expire": 1543306154,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -85,7 +85,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5c3f41b3c96c633741c9b8889f0f099b"
+      "qhash": "64c14b4182744763ae4e0dbfe583b58e"
     }
   ],
   "ecode": "",
@@ -107,18 +107,18 @@
         "1"
       ]
     },
-    "hash": "5c3f41b3c96c633741c9b8889f0f099b",
+    "hash": "64c14b4182744763ae4e0dbfe583b58e",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/SinglePhoton/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/SinglePhoton/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SinglePhoton/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539198551
+    "tstamp": 1543306151
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539198778
+  "timestamp": 1543306154
 }

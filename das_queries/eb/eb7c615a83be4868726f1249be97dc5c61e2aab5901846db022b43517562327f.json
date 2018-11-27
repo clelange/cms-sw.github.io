@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155431,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -127,11 +127,11 @@
           ]
         }
       ],
-      "qhash": "6bd9e046d8dfae4def2e7b5051b4a0a6"
+      "qhash": "c73f01ed268cd263c083b875cff1d9cd"
     },
     {
       "das": {
-        "expire": 1539155431,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -175,7 +175,7 @@
           ]
         }
       ],
-      "qhash": "6bd9e046d8dfae4def2e7b5051b4a0a6"
+      "qhash": "c73f01ed268cd263c083b875cff1d9cd"
     }
   ],
   "ecode": "",
@@ -198,18 +198,18 @@
         "1"
       ]
     },
-    "hash": "6bd9e046d8dfae4def2e7b5051b4a0a6",
+    "hash": "c73f01ed268cd263c083b875cff1d9cd",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO run=254879 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO run=254879  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/SingleMuon/Run2015C-ZMu-PromptReco-v1/RAW-RECO",
       "run": "254879"
     },
     "system": "",
-    "tstamp": 1539155429
+    "tstamp": 1543306162
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539155431
+  "timestamp": 1543306164
 }

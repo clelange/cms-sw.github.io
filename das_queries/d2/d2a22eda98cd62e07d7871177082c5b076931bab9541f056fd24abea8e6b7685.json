@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 2,
   "data": [
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -51,11 +51,11 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     },
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     },
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -199,11 +199,11 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     },
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -223,11 +223,11 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     },
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -300,11 +300,11 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     },
     {
       "das": {
-        "expire": 1539156941,
+        "expire": 1543306291,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -392,7 +392,7 @@
           ]
         }
       ],
-      "qhash": "dc24719183dcac5dc6430e0f95e3e27d"
+      "qhash": "58791c7485c393fede79b47dd5711710"
     }
   ],
   "ecode": "",
@@ -415,18 +415,18 @@
         "1"
       ]
     },
-    "hash": "dc24719183dcac5dc6430e0f95e3e27d",
+    "hash": "58791c7485c393fede79b47dd5711710",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/MuOnia/Run2017B-v1/RAW run=297227 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/MuOnia/Run2017B-v1/RAW run=297227  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MuOnia/Run2017B-v1/RAW",
       "run": "297227"
     },
     "system": "",
-    "tstamp": 1539156939
+    "tstamp": 1543306288
   },
   "nresults": 6,
   "status": "ok",
-  "timestamp": 1539156941
+  "timestamp": 1543306291
 }

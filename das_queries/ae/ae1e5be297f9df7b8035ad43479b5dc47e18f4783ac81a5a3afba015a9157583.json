@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543306182,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57fa5b1c3edb53fa7b7d5e909ca03a44"
+      "qhash": "41cdad912de047b7bebee76ae66761e0"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543306182,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57fa5b1c3edb53fa7b7d5e909ca03a44"
+      "qhash": "41cdad912de047b7bebee76ae66761e0"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543306182,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57fa5b1c3edb53fa7b7d5e909ca03a44"
+      "qhash": "41cdad912de047b7bebee76ae66761e0"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543306182,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,11 +163,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57fa5b1c3edb53fa7b7d5e909ca03a44"
+      "qhash": "41cdad912de047b7bebee76ae66761e0"
     },
     {
       "das": {
-        "expire": 1539158310,
+        "expire": 1543306182,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -204,7 +204,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "57fa5b1c3edb53fa7b7d5e909ca03a44"
+      "qhash": "41cdad912de047b7bebee76ae66761e0"
     }
   ],
   "ecode": "",
@@ -226,17 +226,17 @@
         "1"
       ]
     },
-    "hash": "57fa5b1c3edb53fa7b7d5e909ca03a44",
+    "hash": "41cdad912de047b7bebee76ae66761e0",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValSMS-T1tttt_mGl-1500_mLSP-100_13/CMSSW_9_2_4-91X_mcRun2_asymptotic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158309
+    "tstamp": 1543306181
   },
   "nresults": 5,
   "status": "ok",
-  "timestamp": 1539158310
+  "timestamp": 1543306182
 }

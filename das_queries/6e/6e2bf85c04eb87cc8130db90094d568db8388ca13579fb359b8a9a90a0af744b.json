@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 3,
   "data": [
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -216,11 +216,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -348,11 +348,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -480,11 +480,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -544,11 +544,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -684,11 +684,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -809,11 +809,11 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     },
     {
       "das": {
-        "expire": 1539158791,
+        "expire": 1543306164,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -945,7 +945,7 @@
           ]
         }
       ],
-      "qhash": "e4b5d42db7344369e4f4cd5d1a3272ba"
+      "qhash": "1bea6fc41c33fd0e02dd17af29d7aebf"
     }
   ],
   "ecode": "",
@@ -968,18 +968,18 @@
         "1"
       ]
     },
-    "hash": "e4b5d42db7344369e4f4cd5d1a3272ba",
+    "hash": "1bea6fc41c33fd0e02dd17af29d7aebf",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "lumi,file dataset=/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO run=254790 | grep file.name | sort file.name | unique",
+    "query": "lumi,file dataset=/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO run=254790  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO",
       "run": "254790"
     },
     "system": "",
-    "tstamp": 1539158789
+    "tstamp": 1543306160
   },
   "nresults": 7,
   "status": "ok",
-  "timestamp": 1539158791
+  "timestamp": 1543306164
 }

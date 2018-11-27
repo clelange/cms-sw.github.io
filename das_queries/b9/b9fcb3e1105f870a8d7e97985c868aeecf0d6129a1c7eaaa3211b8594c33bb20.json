@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539156360,
+        "expire": 1543306241,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "3707a57b9a8f97d9e0344875d5a23f9f"
+      "qhash": "5eefbdbb2f68a5315c461e6260137509"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "3707a57b9a8f97d9e0344875d5a23f9f",
+    "hash": "5eefbdbb2f68a5315c461e6260137509",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/MET/Run2015B-v1/RAW run=251251 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/MET/Run2015B-v1/RAW run=251251  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/MET/Run2015B-v1/RAW",
       "run": "251251"
     },
     "system": "",
-    "tstamp": 1539156357
+    "tstamp": 1543306238
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539156360
+  "timestamp": 1543306241
 }

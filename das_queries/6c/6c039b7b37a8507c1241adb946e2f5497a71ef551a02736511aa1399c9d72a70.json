@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539155989,
+        "expire": 1543306152,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d510419b9e5d9fe41ca72e2844f3e880"
+      "qhash": "edc802d1cd58c9ffc1646df7a594d87c"
     },
     {
       "das": {
-        "expire": 1539155989,
+        "expire": 1543306152,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d510419b9e5d9fe41ca72e2844f3e880"
+      "qhash": "edc802d1cd58c9ffc1646df7a594d87c"
     },
     {
       "das": {
-        "expire": 1539155989,
+        "expire": 1543306152,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d510419b9e5d9fe41ca72e2844f3e880"
+      "qhash": "edc802d1cd58c9ffc1646df7a594d87c"
     },
     {
       "das": {
-        "expire": 1539155989,
+        "expire": 1543306152,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "d510419b9e5d9fe41ca72e2844f3e880"
+      "qhash": "edc802d1cd58c9ffc1646df7a594d87c"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "d510419b9e5d9fe41ca72e2844f3e880",
+    "hash": "edc802d1cd58c9ffc1646df7a594d87c",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBiasFS_13_ForMixing/CMSSW_8_1_0_pre4-80X_mcRun2_asymptotic_v13_FastSim-v1/GEN-SIM-RECO | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBiasFS_13_ForMixing/CMSSW_8_1_0_pre4-80X_mcRun2_asymptotic_v13_FastSim-v1/GEN-SIM-RECO  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValMinBiasFS_13_ForMixing/CMSSW_8_1_0_pre4-80X_mcRun2_asymptotic_v13_FastSim-v1/GEN-SIM-RECO"
     },
     "system": "",
-    "tstamp": 1539155988
+    "tstamp": 1543306150
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155989
+  "timestamp": 1543306152
 }

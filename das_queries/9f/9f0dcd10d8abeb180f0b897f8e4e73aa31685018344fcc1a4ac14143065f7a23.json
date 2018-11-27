@@ -1,9 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1539158106,
+        "expire": 1543306448,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4968358486fba499cf92d5eba95ee3e2"
+      "qhash": "597223c6290d53d259eed4ee8197dc4d"
     },
     {
       "das": {
-        "expire": 1539158106,
+        "expire": 1543306448,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4968358486fba499cf92d5eba95ee3e2"
+      "qhash": "597223c6290d53d259eed4ee8197dc4d"
     },
     {
       "das": {
-        "expire": 1539158106,
+        "expire": 1543306448,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4968358486fba499cf92d5eba95ee3e2"
+      "qhash": "597223c6290d53d259eed4ee8197dc4d"
     },
     {
       "das": {
-        "expire": 1539158106,
+        "expire": 1543306448,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "4968358486fba499cf92d5eba95ee3e2"
+      "qhash": "597223c6290d53d259eed4ee8197dc4d"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "4968358486fba499cf92d5eba95ee3e2",
+    "hash": "597223c6290d53d259eed4ee8197dc4d",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValRSGravitonToGaGa_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValRSGravitonToGaGa_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValRSGravitonToGaGa_13/CMSSW_8_1_0_pre9_Geant4102-81X_mcRun2_asymptotic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158105
+    "tstamp": 1543306446
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539158106
+  "timestamp": 1543306448
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 0,
   "data": [
     {
       "das": {
-        "expire": 1539158317,
+        "expire": 1543306491,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "88f338eb66b279ffef675eb979a0ae94"
+      "qhash": "9cbb161930cef3b9523d2c96e601d6fc"
     },
     {
       "das": {
-        "expire": 1539158317,
+        "expire": 1543306491,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,7 +81,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "88f338eb66b279ffef675eb979a0ae94"
+      "qhash": "9cbb161930cef3b9523d2c96e601d6fc"
     }
   ],
   "ecode": "",
@@ -103,17 +103,17 @@
         "1"
       ]
     },
-    "hash": "88f338eb66b279ffef675eb979a0ae94",
+    "hash": "9cbb161930cef3b9523d2c96e601d6fc",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQQH1352T_13/CMSSW_10_1_0_pre3-101X_upgrade2018_realistic_v3-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQQH1352T_13/CMSSW_10_1_0_pre3-101X_upgrade2018_realistic_v3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQQH1352T_13/CMSSW_10_1_0_pre3-101X_upgrade2018_realistic_v3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539158315
+    "tstamp": 1543306490
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1539158317
+  "timestamp": 1543306491
 }

@@ -1,9 +1,9 @@
 {
-  "ctime": 1,
+  "ctime": 54,
   "data": [
     {
       "das": {
-        "expire": 1539157717,
+        "expire": 1543306428,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -42,7 +42,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "5b7bec4fe99c64f6614ee601fa810b33"
+      "qhash": "a40dd1ecb3ce2f462b5d6fbded819bf0"
     }
   ],
   "ecode": "",
@@ -64,18 +64,18 @@
         "1"
       ]
     },
-    "hash": "5b7bec4fe99c64f6614ee601fa810b33",
+    "hash": "a40dd1ecb3ce2f462b5d6fbded819bf0",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO run=254879 | grep file.name | sort file.name | unique",
+    "query": "file dataset=/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO run=254879  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/DoubleEG/Run2015C-ZElectron-PromptReco-v1/RAW-RECO",
       "run": "254879"
     },
     "system": "",
-    "tstamp": 1539157715
+    "tstamp": 1543306373
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1539157717
+  "timestamp": 1543306428
 }

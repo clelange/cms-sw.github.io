@@ -3,7 +3,7 @@
   "data": [
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543306134,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -40,11 +40,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "592a4d2375925c0d9ebdf23a85fa7afa"
+      "qhash": "2244a08e5f94db474566b5be4e65094a"
     },
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543306134,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -81,11 +81,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "592a4d2375925c0d9ebdf23a85fa7afa"
+      "qhash": "2244a08e5f94db474566b5be4e65094a"
     },
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543306134,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -122,11 +122,11 @@
           "type": "EDM"
         }
       ],
-      "qhash": "592a4d2375925c0d9ebdf23a85fa7afa"
+      "qhash": "2244a08e5f94db474566b5be4e65094a"
     },
     {
       "das": {
-        "expire": 1539155335,
+        "expire": 1543306134,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -163,7 +163,7 @@
           "type": "EDM"
         }
       ],
-      "qhash": "592a4d2375925c0d9ebdf23a85fa7afa"
+      "qhash": "2244a08e5f94db474566b5be4e65094a"
     }
   ],
   "ecode": "",
@@ -185,17 +185,17 @@
         "1"
       ]
     },
-    "hash": "592a4d2375925c0d9ebdf23a85fa7afa",
+    "hash": "2244a08e5f94db474566b5be4e65094a",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_600_800/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
       "dataset": "/RelValQCD_Pt_600_800/CMSSW_9_2_4-91X_mcRun1_realistic_v2-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1539155334
+    "tstamp": 1543306133
   },
   "nresults": 4,
   "status": "ok",
-  "timestamp": 1539155335
+  "timestamp": 1543306134
 }
