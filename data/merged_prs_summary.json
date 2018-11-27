@@ -8129,12 +8129,12 @@
                 "ib_date": "2018-11-27-1100-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc700", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3-tue-11/CMSSW_10_3_X_2018-11-27-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2693, 
+                            "num_passed": 2742, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14986,7 +14986,7 @@
                         "details": {
                             "num_passed": 2730, 
                             "known_failed": 0, 
-                            "num_failed": 6
+                            "num_failed": 7
                         }
                     }
                 ], 
@@ -17493,7 +17493,13 @@
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
                 ], 
-                "static_checks_failures": "not-found", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc6_amd64_gcc700", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-26-2300/slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2018-11-26-2300/slc6_amd64_gcc700"
@@ -17576,12 +17582,15 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc6_amd64_gcc700"
+                }, 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
                 "igprof": "found", 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
