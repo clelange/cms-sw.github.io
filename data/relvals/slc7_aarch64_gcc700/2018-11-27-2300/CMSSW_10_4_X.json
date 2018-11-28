@@ -1123,6 +1123,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.836",
+        "known_error": 0,
+        "name": "RunSinglePh2017F+RunSinglePh2017F+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 204,
+                "status": "FAILED",
+                "warnings": 609
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.842",
         "known_error": 0,
         "name": "RunDisplacedJet2017E+RunDisplacedJet2017E+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
@@ -1260,6 +1283,29 @@
         ]
     },
     {
+        "exitcode": 31744,
+        "id": "136.883",
+        "known_error": 0,
+        "name": "RunDisplacedJet2018C+RunDisplacedJet2018C+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 49
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 346
+            }
+        ]
+    },
+    {
         "exitcode": 16640,
         "id": "529.0",
         "known_error": 1,
@@ -1356,6 +1402,21 @@
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
         "known_failed_step": 1,
         "name": "BulkG_ZZ_2L2Q_M1200_narrow_13TeV_pythia8+BulkG_M1200_narrow_2L2Q_LHE_13TeV+Hadronizer_TuneCUETP8M1_Mad_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "1360.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
             {
                 "errors": 0,
@@ -4717,6 +4778,213 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 38
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "125.0",
+        "known_error": 0,
+        "name": "ZPrime5000Dijet+ZPrime5000Dijet+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 76
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "126.0",
+        "known_error": 0,
+        "name": "SingleElectronFlatPt5To100+SingleElectronFlatPt5To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 75
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "127.0",
+        "known_error": 0,
+        "name": "SingleGammaFlatPt10To100+SingleGammaFlatPt10To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 90
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "128.0",
+        "known_error": 0,
+        "name": "SingleMuPt1HS+SingleMuPt1HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 67
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "129.0",
+        "known_error": 0,
+        "name": "SinglePiPt1+SinglePiPt1+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 67
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "130.0",
+        "known_error": 0,
+        "name": "SinglePiPt10+SinglePiPt10+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 72
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "131.0",
+        "known_error": 0,
+        "name": "SinglePiPt100+SinglePiPt100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 75
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "132.0",
+        "known_error": 0,
+        "name": "LM9p+LM9p+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 68
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "133.0",
+        "known_error": 0,
+        "name": "RSGrav+RSGrav+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 110
             }
         ]
     },
@@ -10584,6 +10852,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 393
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4007.0",
+        "known_error": 0,
+        "name": "QCD_Pt_30_80_BCtoE_8TeV+QCD_Pt_30_80_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
             }
         ]
     },
