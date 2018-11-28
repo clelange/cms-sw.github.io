@@ -2212,7 +2212,6 @@
         {
             "comp_baseline_state": "ok", 
             "tests_archs": [
-                "slc7_amd64_gcc820", 
                 "slc7_aarch64_gcc700", 
                 "slc6_amd64_gcc700"
             ], 
@@ -2258,17 +2257,6 @@
                 }, 
                 {
                     "done": true, 
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2722, 
-                        "known_failed": 0, 
-                        "num_failed": 12
-                    }
-                }, 
-                {
-                    "done": true, 
                     "arch": "slc7_aarch64_gcc700", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -2286,14 +2274,6 @@
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/unitTests-summary.log", 
                     "details": {
                         "num_fails": "1"
-                    }
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "3"
                     }
                 }, 
                 {
@@ -2367,14 +2347,6 @@
                     }
                 }, 
                 {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 20971
-                    }
-                }, 
-                {
                     "arch": "slc7_aarch64_gcc700", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/new/logAnalysis.pkl", 
@@ -2400,12 +2372,6 @@
                     "arch": "slc6_amd64_gcc700", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc820", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-20-2300/addOnTests.log", 
                     "details": {}
                 }, 
                 {
