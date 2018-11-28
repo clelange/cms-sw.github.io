@@ -70,7 +70,30 @@
                 }
             ], 
             "ib_date": "2018-11-28-2300-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-11-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-11-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 35, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
             "igprof": "inprogress", 
             "release_queue": "CMSSW_10_3_X", 
             "comp_baseline": "inprogress", 
@@ -159,7 +182,20 @@
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-11-28-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-11-28-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {
@@ -1657,7 +1693,7 @@
             "RVExceptions": null, 
             "fwlite": [], 
             "compared_tags": "CMSSW_10_3_X_2018-11-18-2300-->CMSSW_10_3_X_2018-11-19-1100", 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "utests": [], 
             "ib_date": "2018-11-19-1100-0000", 
             "relvals": [], 
@@ -1697,7 +1733,7 @@
             "RVExceptions": null, 
             "fwlite": [], 
             "compared_tags": "CMSSW_10_3_1_patch2-->CMSSW_10_3_X_2018-11-18-2300", 
-            "dqm_tests": "found", 
+            "dqm_tests": "inprogress", 
             "utests": [], 
             "ib_date": "2018-11-18-2300-0000", 
             "relvals": [], 
@@ -1710,24 +1746,15 @@
             "release_name": "CMSSW_10_3_X_2018-11-18-2300", 
             "builds": [], 
             "material_budget_v2": "not-found", 
-            "static_checks_v2": {
-                "status": "passed", 
-                "arch": "slc6_amd64_gcc700"
-            }, 
+            "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "static_checks_failures": {
-                "status": "found", 
-                "arch": "slc6_amd64_gcc700", 
-                "iterable": [
-                    "reports/modules2statics-filter1.txt\n"
-                ]
-            }, 
-            "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "found"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "ok", 
@@ -1791,24 +1818,15 @@
             "release_name": "CMSSW_10_3_X_2018-11-18-1100", 
             "builds": [], 
             "material_budget_v2": "not-found", 
-            "static_checks_v2": {
-                "status": "passed", 
-                "arch": "slc6_amd64_gcc700"
-            }, 
+            "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "static_checks_failures": {
-                "status": "found", 
-                "arch": "slc6_amd64_gcc700", 
-                "iterable": [
-                    "reports/modules2statics-filter1.txt\n"
-                ]
-            }, 
-            "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "found"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "ok", 
@@ -1934,20 +1952,11 @@
             "release_name": "CMSSW_10_3_X_2018-11-18-0000", 
             "builds": [], 
             "material_budget_v2": "not-found", 
-            "static_checks_v2": {
-                "status": "passed", 
-                "arch": "slc6_amd64_gcc700"
-            }, 
+            "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "static_checks_failures": {
-                "status": "found", 
-                "arch": "slc6_amd64_gcc700", 
-                "iterable": [
-                    "reports/modules2statics-filter1.txt\n"
-                ]
-            }, 
-            "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
