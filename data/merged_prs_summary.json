@@ -1932,7 +1932,7 @@
                 "relvals": [], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_10_2_X", 
-                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_2_X_2018-11-18-2300/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
+                "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_10_2_X", 
@@ -8152,7 +8152,53 @@
                 "release_queue": "CMSSW_10_3_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "0cb9682787c23339ab49d24a010b64e9059afa97", 
+                        "title": "[103X] Change GT. FIX CSC timing for 2016 and 2017 MC. New HIon L1T menu V4_2_0 for HIon", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25321", 
+                        "number": "25321", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lpernie"
+                    }, 
+                    {
+                        "hash": "e0450b4d19ea4a42dc4e21f34ce80bdf9649bc0e", 
+                        "title": "HLT HIon menu V2.0 (103X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25342", 
+                        "number": "25342", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
+                    }, 
+                    {
+                        "hash": "e082e9c14ca7537719ac65c0db8abf178df55091", 
+                        "title": "[DQM/L1TEMU] Removing the condition for data/emul sizes being equal - backport", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25088", 
+                        "number": "25088", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "vukasinmilosevic"
+                    }, 
+                    {
+                        "hash": "05a3c708a6caa128396fef26483c24898d2c9702", 
+                        "title": "initialize lasmonCharge_ and goodJetFoundInLowBVRegion_ in HcalNoiseSummary", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25327", 
+                        "number": "25327", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "dd671e49589d95111e61bc99bf9892a3ccb038b1", 
+                        "title": "L1TCalo: Add new caloParams with updated HI centrality v1_4_1 *103X backport*", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25280", 
+                        "number": "25280", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bundocka"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_3_X", 
                 "release_name": "CMSSW_10_3_X", 
                 "builds": [], 
@@ -8205,7 +8251,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-11/CMSSW_10_3_X_2018-11-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 104, 
+                            "num_passed": 319, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -9782,7 +9828,7 @@
                 "relvals": [], 
                 "igprof": "found", 
                 "release_queue": "CMSSW_10_3_X", 
-                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_3_X_2018-11-18-2300/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
+                "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_10_3_X", 
@@ -13173,7 +13219,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.4.CLANG-tue-23/CMSSW_10_4_CLANG_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2553, 
+                            "num_passed": 2561, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14287,7 +14333,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.4.DEVEL-tue-23/CMSSW_10_4_DEVEL_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2551, 
+                            "num_passed": 2612, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -15400,7 +15446,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.4.ROOT614-tue-23/CMSSW_10_4_ROOT614_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2202, 
+                            "num_passed": 2240, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16506,7 +16552,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.4.ROOT6-tue-23/CMSSW_10_4_ROOT6_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2521, 
+                            "num_passed": 2642, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18166,7 +18212,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.4-wed-11/CMSSW_10_4_X_2018-11-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 105, 
+                            "num_passed": 219, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18177,7 +18223,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.4-wed-11/CMSSW_10_4_X_2018-11-28-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 86, 
+                            "num_passed": 459, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18324,7 +18370,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2714, 
+                            "num_passed": 2753, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18335,9 +18381,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1687, 
-                            "known_failed": 20, 
-                            "num_failed": 75
+                            "num_passed": 1721, 
+                            "known_failed": 21, 
+                            "num_failed": 77
                         }
                     }
                 ], 
@@ -20813,7 +20859,7 @@
                 "relvals": [], 
                 "utests": [], 
                 "release_queue": "CMSSW_10_4_X", 
-                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_4_X_2018-11-18-2300/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
+                "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_10_4_X", 
@@ -20860,7 +20906,7 @@
                 "relvals": [], 
                 "utests": [], 
                 "release_queue": "CMSSW_10_4_X", 
-                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_4_X_2018-11-18-1100/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
+                "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
