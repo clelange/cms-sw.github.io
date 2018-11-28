@@ -20,7 +20,17 @@
             "release_queue": "CMSSW_10_4_X", 
             "comp_baseline": "inprogress", 
             "material_budget_comparison": "not-found", 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "8ec3c83fd279664f987c1b11795f6e74cc6871b9", 
+                    "title": "Egamma Fall17 V2 Photon IDs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25293", 
+                    "number": "25293", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }
+            ], 
             "base_branch": "CMSSW_10_4_X", 
             "release_name": "CMSSW_10_4_X", 
             "builds": [], 
@@ -84,7 +94,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2381, 
+                        "num_passed": 2404, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -95,7 +105,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2274, 
+                        "num_passed": 2578, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -236,6 +246,12 @@
                     "arch": "slc7_amd64_gcc820", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.4-tue-23/CMSSW_10_4_X_2018-11-27-2300/addOnTests.log", 
                     "details": {}
                 }
             ], 
