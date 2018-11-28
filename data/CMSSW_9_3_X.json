@@ -152,11 +152,9 @@
         {
             "comp_baseline_state": "ok", 
             "tests_archs": [
-                "slc7_amd64_gcc630", 
                 "slc6_amd64_gcc630"
             ], 
             "cmsdistTags": {
-                "slc7_amd64_gcc630": "Not Found", 
                 "slc6_amd64_gcc630": "Not Found"
             }, 
             "next_ib": false, 
@@ -179,27 +177,10 @@
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc630/www/tue/9.3-tue-23/CMSSW_9_3_X_2018-11-20-2300/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
             "ib_date": "2018-11-20-2300-0000", 
             "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/tue/9.3-tue-23/CMSSW_9_3_X_2018-11-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 1866, 
-                        "known_failed": 12, 
-                        "num_failed": 6
-                    }
-                }, 
                 {
                     "done": true, 
                     "arch": "slc6_amd64_gcc630", 
@@ -220,12 +201,6 @@
             "base_branch": "CMSSW_9_3_X", 
             "release_name": "CMSSW_9_3_X_2018-11-20-2300", 
             "builds": [
-                {
-                    "arch": "slc7_amd64_gcc630", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/tue/9.3-tue-23/CMSSW_9_3_X_2018-11-20-2300/new/logAnalysis.pkl", 
-                    "details": {}
-                }, 
                 {
                     "arch": "slc6_amd64_gcc630", 
                     "passed": "passed", 
