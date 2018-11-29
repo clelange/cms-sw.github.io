@@ -34,6 +34,19 @@
     },
     {
         "exitcode": 0,
+        "id": "135.8",
+        "known_error": 0,
+        "name": "MinBiasFS_13_ForMixing+MinBiasFS_13_ForMixing",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.733",
         "known_error": 0,
         "name": "RunCosmics2016B+RunCosmics2016B+RECOCOSDRUN2+ALCACOSDRUN2+HARVESTDCRUN2",
@@ -149,6 +162,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 71
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "2017.6",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000_13_UP17+QCDFlatPt153000FS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 60
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 288
             }
         ]
     },
