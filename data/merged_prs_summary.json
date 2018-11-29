@@ -16308,9 +16308,7 @@
             }, 
             {
                 "comp_baseline_state": "errors", 
-                "tests_archs": [
-                    "slc7_amd64_gcc700"
-                ], 
+                "tests_archs": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_4_ROOT614_X_2018-11-21-2300/slc7_amd64_gcc700"
                 }, 
@@ -16320,14 +16318,7 @@
                 "base_branch": "CMSSW_10_4_X", 
                 "compared_tags": "CMSSW_10_4_ROOT614_X_2018-11-20-2300-->CMSSW_10_4_ROOT614_X_2018-11-21-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.4.ROOT614-wed-23/CMSSW_10_4_ROOT614_X_2018-11-21-2300/new/logAnalysis.pkl']", 
-                        "details": {}
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2018-11-21-2300-0000", 
                 "relvals": [], 
                 "release_queue": "CMSSW_10_4_ROOT614_X", 
@@ -16436,16 +16427,7 @@
                 ], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_4_ROOT614_X_2018-11-21-2300", 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.4.ROOT614-wed-23/CMSSW_10_4_ROOT614_X_2018-11-21-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 690
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
