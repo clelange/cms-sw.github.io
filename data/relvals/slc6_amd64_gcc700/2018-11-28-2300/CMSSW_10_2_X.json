@@ -1,6 +1,21 @@
 [
     {
         "exitcode": 16640,
+        "id": "562.0",
+        "known_error": 1,
+        "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
+        "known_failed_step": 1,
+        "name": "BulkG_ZZ_2L2Q_M1200_narrow_13TeV_pythia8+BulkG_M1200_narrow_2L2Q_LHE_13TeV+Hadronizer_TuneCUETP8M1_Mad_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "1360.0",
         "known_error": 1,
         "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
@@ -8276,6 +8291,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.863",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018B+RunDoubleMuon2018B+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 2556
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 2495
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.864",
         "known_error": 0,
         "name": "RunJetHT2018B+RunJetHT2018B+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
@@ -8406,6 +8449,34 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 2964
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.867",
+        "known_error": 0,
+        "name": "RunSingleMu2018B+RunSingleMu2018B+HLTDR2_2018+RECODR2_2018reHLT_skimSingleMu_Prompt_Lumi+HARVEST2018_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1626
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1814
             },
             {
                 "errors": 26,
