@@ -309,6 +309,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.42",
+        "known_error": 0,
+        "name": "RunMET2012A+RunMET2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 85
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 2724
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.44",
         "known_error": 0,
         "name": "RunElectron2012A+RunElectron2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -5842,6 +5870,34 @@
                 "errors": 211,
                 "status": "PASSED",
                 "warnings": 3754
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.782",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017B+RunDoubleMuon2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 122
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 2322
             },
             {
                 "errors": 32,
